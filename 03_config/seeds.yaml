@@ -1,0 +1,8 @@
+# Random seeds actually used in the code (documentation file; the scripts set these themselves).
+r_scripts:
+  p3_common_bootstrap_default: 1    # p3_common.R boot_delta_auc(seed = 1)
+  07_leadtime: 42                   # set.seed(42)
+  10_spatial_checks: 11             # set.seed(11)
+python_scripts:
+  09_early_warning: 7               # np.random.default_rng(7)
+  11_placebos_surrogates: 2026      # np.random.default_rng(2026)

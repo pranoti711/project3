@@ -1,0 +1,6 @@
+﻿02_data/raw/
+02_data/interim/geography/
+05_results_*/
+*.bak
+__pycache__/
+archive/

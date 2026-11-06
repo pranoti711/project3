@@ -1,0 +1,20 @@
+# Analysis thresholds actually used (documentation file; the scripts hold the values themselves).
+transitions:
+  main_tau: 0.80                    # 05_transitions.R MAIN_TAU
+  sensitivity_taus: [0.70, 0.90]
+outcome: upcross_local_0.80         # headline; statewide yearly change removed
+evaluation:
+  test_years: 2017-2020             # 2021-2022 have no local events and are skipped by 06
+  auc: within year x disease, pair-count weighted
+  bootstrap_reps: 500               # 06 and 09
+  permutations: 1000                # 07 and 11
+  multiplicity: Holm, alpha 0.05
+leadtime:
+  alarm_z_thresholds: [1.0, 1.5]    # 07_leadtime.R
+  lookback_years: 5
+gates:                              # registered data gates (see 03_config/gate_thresholds.json)
+  min_overlap_years: 10
+  min_usable_counties: 20
+  max_missing_share: 0.3
+  max_zero_share: 0.7
+  min_diseases_per_group: 3

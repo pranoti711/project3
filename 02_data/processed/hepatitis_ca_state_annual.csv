@@ -1,0 +1,73 @@
+geography,geography_level,disease,year,cases,rate_per_100000,cases_source,source_file
+California,state,Hepatitis A,2023,222,0.6,222,Hepatitis.csv
+California,state,Acute Viral Hepatitis C,2023,231,0.6,231,Hepatitis.csv
+California,state,Acute Viral Hepatitis B,2023,94,0.2,94,Hepatitis.csv
+California,state,Acute Viral Hepatitis C,2022,159,0.4,159,Hepatitis.csv
+California,state,Hepatitis A,2022,160,0.4,160,Hepatitis.csv
+California,state,Acute Viral Hepatitis B,2022,70,0.2,70,Hepatitis.csv
+California,state,Acute Viral Hepatitis C,2021,100,0.3,100,Hepatitis.csv
+California,state,Acute Viral Hepatitis B,2021,62,0.2,62,Hepatitis.csv
+California,state,Hepatitis A,2021,91,0.2,91,Hepatitis.csv
+California,state,Hepatitis A,2020,203,0.5,203,Hepatitis.csv
+California,state,Acute Viral Hepatitis B,2020,53,0.1,53,Hepatitis.csv
+California,state,Acute Viral Hepatitis C,2020,59,0.1,59,Hepatitis.csv
+California,state,Acute Viral Hepatitis B,2019,111,0.3,111,Hepatitis.csv
+California,state,Acute Viral Hepatitis C,2019,200,0.5,200,Hepatitis.csv
+California,state,Hepatitis A,2019,256,0.6,256,Hepatitis.csv
+California,state,Acute Viral Hepatitis B,2018,105,0.3,105,Hepatitis.csv
+California,state,Acute Viral Hepatitis C,2018,114,0.3,114,Hepatitis.csv
+California,state,Hepatitis A,2018,189,0.5,189,Hepatitis.csv
+California,state,Acute Viral Hepatitis C,2017,103,0.3,103,Hepatitis.csv
+California,state,Acute Viral Hepatitis B,2017,126,0.3,126,Hepatitis.csv
+California,state,Hepatitis A,2017,947,2.4,947,Hepatitis.csv
+California,state,Acute Viral Hepatitis B,2016,115,0.3,115,Hepatitis.csv
+California,state,Hepatitis A,2016,229,0.6,229,Hepatitis.csv
+California,state,Acute Viral Hepatitis C,2016,60,0.2,60,Hepatitis.csv
+California,state,Acute Viral Hepatitis B,2015,160,0.4,160,Hepatitis.csv
+California,state,Hepatitis A,2015,179,0.5,179,Hepatitis.csv
+California,state,Acute Viral Hepatitis C,2015,59,0.2,59,Hepatitis.csv
+California,state,Acute Viral Hepatitis B,2014,110,0.3,110,Hepatitis.csv
+California,state,Hepatitis A,2014,142,0.4,142,Hepatitis.csv
+California,state,Acute Viral Hepatitis C,2014,73,0.2,73,Hepatitis.csv
+California,state,Acute Viral Hepatitis B,2013,138,0.4,138,Hepatitis.csv
+California,state,Hepatitis A,2013,255,0.7,255,Hepatitis.csv
+California,state,Acute Viral Hepatitis C,2013,72,0.2,72,Hepatitis.csv
+California,state,Acute Viral Hepatitis B,2012,136,0.4,136,Hepatitis.csv
+California,state,Hepatitis A,2012,209,0.5,209,Hepatitis.csv
+California,state,Acute Viral Hepatitis C,2012,63,0.2,63,Hepatitis.csv
+California,state,Acute Viral Hepatitis B,2011,157,0.4,157,Hepatitis.csv
+California,state,Hepatitis A,2011,186,0.5,186,Hepatitis.csv
+California,state,Acute Viral Hepatitis C,2011,48,0.1,48,Hepatitis.csv
+California,state,Hepatitis A,2010,242,0.6,242,Hepatitis.csv
+California,state,Acute Viral Hepatitis B,2010,252,0.7,252,Hepatitis.csv
+California,state,Acute Viral Hepatitis C,2010,32,0.1,32,Hepatitis.csv
+California,state,Acute Viral Hepatitis B,2009,258,0.7,258,Hepatitis.csv
+California,state,Hepatitis A,2009,273,0.7,273,Hepatitis.csv
+California,state,Acute Viral Hepatitis C,2009,43,0.1,43,Hepatitis.csv
+California,state,Acute Viral Hepatitis C,2008,30,0.1,30,Hepatitis.csv
+California,state,Acute Viral Hepatitis B,2008,303,0.8,303,Hepatitis.csv
+California,state,Hepatitis A,2008,446,1.2,446,Hepatitis.csv
+California,state,Acute Viral Hepatitis B,2007,402,1.1,402,Hepatitis.csv
+California,state,Hepatitis A,2007,603,1.6,603,Hepatitis.csv
+California,state,Acute Viral Hepatitis C,2007,72,0.2,72,Hepatitis.csv
+California,state,Acute Viral Hepatitis C,2006,25,0.1,25,Hepatitis.csv
+California,state,Acute Viral Hepatitis B,2006,427,1.2,427,Hepatitis.csv
+California,state,Hepatitis A,2006,992,2.7,992,Hepatitis.csv
+California,state,Acute Viral Hepatitis C,2005,28,0.1,28,Hepatitis.csv
+California,state,Acute Viral Hepatitis B,2005,412,1.1,412,Hepatitis.csv
+California,state,Hepatitis A,2005,971,2.7,971,Hepatitis.csv
+California,state,Acute Viral Hepatitis C,2004,32,0.1,32,Hepatitis.csv
+California,state,Acute Viral Hepatitis B,2004,506,1.4,506,Hepatitis.csv
+California,state,Hepatitis A,2004,885,2.5,885,Hepatitis.csv
+California,state,Hepatitis A,2003,1147,3.2,"1,147",Hepatitis.csv
+California,state,Acute Viral Hepatitis C,2003,34,0.1,34,Hepatitis.csv
+California,state,Acute Viral Hepatitis B,2003,657,1.9,657,Hepatitis.csv
+California,state,Hepatitis A,2002,1452,4.2,"1,452",Hepatitis.csv
+California,state,Acute Viral Hepatitis B,2002,614,1.8,614,Hepatitis.csv
+California,state,Acute Viral Hepatitis C,2002,74,0.2,74,Hepatitis.csv
+California,state,Hepatitis A,2001,1848,5.4,"1,848",Hepatitis.csv
+California,state,Acute Viral Hepatitis B,2001,854,2.5,854,Hepatitis.csv
+California,state,Acute Viral Hepatitis C,2001,97,0.3,97,Hepatitis.csv
+California,state,Acute Viral Hepatitis B,2000,1083,3.2,"1,083",Hepatitis.csv
+California,state,Acute Viral Hepatitis C,2000,118,0.3,118,Hepatitis.csv
+California,state,Hepatitis A,2000,2992,8.8,"2,992",Hepatitis.csv

@@ -1,0 +1,113 @@
+window,disease,years_present,missing_pct,zero_pct,usable_counties,g2_counties,g3_missing,g4_zeros,pass_2_3_4
+full_2001_2023,Anaplasmosis,23,0.0,94.4,0,False,True,False,False
+full_2001_2023,Anthrax,23,0.0,100.0,0,False,True,False,False
+full_2001_2023,Babesiosis,23,0.0,95.2,0,False,True,False,False
+full_2001_2023,"Botulism, Foodborne",23,0.0,96.6,0,False,True,False,False
+full_2001_2023,"Botulism, Other/Unknown",23,0.0,99.0,0,False,True,False,False
+full_2001_2023,"Botulism, Wound",23,0.0,79.9,10,False,True,False,False
+full_2001_2023,Brucellosis,23,0.0,75.9,13,False,True,False,False
+full_2001_2023,Campylobacteriosis,23,0.0,6.2,56,True,True,True,True
+full_2001_2023,Chikungunya Virus Infection,8,65.2,82.8,0,False,False,False,False
+full_2001_2023,Chlamydia,21,8.7,0.7,58,True,True,True,True
+full_2001_2023,Cholera,23,0.0,98.9,0,False,True,False,False
+full_2001_2023,Ciguatera Fish Poisoning,23,0.0,97.7,0,False,True,False,False
+full_2001_2023,Coccidioidomycosis,23,0.0,29.5,38,True,True,True,True
+full_2001_2023,Creutzfeldt-Jakob Disease and other Transmissible Spongiform Encephalopathies,17,26.1,74.2,7,False,True,False,False
+full_2001_2023,Cryptosporidiosis,23,0.0,35.2,38,True,True,True,True
+full_2001_2023,Cyclosporiasis,13,43.5,76.9,0,False,False,False,False
+full_2001_2023,Cysticercosis or Taeniasis,23,0.0,74.6,13,False,True,False,False
+full_2001_2023,Dengue Virus Infection,23,0.0,70.6,16,False,True,False,False
+full_2001_2023,Domoic Acid Poisoning,23,0.0,100.0,0,False,True,False,False
+full_2001_2023,Early Syphilis,21,8.7,27.2,45,True,True,True,True
+full_2001_2023,Ehrlichiosis,23,0.0,97.3,0,False,True,False,False
+full_2001_2023,Flavivirus Infection of Undetermined Species,8,65.2,97.6,0,False,False,False,False
+full_2001_2023,Giardiasis,23,0.0,11.8,53,True,True,True,True
+full_2001_2023,Gonorrhea,21,8.7,4.4,57,True,True,True,True
+full_2001_2023,HIV diagnoses,16,47.0,20.5,33,True,False,True,False
+full_2001_2023,Hantavirus Infection,23,0.0,96.5,0,False,True,False,False
+full_2001_2023,Hemolytic Uremic Syndrome,23,0.0,62.2,19,False,True,True,False
+full_2001_2023,"Hepatitis E, acute infection",13,43.5,72.8,1,False,False,False,False
+full_2001_2023,Legionellosis,23,0.0,50.6,26,True,True,True,True
+full_2001_2023,Leprosy,23,0.0,86.4,5,False,True,False,False
+full_2001_2023,Leptospirosis,23,0.0,94.1,0,False,True,False,False
+full_2001_2023,Listeriosis,23,0.0,58.3,23,True,True,True,True
+full_2001_2023,Lyme Disease,23,0.0,50.8,30,True,True,True,True
+full_2001_2023,Malaria,23,0.0,59.1,22,True,True,True,True
+full_2001_2023,Paralytic Shellfish Poisoning,23,0.0,99.6,0,False,True,False,False
+full_2001_2023,Paratyphoid Fever,23,0.0,92.2,3,False,True,False,False
+full_2001_2023,"Plague, human",23,0.0,99.6,0,False,True,False,False
+full_2001_2023,Psittacosis,23,0.0,97.9,0,False,True,False,False
+full_2001_2023,Q Fever,23,0.0,75.6,12,False,True,False,False
+full_2001_2023,"Rabies, human",23,0.0,99.4,0,False,True,False,False
+full_2001_2023,Relapsing Fever,23,0.0,91.8,1,False,True,False,False
+full_2001_2023,Salmonellosis,23,0.0,8.3,55,True,True,True,True
+full_2001_2023,Scombroid Fish Poisoning,23,0.0,84.9,5,False,True,False,False
+full_2001_2023,Shiga toxin-producing E. coli (STEC) with HUS,23,0.0,67.1,15,False,True,True,False
+full_2001_2023,Shiga toxin-producing E. coli (STEC) without HUS,23,0.0,24.0,47,True,True,True,True
+full_2001_2023,Shigellosis,23,0.0,28.3,41,True,True,True,True
+full_2001_2023,Spotted Fever Rickettsiosis,23,0.0,90.3,1,False,True,False,False
+full_2001_2023,Trichinosis,23,0.0,97.7,0,False,True,False,False
+full_2001_2023,Tularemia,23,0.0,95.8,0,False,True,False,False
+full_2001_2023,"Typhoid Fever, case",23,0.0,70.0,14,False,True,False,False
+full_2001_2023,Typhus Fever,23,0.0,93.6,2,False,True,False,False
+full_2001_2023,Vibrio Infection (non-Cholera),23,0.0,52.2,26,True,True,True,True
+full_2001_2023,"Viral Hemorrhagic Fevers (including Crimean-Congo, Ebola, Lassa, and Marburg viruses)",23,0.0,100.0,0,False,True,False,False
+full_2001_2023,Yellow Fever,23,0.0,100.0,0,False,True,False,False
+full_2001_2023,Yersiniosis,23,0.0,54.5,23,True,True,True,True
+full_2001_2023,Zika Virus Infection,8,65.2,78.2,0,False,False,False,False
+overlap_2019_2023,Anaplasmosis,5,0.0,87.6,4,False,True,False,False
+overlap_2019_2023,Anthrax,5,0.0,100.0,0,False,True,False,False
+overlap_2019_2023,Babesiosis,5,0.0,92.4,4,False,True,False,False
+overlap_2019_2023,"Botulism, Foodborne",5,0.0,97.6,0,False,True,False,False
+overlap_2019_2023,"Botulism, Other/Unknown",5,0.0,97.9,0,False,True,False,False
+overlap_2019_2023,"Botulism, Wound",5,0.0,77.6,13,False,True,False,False
+overlap_2019_2023,Brucellosis,5,0.0,72.4,14,False,True,False,False
+overlap_2019_2023,Campylobacteriosis,5,0.0,5.2,55,True,True,True,True
+overlap_2019_2023,Chikungunya Virus Infection,5,0.0,83.4,9,False,True,False,False
+overlap_2019_2023,Chlamydia,3,40.0,0.6,57,True,False,True,False
+overlap_2019_2023,Cholera,5,0.0,98.6,0,False,True,False,False
+overlap_2019_2023,Ciguatera Fish Poisoning,5,0.0,99.3,0,False,True,False,False
+overlap_2019_2023,Coccidioidomycosis,5,0.0,16.6,49,True,True,True,True
+overlap_2019_2023,Creutzfeldt-Jakob Disease and other Transmissible Spongiform Encephalopathies,5,0.0,75.2,13,False,True,False,False
+overlap_2019_2023,Cryptosporidiosis,5,0.0,22.4,46,True,True,True,True
+overlap_2019_2023,Cyclosporiasis,5,0.0,61.7,20,True,True,True,True
+overlap_2019_2023,Cysticercosis or Taeniasis,5,0.0,82.8,8,False,True,False,False
+overlap_2019_2023,Dengue Virus Infection,5,0.0,59.7,25,True,True,True,True
+overlap_2019_2023,Domoic Acid Poisoning,5,0.0,100.0,0,False,True,False,False
+overlap_2019_2023,Early Syphilis,3,40.0,7.5,51,True,False,True,False
+overlap_2019_2023,Ehrlichiosis,5,0.0,96.6,2,False,True,False,False
+overlap_2019_2023,Flavivirus Infection of Undetermined Species,5,0.0,96.9,0,False,True,False,False
+overlap_2019_2023,Giardiasis,5,0.0,10.3,53,True,True,True,True
+overlap_2019_2023,Gonorrhea,3,40.0,1.1,57,True,False,True,False
+overlap_2019_2023,HIV diagnoses,5,22.1,19.5,34,True,True,True,True
+overlap_2019_2023,Hantavirus Infection,5,0.0,97.9,0,False,True,False,False
+overlap_2019_2023,Hemolytic Uremic Syndrome,5,0.0,60.0,22,True,True,True,True
+overlap_2019_2023,"Hepatitis E, acute infection",5,0.0,69.0,19,False,True,True,False
+overlap_2019_2023,Legionellosis,5,0.0,32.4,42,True,True,True,True
+overlap_2019_2023,Leprosy,5,0.0,91.7,3,False,True,False,False
+overlap_2019_2023,Leptospirosis,5,0.0,88.6,4,False,True,False,False
+overlap_2019_2023,Listeriosis,5,0.0,59.0,23,True,True,True,True
+overlap_2019_2023,Lyme Disease,5,0.0,53.1,28,True,True,True,True
+overlap_2019_2023,Malaria,5,0.0,63.8,20,True,True,True,True
+overlap_2019_2023,Paralytic Shellfish Poisoning,5,0.0,99.7,0,False,True,False,False
+overlap_2019_2023,Paratyphoid Fever,5,0.0,84.5,6,False,True,False,False
+overlap_2019_2023,"Plague, human",5,0.0,99.3,0,False,True,False,False
+overlap_2019_2023,Psittacosis,5,0.0,99.0,0,False,True,False,False
+overlap_2019_2023,Q Fever,5,0.0,66.9,17,False,True,True,False
+overlap_2019_2023,"Rabies, human",5,0.0,100.0,0,False,True,False,False
+overlap_2019_2023,Relapsing Fever,5,0.0,92.8,2,False,True,False,False
+overlap_2019_2023,Salmonellosis,5,0.0,6.6,55,True,True,True,True
+overlap_2019_2023,Scombroid Fish Poisoning,5,0.0,82.8,8,False,True,False,False
+overlap_2019_2023,Shiga toxin-producing E. coli (STEC) with HUS,5,0.0,61.4,22,True,True,True,True
+overlap_2019_2023,Shiga toxin-producing E. coli (STEC) without HUS,5,0.0,13.8,51,True,True,True,True
+overlap_2019_2023,Shigellosis,5,0.0,26.6,43,True,True,True,True
+overlap_2019_2023,Spotted Fever Rickettsiosis,5,0.0,87.6,4,False,True,False,False
+overlap_2019_2023,Trichinosis,5,0.0,99.7,0,False,True,False,False
+overlap_2019_2023,Tularemia,5,0.0,96.2,0,False,True,False,False
+overlap_2019_2023,"Typhoid Fever, case",5,0.0,71.4,16,False,True,False,False
+overlap_2019_2023,Typhus Fever,5,0.0,89.7,5,False,True,False,False
+overlap_2019_2023,Vibrio Infection (non-Cholera),5,0.0,38.3,35,True,True,True,True
+overlap_2019_2023,"Viral Hemorrhagic Fevers (including Crimean-Congo, Ebola, Lassa, and Marburg viruses)",5,0.0,100.0,0,False,True,False,False
+overlap_2019_2023,Yellow Fever,5,0.0,100.0,0,False,True,False,False
+overlap_2019_2023,Yersiniosis,5,0.0,32.8,39,True,True,True,True
+overlap_2019_2023,Zika Virus Infection,5,0.0,90.7,3,False,True,False,False

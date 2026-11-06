@@ -1,0 +1,18 @@
+# Variables per model (documentation file; the code defines them in 04_scripts/p3_common.R).
+model_A:
+  - lag_rate
+  - trend_slope
+  - prev_up
+  - pop_log                         # added 2026-11-04: baseline must know county size
+model_B_adds:                       # lagged within-county mortality deviations (05b_build_model_table.py)
+  - allcause_dev
+  - drug_od_dev
+  - suicide_dev
+  - homicide_dev
+model_C_adds:
+  - aqi_median
+  - drought_dsci
+model_D: A + B + C
+dropped:
+  physicians_per_100k: about 96% missing (constant after zero-filling)
+  mortality_missing_flags: acted as a small-county indicator

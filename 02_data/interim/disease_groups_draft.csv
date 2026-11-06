@@ -1,0 +1,57 @@
+disease,group_draft,reason,status
+Anaplasmosis,environment,tick-borne,DRAFT - needs second-person review
+Anthrax,unassigned,rare or non-infectious; likely exclude on screening,DRAFT - needs second-person review
+Babesiosis,environment,tick-borne,DRAFT - needs second-person review
+"Botulism, Foodborne",unassigned,rare or non-infectious; likely exclude on screening,DRAFT - needs second-person review
+"Botulism, Other/Unknown",unassigned,rare or non-infectious; likely exclude on screening,DRAFT - needs second-person review
+"Botulism, Wound",drug_linked,wound botulism: injection-drug pathway (find a citation before registering),DRAFT - needs second-person review
+Brucellosis,unassigned,rare or non-infectious; likely exclude on screening,DRAFT - needs second-person review
+Campylobacteriosis,comparison,foodborne; no plausible overdose pathway,DRAFT - needs second-person review
+Chikungunya Virus Infection,review_travel,mostly travel-associated,DRAFT - needs second-person review
+Chlamydia,review_sti,sexually transmitted; not in the Phase 0 plan - decide group before freezing,DRAFT - needs second-person review
+Cholera,unassigned,rare or non-infectious; likely exclude on screening,DRAFT - needs second-person review
+Ciguatera Fish Poisoning,unassigned,rare or non-infectious; likely exclude on screening,DRAFT - needs second-person review
+Coccidioidomycosis,environment,soil/dust and climate driven,DRAFT - needs second-person review
+Creutzfeldt-Jakob Disease and other Transmissible Spongiform Encephalopathies,unassigned,rare or non-infectious; likely exclude on screening,DRAFT - needs second-person review
+Cryptosporidiosis,comparison,enteric,DRAFT - needs second-person review
+Cyclosporiasis,comparison,foodborne,DRAFT - needs second-person review
+Cysticercosis or Taeniasis,unassigned,rare or non-infectious; likely exclude on screening,DRAFT - needs second-person review
+Dengue Virus Infection,review_travel,mostly travel-associated in California; decide before freezing,DRAFT - needs second-person review
+Domoic Acid Poisoning,unassigned,rare or non-infectious; likely exclude on screening,DRAFT - needs second-person review
+Early Syphilis,ambiguous,large sexual-transmission component,DRAFT - needs second-person review
+Ehrlichiosis,environment,tick-borne,DRAFT - needs second-person review
+Flavivirus Infection of Undetermined Species,review_travel,undetermined species,DRAFT - needs second-person review
+Giardiasis,comparison,enteric,DRAFT - needs second-person review
+Gonorrhea,review_sti,sexually transmitted; not in the Phase 0 plan - decide group before freezing,DRAFT - needs second-person review
+HIV diagnoses,ambiguous,large sexual-transmission component,DRAFT - needs second-person review
+Hantavirus Infection,environment,rodent exposure,DRAFT - needs second-person review
+Hemolytic Uremic Syndrome,comparison,foodborne (STEC),DRAFT - needs second-person review
+"Hepatitis E, acute infection",unassigned,rare or non-infectious; likely exclude on screening,DRAFT - needs second-person review
+Legionellosis,environment,water systems/climate,DRAFT - needs second-person review
+Leprosy,unassigned,rare or non-infectious; likely exclude on screening,DRAFT - needs second-person review
+Leptospirosis,environment,water/animal exposure,DRAFT - needs second-person review
+Listeriosis,comparison,foodborne,DRAFT - needs second-person review
+Lyme Disease,environment,tick-borne,DRAFT - needs second-person review
+Malaria,review_travel,mostly travel-associated,DRAFT - needs second-person review
+Paralytic Shellfish Poisoning,unassigned,rare or non-infectious; likely exclude on screening,DRAFT - needs second-person review
+Paratyphoid Fever,review_travel,mostly travel-associated,DRAFT - needs second-person review
+"Plague, human",environment,"rodent/flea, environment",DRAFT - needs second-person review
+Psittacosis,unassigned,rare or non-infectious; likely exclude on screening,DRAFT - needs second-person review
+Q Fever,environment,animal/environment exposure,DRAFT - needs second-person review
+"Rabies, human",unassigned,rare or non-infectious; likely exclude on screening,DRAFT - needs second-person review
+Relapsing Fever,environment,tick-borne,DRAFT - needs second-person review
+Salmonellosis,comparison,foodborne,DRAFT - needs second-person review
+Scombroid Fish Poisoning,unassigned,rare or non-infectious; likely exclude on screening,DRAFT - needs second-person review
+Shiga toxin-producing E. coli (STEC) with HUS,comparison,foodborne (STEC),DRAFT - needs second-person review
+Shiga toxin-producing E. coli (STEC) without HUS,comparison,foodborne (STEC),DRAFT - needs second-person review
+Shigellosis,comparison,enteric (check outbreak/reporting shifts),DRAFT - needs second-person review
+Spotted Fever Rickettsiosis,environment,tick-borne,DRAFT - needs second-person review
+Trichinosis,unassigned,rare or non-infectious; likely exclude on screening,DRAFT - needs second-person review
+Tularemia,environment,environment/vector,DRAFT - needs second-person review
+"Typhoid Fever, case",review_travel,mostly travel-associated,DRAFT - needs second-person review
+Typhus Fever,environment,flea/louse-borne,DRAFT - needs second-person review
+Vibrio Infection (non-Cholera),environment,warm coastal water,DRAFT - needs second-person review
+"Viral Hemorrhagic Fevers (including Crimean-Congo, Ebola, Lassa, and Marburg viruses)",unassigned,rare or non-infectious; likely exclude on screening,DRAFT - needs second-person review
+Yellow Fever,unassigned,rare or non-infectious; likely exclude on screening,DRAFT - needs second-person review
+Yersiniosis,comparison,foodborne,DRAFT - needs second-person review
+Zika Virus Infection,review_travel,mostly travel-associated,DRAFT - needs second-person review

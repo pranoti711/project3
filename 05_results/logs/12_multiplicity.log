@@ -1,0 +1,10 @@
+=== Group placebo tests, Holm-corrected across groups ===
+      group  observed_delta_auc   n1_p  n1_p_holm   n2_p  n2_p_holm  supported
+ comparison             -0.0145 0.6633     1.0000 0.5784        1.0      False
+ review_sti             -0.0131 0.7073     1.0000 0.5664        1.0      False
+environment              0.0165 0.2028     0.8112 0.4276        1.0      False
+  ambiguous             -0.0864 0.9331     1.0000 0.7433        1.0      False
+
+Permutations used: 1000. Smallest possible p is about 0.0010; after Holm over 4 groups the floor is 0.0040. Use >= 1000 permutations.
+
+Lead-time tests: 40 | Holm-significant (p < 0.05): 0 | smallest Holm p: 1.000

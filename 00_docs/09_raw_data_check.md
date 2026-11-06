@@ -1,0 +1,204 @@
+```text
+==============================================================================
+0. FILES FOUND UNDER 02_data/raw
+==============================================================================
+                                                                               folder                                                file  size_mb
+                                                               context\ahrf_2024_2025         AHRF 2024-2025 Technical Documentation.xlsx     0.28
+                                                               context\ahrf_2024_2025                      AHRF 2024-2025 User Guide.docx     0.36
+                                                               context\ahrf_2024_2025                                        AHRF2025.csv    40.05
+                                                               context\ahrf_2024_2025                                     AHRF2025env.csv     0.39
+                                                               context\ahrf_2024_2025                                     AHRF2025exp.csv     0.94
+                                                               context\ahrf_2024_2025                                     AHRF2025geo.csv     0.81
+                                                               context\ahrf_2024_2025                                      AHRF2025hf.csv     5.12
+                                                               context\ahrf_2024_2025                                      AHRF2025hp.csv    13.05
+                                                               context\ahrf_2024_2025                                     AHRF2025pop.csv    19.12
+                                                               context\ahrf_2024_2025                                     AHRF2025utl.csv     1.04
+                                                               context\ahrf_2024_2025                              AHRFCrosswalk2025.xlsx     0.19
+                                                               context\ahrf_2024_2025                        Whats-New-AHRF-2024-2025.pdf     0.28
+                                                context\ahrf_older_releases\2020-2021                                        ahrf2021.csv   129.36
+                             context\ahrf_older_releases\2020-2021\AHRF_2020-2021\DOC                               2020-2021_AHRFDUA.doc     0.03
+                             context\ahrf_older_releases\2020-2021\AHRF_2020-2021\DOC         AHRF 2020-2021 Technical Documentation.xlsx     0.61
+                             context\ahrf_older_releases\2020-2021\AHRF_2020-2021\DOC                             AHRF USER 2020-2021.doc     1.04
+                                                context\ahrf_older_releases\2021-2022                                        ahrf2022.csv   175.43
+                                            context\ahrf_older_releases\2021-2022\DOC                               2021-2022_AHRFDUA.doc     0.03
+                                            context\ahrf_older_releases\2021-2022\DOC         AHRF 2021-2022 Technical Documentation.xlsx     0.60
+                                            context\ahrf_older_releases\2021-2022\DOC                             AHRF USER 2021-2022.doc     1.05
+                        context\ahrf_older_releases\2022-2023\AHRF_CSV_2022-2023\DATA                                        ahrf2023.csv    40.10
+context\ahrf_older_releases\2022-2023\AHRF_CSV_2022-2023\DATA\CSV Files by Categories                                     ahrf2023ENV.csv     0.39
+context\ahrf_older_releases\2022-2023\AHRF_CSV_2022-2023\DATA\CSV Files by Categories                                     ahrf2023EXP.csv     1.13
+context\ahrf_older_releases\2022-2023\AHRF_CSV_2022-2023\DATA\CSV Files by Categories                                     ahrf2023GEO.csv     1.10
+context\ahrf_older_releases\2022-2023\AHRF_CSV_2022-2023\DATA\CSV Files by Categories                                      ahrf2023HF.csv     5.11
+context\ahrf_older_releases\2022-2023\AHRF_CSV_2022-2023\DATA\CSV Files by Categories                                      ahrf2023HP.csv    12.70
+context\ahrf_older_releases\2022-2023\AHRF_CSV_2022-2023\DATA\CSV Files by Categories                                     ahrf2023POP.csv    19.06
+context\ahrf_older_releases\2022-2023\AHRF_CSV_2022-2023\DATA\CSV Files by Categories                                     ahrf2023UTL.csv     1.04
+                         context\ahrf_older_releases\2022-2023\AHRF_CSV_2022-2023\DOC                               2022-2023_AHRFDUA.doc     0.03
+                         context\ahrf_older_releases\2022-2023\AHRF_CSV_2022-2023\DOC      AHRF 2022-2023 Technical DocumentationCSV.xlsx     0.30
+                         context\ahrf_older_releases\2022-2023\AHRF_CSV_2022-2023\DOC                            AHRF USER 2022-2023.docx     0.35
+                         context\ahrf_older_releases\2022-2023\AHRF_CSV_2022-2023\DOC                              AHRFCrosswalk2023.xlsx     0.27
+                         context\ahrf_older_releases\2022-2023\AHRF_CSV_2022-2023\DOC                            What's New 2022-2023.pdf     0.23
+                             context\ahrf_older_releases\2023-2024\AHRF 2023-2024 CSV                              2023-2024_AHRFDUA.docx     0.02
+                             context\ahrf_older_releases\2023-2024\AHRF 2023-2024 CSV                                ahrf2024_Feb2025.csv    39.75
+     context\ahrf_older_releases\2023-2024\AHRF 2023-2024 CSV\CSV Files by Categories                                     ahrf2024env.csv     0.39
+     context\ahrf_older_releases\2023-2024\AHRF 2023-2024 CSV\CSV Files by Categories                                     ahrf2024exp.csv     1.00
+     context\ahrf_older_releases\2023-2024\AHRF 2023-2024 CSV\CSV Files by Categories                             ahrf2024geo_Feb2025.csv     0.76
+     context\ahrf_older_releases\2023-2024\AHRF 2023-2024 CSV\CSV Files by Categories                                      ahrf2024hf.csv     5.12
+     context\ahrf_older_releases\2023-2024\AHRF 2023-2024 CSV\CSV Files by Categories                                      ahrf2024hp.csv    12.73
+     context\ahrf_older_releases\2023-2024\AHRF 2023-2024 CSV\CSV Files by Categories                                     ahrf2024pop.csv    19.10
+     context\ahrf_older_releases\2023-2024\AHRF 2023-2024 CSV\CSV Files by Categories                                     ahrf2024utl.csv     1.04
+                                                                disease\hiv_atlasplus                                       Hepatitis.csv     0.00
+                                                                disease\hiv_atlasplus                                             HIV.csv     0.08
+                                                                              disease   infectious-diseases-by-county-year-and-sex[1].csv    12.95
+                                                                              disease       stds-by-disease-county-year-sex-2001-2021.csv     0.64
+                                                                  environment\drought                 usdm_ca_county_weekly_2000_2024.csv     7.34
+                                                                          environment           epa_annual_aqi_by_county_ca_1990_2024.csv     0.19
+                                                             environment\noaa_climdiv                      climdiv-pcpncy-v1.0.0-20261006    40.92
+                                                             environment\noaa_climdiv                      climdiv-tmaxcy-v1.0.0-20261006    40.92
+                                                             environment\noaa_climdiv                      climdiv-tmincy-v1.0.0-20261006    40.92
+                                                             environment\noaa_climdiv                      climdiv-tmpccy-v1.0.0-20261006    40.92
+                                                                            geography                          cb_2025_us_county_500k.zip    11.76
+                                                       mortality\cdc_export_2019_2024                                          export.csv    13.24
+                                                 mortality\nchs_model_based_2003_2021                      county_estimates_2003_2021.csv     5.91
+                                                               mortality\wonder_final                               drug_od 1999-2020.xls     0.09
+                                                               mortality\wonder_final                               drug_od 2018-2024.xls     0.04
+                                                               mortality\wonder_final              Multiple Cause of Death, 1999-2020.xls     0.08
+                                                               mortality\wonder_final Multiple Cause of Death, 2018-2024, Single Race.xls     0.04
+                                                               mortality\wonder_final                        wonder_homicide2018-2024.xls     0.04
+                                                               mortality\wonder_final                       wonder_homicide_1999_2020.xls     0.09
+                                                               mortality\wonder_final                         wonder_suicide1999-2020.xls     0.09
+                                                               mortality\wonder_final                         wonder_suicide2018-2024.xls     0.04
+
+NOTE: ZIP files not extracted (extract them first): ['cb_2025_us_county_500k.zip']
+
+==============================================================================
+1. CDC WONDER mortality (02_data/raw/mortality/wonder_final)
+==============================================================================
+                                               file                series  database     years  counties  rows alameda_2019 LA_2019  suppressed_pct show_suppressed problems
+                              drug_od 1999-2020.xls               drug_od 1999_2020 1999-2020        58  1276          250    1267            26.6            True     none
+                              drug_od 2018-2024.xls               drug_od 2018_2024 2018-2024        58   406          250    1267            19.5            True     none
+             Multiple Cause of Death, 1999-2020.xls all_cause (benchmark) 1999_2020 1999-2020        58  1262        10153   64547             0.0           False     none
+Multiple Cause of Death, 2018-2024, Single Race.xls all_cause (benchmark) 2018_2024 2018-2024        58   406        10153   64547             0.0           False     none
+                       wonder_homicide2018-2024.xls              homicide 2018_2024 2018-2024        58   406           84     527            43.6            True     none
+                      wonder_homicide_1999_2020.xls              homicide 1999_2020 1999-2020        58  1276           84     527            45.1            True     none
+                        wonder_suicide1999-2020.xls               suicide 1999_2020 1999-2020        58  1276          160     865            24.7            True     none
+                        wonder_suicide2018-2024.xls               suicide 2018_2024 2018-2024        58   406          160     865            20.9            True     none
+
+Full query lines per file (cause selection and any non-default filter):
+  drug_od 1999-2020.xls  ->  drug_od, 1999_2020
+      cause : UCD - Drug/Alcohol Induced Causes: Drug poisonings (overdose) Unintentional (X40-X44); Drug poisonings (overdose) Suicide
+  drug_od 2018-2024.xls  ->  drug_od, 2018_2024
+      cause : UCD - Drug/Alcohol Induced Causes: Drug poisonings (overdose) Unintentional (X40-X44); Drug poisonings (overdose) Suicide
+  Multiple Cause of Death, 1999-2020.xls  ->  all_cause, 1999_2020
+  Multiple Cause of Death, 2018-2024, Single Race.xls  ->  all_cause, 2018_2024
+  wonder_homicide2018-2024.xls  ->  homicide, 2018_2024
+      cause : UCD - Injury Intent: Homicide
+  wonder_homicide_1999_2020.xls  ->  homicide, 1999_2020
+      cause : UCD - Injury Intent: Homicide
+  wonder_suicide1999-2020.xls  ->  suicide, 1999_2020
+      cause : UCD - Injury Intent: Suicide
+  wonder_suicide2018-2024.xls  ->  suicide, 2018_2024
+      cause : UCD - Injury Intent: Suicide
+
+Do the two databases agree for 2018-2020? (same county-years must have identical death counts)
+  drug_od: 132 comparable county-years, 0 differ, median ratio 1999-2020 file / 2018-2024 file = 1.00
+  suicide: 137 comparable county-years, 0 differ, median ratio 1999-2020 file / 2018-2024 file = 1.00
+  homicide: 98 comparable county-years, 0 differ, median ratio 1999-2020 file / 2018-2024 file = 1.00
+
+==============================================================================
+2. DISEASE files (02_data/raw/disease, including subfolders)
+==============================================================================
+                                          file                                 layout   rows year_col              years CA_counties               level  missing_pct                              mentions
+                                 Hepatitis.csv AtlasPlus California state descriptive     72     Year 2000-2023 (24 yrs)        0/58 no CA county column          6.9 hepatitis A, hepatitis B, hepatitis C
+                                       HIV.csv                AtlasPlus county format   1102     Year 2008-2026 (19 yrs)       58/58              county         25.1                                   HIV
+infectious-diseases-by-county-year-and-sex[1].                       CDPH long format 199125     Year 2001-2023 (23 yrs)       58/58              county          2.5                                     -
+ stds-by-disease-county-year-sex-2001-2021.csv                       CDPH long format  11151     Year 2001-2021 (21 yrs)       58/58              county          8.9        chlamydia, gonorrhea, syphilis
+
+Which diseases each file covers (rows, years, California counties found):
+    disease                                         file  rows              years counties               level
+        HIV                                      HIV.csv  1102 2008-2026 (19 yrs)    58/58              county
+  chlamydia stds-by-disease-county-year-sex-2001-2021.cs  3717 2001-2021 (21 yrs)    58/58              county
+  gonorrhea stds-by-disease-county-year-sex-2001-2021.cs  3717 2001-2021 (21 yrs)    58/58              county
+hepatitis A                                Hepatitis.csv    24 2000-2023 (24 yrs)     0/58 no CA county column
+hepatitis B                                Hepatitis.csv    24 2000-2023 (24 yrs)     0/58 no CA county column
+hepatitis C                                Hepatitis.csv    24 2000-2023 (24 yrs)     0/58 no CA county column
+   syphilis stds-by-disease-county-year-sex-2001-2021.cs  3717 2001-2021 (21 yrs)    58/58              county
+  County-level hepatitis B: 0/58 counties, 24 years; excluded from county panel.
+  County-level hepatitis C: 0/58 counties, 24 years; excluded from county panel.
+  County-level hepatitis A: 0/58 counties, 24 years; excluded from county panel.
+
+STATE-LEVEL DESCRIPTIVE ONLY: Hepatitis.csv title identifies California; this series is not county-resolvable and is excluded from the county panel.
+
+==============================================================================
+3. AHRF releases (context/ahrf_2024_2025 and context/ahrf_older_releases)
+==============================================================================
+             folder                    file            format  cols  CA_rows  2019  2020  2021  2022  2023  2024
+     ahrf_2024_2025            AHRF2025.csv descriptive names  4352       58     2   174    78  1743  1983    81
+     ahrf_2024_2025         AHRF2025env.csv descriptive names    29       58     2     7     0     0     3     6
+     ahrf_2024_2025         AHRF2025exp.csv descriptive names    52       58     0     0     0    22    22     3
+     ahrf_2024_2025         AHRF2025geo.csv descriptive names    62       58     0     0     0     0     7     3
+     ahrf_2024_2025          AHRF2025hf.csv descriptive names   716       58     0     0     1   237   453    22
+     ahrf_2024_2025          AHRF2025hp.csv descriptive names  1927       58     0     0     0   909   986    30
+     ahrf_2024_2025         AHRF2025pop.csv descriptive names  1469       58     0   167    77   522   459    17
+     ahrf_2024_2025         AHRF2025utl.csv descriptive names   108       58     0     0     0    53    53     0
+ahrf_older_releases            ahrf2021.csv       coded names  7418       58  1633   106    22     0     0     0
+ahrf_older_releases            ahrf2022.csv       coded names  7371       58   307  1620    98    22     0     0
+ahrf_older_releases            ahrf2023.csv descriptive names  4306       58    80  1923  1923    81    22     0
+ahrf_older_releases         ahrf2023ENV.csv descriptive names    29       58     2     5     3     6     3     0
+ahrf_older_releases         ahrf2023EXP.csv descriptive names    56       58     0    24    24     3     3     0
+ahrf_older_releases         ahrf2023GEO.csv descriptive names    63       58     0     6     0     3     3     0
+ahrf_older_releases          ahrf2023HF.csv descriptive names   715       58     1   236   444    22    10     0
+ahrf_older_releases          ahrf2023HP.csv descriptive names  1880       58     0   909   939    30     0     0
+ahrf_older_releases         ahrf2023POP.csv descriptive names  1467       58    77   690   460    17     3     0
+ahrf_older_releases         ahrf2023UTL.csv descriptive names   108       58     0    53    53     0     0     0
+ahrf_older_releases    ahrf2024_Feb2025.csv descriptive names  4300       58     2   250  1744  1920    85    19
+ahrf_older_releases         ahrf2024env.csv descriptive names    29       58     2     5     0     3     6     3
+ahrf_older_releases         ahrf2024exp.csv descriptive names    52       58     0     0    22    22     3     3
+ahrf_older_releases ahrf2024geo_Feb2025.csv descriptive names    57       58     0     0     0     0     7     0
+ahrf_older_releases          ahrf2024hf.csv descriptive names   716       58     0     1   237   444    22    10
+ahrf_older_releases          ahrf2024hp.csv descriptive names  1880       58     0     0   909   939    30     0
+ahrf_older_releases         ahrf2024pop.csv descriptive names  1469       58     0   244   519   455    17     3
+ahrf_older_releases         ahrf2024utl.csv descriptive names   108       58     0     0    53    53     0     0
+(columns 2019..2024 = number of variables with data for California counties in that year)
+
+==============================================================================
+4. ENVIRONMENT source (drought, temperature, air quality, smoke ...)
+==============================================================================
+                                    file  rows           variables county_col CA_counties              years                                      granularity
+     usdm_ca_county_weekly_2000_2024.csv 81142             drought       FIPS       57/58 2000-2026 (27 yrs) sub-annual (~52 periods/yr: aggregate to annual)
+epa_annual_aqi_by_county_ca_1990_2024.cs  1869 air quality / PM2.5     County       58/58 1990-2024 (35 yrs)                                           annual
+
+==============================================================================
+5. Other folders
+==============================================================================
+  CDC export (2019-2024): 1 file(s)
+  NCHS model-based (sensitivity): 1 file(s)
+  geography (optional): 1 file(s)
+
+==============================================================================
+VERDICT
+==============================================================================
+                                    requirement status                                                                             detail
+                       WONDER drug_od 1999_2020   PASS                                                              drug_od 1999-2020.xls
+                       WONDER drug_od 2018_2024   PASS                                                              drug_od 2018-2024.xls
+ WONDER drug_od: both databases agree 2018-2020   PASS                                                132 county-years compared, 0 differ
+                       WONDER suicide 1999_2020   PASS                                                        wonder_suicide1999-2020.xls
+                       WONDER suicide 2018_2024   PASS                                                        wonder_suicide2018-2024.xls
+ WONDER suicide: both databases agree 2018-2020   PASS                                                137 county-years compared, 0 differ
+                      WONDER homicide 1999_2020   PASS                                                      wonder_homicide_1999_2020.xls
+                      WONDER homicide 2018_2024   PASS                                                       wonder_homicide2018-2024.xls
+WONDER homicide: both databases agree 2018-2020   PASS                                                 98 county-years compared, 0 differ
+                 State descriptive: hepatitis B   PASS          Hepatitis.csv; California state-level descriptive series, not county data
+                 State descriptive: hepatitis C   PASS          Hepatitis.csv; California state-level descriptive series, not county data
+                 Disease: HIV (ambiguous group)   PASS                                       best file: HIV.csv; counties 58/58, years 19
+                 State descriptive: hepatitis A   PASS          Hepatitis.csv; California state-level descriptive series, not county data
+            Disease: syphilis (ambiguous group)   PASS best file: stds-by-disease-county-year-sex-2001-2021.csv; counties 58/58, years 21
+                  AHRF context covers 2019-2023   PASS                                                  all five years have 50+ variables
+                    AHRF older releases present   PASS                                                       files in ahrf_older_releases
+                       Environment file present   PASS                                                                          2 file(s)
+              Environment: variables recognised   PASS                                                       air quality / PM2.5; drought
+  Environment: California counties identifiable   PASS                                                                best 58/58 counties
+                         Environment: 15+ years   PASS                                                                      best 35 years
+       NCHS model-based estimates (sensitivity)   PASS                                                          optional but in your plan
+
+21 of 21 requirements pass.
+NEXT: run  python .\project3\04_scripts\run_data_pipeline.py
+```

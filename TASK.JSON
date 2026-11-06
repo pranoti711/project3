@@ -1,0 +1,32 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "P3: run steps 07-12 (local outcome)",
+      "type": "shell",
+      "command": "python run_from_07.py --from 7",
+      "group": "build",
+      "presentation": { "reveal": "always", "panel": "dedicated" },
+      "problemMatcher": []
+    },
+    {
+      "label": "P3: run steps 06-12 (re-run models too)",
+      "type": "shell",
+      "command": "python run_from_07.py --from 6",
+      "presentation": { "reveal": "always", "panel": "dedicated" },
+      "problemMatcher": []
+    },
+    {
+      "label": "P3: build local model table",
+      "type": "shell",
+      "command": "python 04_scripts/05b_build_model_table.py --outcome=upcross_local_0.80 --output=02_data/processed/model_table_local.csv",
+      "problemMatcher": []
+    },
+    {
+      "label": "P3: dry run (print steps only)",
+      "type": "shell",
+      "command": "python run_from_07.py --from 6 --dry-run",
+      "problemMatcher": []
+    }
+  ]
+}
