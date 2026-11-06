@@ -4,17 +4,17 @@ $ErrorActionPreference = "Continue"
 $dest = "archive/cleanup_2026-11-05"
 New-Item -ItemType Directory -Force -Path $dest | Out-Null
 $items = @(
-  "04_scripts/text",
+  "text",
   ".tmp_raw_check.txt",
-  "04_scripts/utils/01c build analysis panel .py",
-  "04_scripts/utils/checkrawdata.py",
-  "04_scripts/utils/eonder.py"
+  "04_scripts/01c_build_analysis_panel.py",
+  "04_scripts/00_check_raw_data.py"
 )
 foreach ($i in $items) {
   if (Test-Path -LiteralPath $i) {
     Move-Item -LiteralPath $i -Destination $dest -Force
     Write-Host "moved $i"
-  } else { Write-Host "not found: $i" }
+  }
+  else { Write-Host "not found (skipped): $i" }
 }
 Get-ChildItem -Recurse -Directory -Filter "__pycache__" | Remove-Item -Recurse -Force -ErrorAction SilentlyContinue
 Write-Host "Done. Check that python run_from_07.py --dry-run still works, then delete $dest if you like."
