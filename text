@@ -1,0 +1,261 @@
+warning: in the working copy of 'tools/git_freeze.ps1', LF will be replaced by CRLF the next time Git touches it
+Frozen. Commit hash:
+7ba3dc7577657a89d1618a1dbe44aed2c53011bd
+Date:
+Fri Nov 6 06:33:46 2026 +0530
+Write the hash and date into 00_docs/13_stage2_plan.md and 00_docs/04_prereg.md.
+PS C:\Users\Pranoti munjankar\OneDrive\Desktop\iit tirupati\PROJECT\project3> python 04_scripts/05b_build_model_table.py --outcome=upcross_local_0.70 --output=02_data/processed/model_table_local_070.csv
+Wrote 19,866 rows for 16 diseases and 58 counties to C:\Users\Pranoti munjankar\OneDrive\Desktop\iit tirupati\PROJECT\project3\02_data\processed\model_table_local_070.csv
+Outcome is the next-year upcross; lag_rate and trend_slope use observed disease cases through the prediction year.
+PS C:\Users\Pranoti munjankar\OneDrive\Desktop\iit tirupati\PROJECT\project3> python 04_scripts/05b_build_model_table.py --outcome=upcross_local_0.90 --output=02_data/processed/model_table_local_090.csv
+Wrote 20,012 rows for 16 diseases and 58 counties to C:\Users\Pranoti munjankar\OneDrive\Desktop\iit tirupati\PROJECT\project3\02_data\processed\model_table_local_090.csv
+Outcome is the next-year upcross; lag_rate and trend_slope use observed disease cases through the prediction year.
+PS C:\Users\Pranoti munjankar\OneDrive\Desktop\iit tirupati\PROJECT\project3> python 04_scripts/13_confound_check.py --input model_table_local_070.csv --n_test 4 --tag _t070
+Test years used: [np.int64(2019), np.int64(2020), np.int64(2021), np.int64(2022)]
+       spec  strat_auc  delta_vs_A  delta_vs_A_nopop
+    A_nopop      0.544      -0.133             0.000
+          A      0.677       0.000             0.133
+      B_dev      0.653      -0.024             0.109
+    B_level      0.621      -0.056             0.078
+B_level+pop      0.641      -0.036             0.098
+
+If B_level > A_nopop but B_level+pop <= A, the old mortality gain was county size.
+Mortality adds value only if B_dev - A is clearly > 0 (then confirm with 06/11/12).
+PS C:\Users\Pranoti munjankar\OneDrive\Desktop\iit tirupati\PROJECT\project3> python 04_scripts/13_confound_check.py --input model_table_local_090.csv --n_test 4 --tag _t090
+Test years used: [np.int64(2019), np.int64(2020), np.int64(2021), np.int64(2022)]
+       spec  strat_auc  delta_vs_A  delta_vs_A_nopop
+    A_nopop      0.489      -0.176             0.000
+          A      0.665       0.000             0.176
+      B_dev      0.599      -0.066             0.110
+    B_level      0.690       0.025             0.201
+B_level+pop      0.699       0.034             0.211
+
+If B_level > A_nopop but B_level+pop <= A, the old mortality gain was county size.
+Mortality adds value only if B_dev - A is clearly > 0 (then confirm with 06/11/12).
+PS C:\Users\Pranoti munjankar\OneDrive\Desktop\iit tirupati\PROJECT\project3> python 04_scripts/11_placebos_surrogates.py --input model_table_local_070.csv --perms 200 --n_test 4 --tag t070
+Loaded model_table_local_070.csv: 19,866 rows, 16 diseases, event rate 0.0260
+Test years: [np.int64(2019), np.int64(2020), np.int64(2021), np.int64(2022)] | (year x disease) cells: 58
+Observed delta AUC (B - A), stratified: {'comparison': np.float64(-0.085), 'review_sti': np.float64(0.0277), 'environment': np.float64(0.0175)}
+Observed delta AUC (B - A), OLD pooled : {'comparison': -0.0034, 'environment': 0.0622, 'review_sti': 0.0408}
+  N1 25/200
+  N1 50/200
+  N1 75/200
+  N1 100/200
+  N1 125/200
+  N1 150/200
+  N1 175/200
+  N1 200/200
+  N2 25/200
+  N2 50/200
+  N2 75/200
+  N2 100/200
+  N2 125/200
+  N2 150/200
+  N2 175/200
+  N2 200/200
+
+=== Surrogate-disease test (rank vs comparison-group diseases) ===
+Fewer than 4 testable comparison diseases; surrogate test not informative.
+
+=== Group tests ===
+      group  observed_delta_auc  observed_delta_auc_pooled  events  n1_null_mean   n1_p  n2_null_mean   n2_p  perms
+ comparison             -0.0850                    -0.0034      17       -0.0095 0.9801       -0.0095 0.8507    200
+ review_sti              0.0277                     0.0408      17       -0.0034 0.1642        0.0007 0.3284    200
+environment              0.0175                     0.0622       6       -0.0321 0.1493       -0.0012 0.4627    200
+
+Treat a group as supported only if the observed gain beats N1 AND N2 and the surrogate 
+diseases do not show the same gain. Correct for the number of groups tested (python 04_scripts/12_multiplicity.py).
+PS C:\Users\Pranoti munjankar\OneDrive\Desktop\iit tirupati\PROJECT\project3> python 04_scripts/11_placebos_surrogates.py --input model_table_local_090.csv --perms 200 --n_test 4 --tag t090
+Loaded model_table_local_090.csv: 20,012 rows, 16 diseases, event rate 0.0151
+Test years: [np.int64(2019), np.int64(2020), np.int64(2021), np.int64(2022)] | (year x disease) cells: 58
+Observed delta AUC (B - A), stratified: {'comparison': np.float64(-0.0848)}
+Observed delta AUC (B - A), OLD pooled : {'comparison': -0.0639}
+  N1 25/200
+  N1 50/200
+  N1 75/200
+  N1 100/200
+  N1 125/200
+  N1 150/200
+  N1 175/200
+  N1 200/200
+  N2 25/200
+  N2 50/200
+  N2 75/200
+  N2 100/200
+  N2 125/200
+  N2 150/200
+  N2 175/200
+  N2 200/200
+
+=== Surrogate-disease test (rank vs comparison-group diseases) ===
+Fewer than 4 testable comparison diseases; surrogate test not informative.
+
+=== Group tests ===
+     group  observed_delta_auc  observed_delta_auc_pooled  events  n1_null_mean   n1_p  n2_null_mean   n2_p  perms
+comparison             -0.0848                    -0.0639       6        -0.029 0.8657        0.0186 0.7662    200
+
+Treat a group as supported only if the observed gain beats N1 AND N2 and the surrogate 
+diseases do not show the same gain. Correct for the number of groups tested (python 04_scripts/12_multiplicity.py).
+PS C:\Users\Pranoti munjankar\OneDrive\Desktop\iit tirupati\PROJECT\project3> 
+ *  History restored 
+
+PS C:\Users\Pranoti munjankar\OneDrive\Desktop\iit tirupati\PROJECT\project3> Copy-Item -Recurse 05_results 05_results_stage1_final                              
+PS C:\Users\Pranoti munjankar\OneDrive\Desktop\iit tirupati\PROJECT\project3> python 04_scripts/14_make_report_tables.py                                                              
+Wrote C:\Users\Pranoti munjankar\OneDrive\Desktop\iit tirupati\PROJECT\project3\00_docs\11_results_tables.md
+PS C:\Users\Pranoti munjankar\OneDrive\Desktop\iit tirupati\PROJECT\project3> powershell -ExecutionPolicy Bypass -File tools/git_freeze.ps1
+warning: in the working copy of '.gitignore', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'tools/cleanup.ps1', LF will be replaced by CRLF the next time Git touches it
+Updated tag 'stage1-freeze' (was 7ba3dc7)
+Frozen. Commit hash:
+2f95a4a5d342828c54b20be57a98a637d8a18109
+Date:
+Fri Nov 6 07:01:24 2026 +0530
+Write the hash and date into 00_docs/13_stage2_plan.md and 00_docs/04_prereg.md.
+PS C:\Users\Pranoti munjankar\OneDrive\Desktop\iit tirupati\PROJECT\project3> python 04_scripts/05b_build_model_table.py --outcome=upcross_local_0.70 --output=02_data/processed/model_table_local_070.csv
+Wrote 19,866 rows for 16 diseases and 58 counties to C:\Users\Pranoti munjankar\OneDrive\Desktop\iit tirupati\PROJECT\project3\02_data\processed\model_table_local_070.csv
+Outcome is the next-year upcross; lag_rate and trend_slope use observed disease cases through the prediction year.
+PS C:\Users\Pranoti munjankar\OneDrive\Desktop\iit tirupati\PROJECT\project3> python 04_scripts/05b_build_model_table.py --outcome=upcross_local_0.90 --output=02_data/processed/model_table_local_090.csv
+Wrote 20,012 rows for 16 diseases and 58 counties to C:\Users\Pranoti munjankar\OneDrive\Desktop\iit tirupati\PROJECT\project3\02_data\processed\model_table_local_090.csv
+Outcome is the next-year upcross; lag_rate and trend_slope use observed disease cases through the prediction year.
+PS C:\Users\Pranoti munjankar\OneDrive\Desktop\iit tirupati\PROJECT\project3> python 04_scripts/13_confound_check.py --input model_table_local_070.csv --n_test 4 --tag _t070
+Test years used: [np.int64(2019), np.int64(2020), np.int64(2021), np.int64(2022)]
+       spec  strat_auc  delta_vs_A  delta_vs_A_nopop
+    A_nopop      0.544      -0.133             0.000
+          A      0.677       0.000             0.133
+      B_dev      0.653      -0.024             0.109
+    B_level      0.621      -0.056             0.078
+B_level+pop      0.641      -0.036             0.098
+
+If B_level > A_nopop but B_level+pop <= A, the old mortality gain was county size.
+Mortality adds value only if B_dev - A is clearly > 0 (then confirm with 06/11/12).
+PS C:\Users\Pranoti munjankar\OneDrive\Desktop\iit tirupati\PROJECT\project3> python 04_scripts/13_confound_check.py --input model_table_local_090.csv --n_test 4 --tag _t090
+Test years used: [np.int64(2019), np.int64(2020), np.int64(2021), np.int64(2022)]
+       spec  strat_auc  delta_vs_A  delta_vs_A_nopop
+    A_nopop      0.489      -0.176             0.000
+          A      0.665       0.000             0.176
+      B_dev      0.599      -0.066             0.110
+    B_level      0.690       0.025             0.201
+B_level+pop      0.699       0.034             0.211
+
+If B_level > A_nopop but B_level+pop <= A, the old mortality gain was county size.
+Mortality adds value only if B_dev - A is clearly > 0 (then confirm with 06/11/12).
+PS C:\Users\Pranoti munjankar\OneDrive\Desktop\iit tirupati\PROJECT\project3> python 04_scripts/11_placebos_surrogates.py --input model_table_local_070.csv --perms 200 --n_test 4 --tag t070
+Loaded model_table_local_070.csv: 19,866 rows, 16 diseases, event rate 0.0260
+Test years: [np.int64(2019), np.int64(2020), np.int64(2021), np.int64(2022)] | (year x disease) cells: 58
+Observed delta AUC (B - A), stratified: {'comparison': np.float64(-0.085), 'review_sti': np.float64(0.0277), 'environment': np.float64(0.0175)}
+Observed delta AUC (B - A), OLD pooled : {'comparison': -0.0034, 'environment': 0.0622, 'review_sti': 0.0408}
+  N1 25/200
+  N1 50/200
+  N1 75/200
+  N1 100/200
+  N1 125/200
+  N1 150/200
+  N1 175/200
+  N1 200/200
+  N2 25/200
+  N2 50/200
+  N2 75/200
+  N2 100/200
+  N2 125/200
+  N2 150/200
+  N2 175/200
+  N2 200/200
+
+=== Surrogate-disease test (rank vs comparison-group diseases) ===
+Fewer than 4 testable comparison diseases; surrogate test not informative.
+
+=== Group tests ===
+      group  observed_delta_auc  observed_delta_auc_pooled  events  n1_null_mean   n1_p  n2_null_mean   n2_p  perms
+ comparison             -0.0850                    -0.0034      17       -0.0095 0.9801       -0.0095 0.8507    200
+ review_sti              0.0277                     0.0408      17       -0.0034 0.1642        0.0007 0.3284    200
+environment              0.0175                     0.0622       6       -0.0321 0.1493       -0.0012 0.4627    200
+
+Treat a group as supported only if the observed gain beats N1 AND N2 and the surrogate 
+diseases do not show the same gain. Correct for the number of groups tested (python 04_scripts/12_multiplicity.py).
+PS C:\Users\Pranoti munjankar\OneDrive\Desktop\iit tirupati\PROJECT\project3> python 04_scripts/11_placebos_surrogates.py --input model_table_local_090.csv --perms 200 --n_test 4 --tag t090
+Loaded model_table_local_090.csv: 20,012 rows, 16 diseases, event rate 0.0151
+Test years: [np.int64(2019), np.int64(2020), np.int64(2021), np.int64(2022)] | (year x disease) cells: 58
+Observed delta AUC (B - A), stratified: {'comparison': np.float64(-0.0848)}
+Observed delta AUC (B - A), OLD pooled : {'comparison': -0.0639}
+  N1 25/200
+  N1 50/200
+  N1 75/200
+  N1 100/200
+  N1 125/200
+  N1 150/200
+  N1 175/200
+  N1 200/200
+  N2 25/200
+  N2 50/200
+  N2 75/200
+  N2 100/200
+  N2 125/200
+  N2 150/200
+  N2 175/200
+  N2 200/200
+
+=== Surrogate-disease test (rank vs comparison-group diseases) ===
+Fewer than 4 testable comparison diseases; surrogate test not informative.
+
+=== Group tests ===
+     group  observed_delta_auc  observed_delta_auc_pooled  events  n1_null_mean   n1_p  n2_null_mean   n2_p  perms
+comparison             -0.0848                    -0.0639       6        -0.029 0.8657        0.0186 0.7662    200
+
+Treat a group as supported only if the observed gain beats N1 AND N2 and the surrogate 
+diseases do not show the same gain. Correct for the number of groups tested (python 04_scripts/12_multiplicity.py).
+PS C:\Users\Pranoti munjankar\OneDrive\Desktop\iit tirupati\PROJECT\project3> PS C:\Users\Pranoti munjankar\OneDrive\Desktop\iit tirupati\PROJECT\project3> python 04_scripts/05c_add_stage2_features.py     
+C:\Program Files\Python310\python.exe: can't open file 'C:\\Users\\Pranoti munjankar\\OneDrive\\Desktop\\iit tirupati\\PROJECT\\project3\\04_scripts\\05c_add_stage2_features.py': [Errno 2] No such file or directory
+PS C:\Users\Pranoti munjankar\OneDrive\Desktop\iit tirupati\PROJECT\project3> $env:P3_STAGE2 = "1"
+PS C:\Users\Pranoti munjankar\OneDrive\Desktop\iit tirupati\PROJECT\project3> python run_from_07.py --from 6 --table model_table_stage2.csv
+Missing C:\Users\Pranoti munjankar\OneDrive\Desktop\iit tirupati\PROJECT\project3\02_data\processed\model_table_stage2.csv. Build it first:
+  python 04_scripts/05b_build_model_table.py --outcome=upcross_local_0.80 --output=02_data/processed/model_table_local.csv
+PS C:\Users\Pranoti munjankar\OneDrive\Desktop\iit tirupati\PROJECT\project3> Remove-Item Env:P3_STAGE2      
+PS C:\Users\Pranoti munjankar\OneDrive\Desktop\iit tirupati\PROJECT\project3> Copy-Item -Recurse 05_results 05_results_stage2  
+PS C:\Users\Pranoti munjankar\OneDrive\Desktop\iit tirupati\PROJECT\project3> Remove-Item -Recurse 05_results
+Remove-Item: You do not have sufficient access rights to perform this operation or the item is hidden, system, or read only.
+Remove-Item: You do not have sufficient access rights to perform this operation or the item is hidden, system, or read only.
+Remove-Item: You do not have sufficient access rights to perform this operation or the item is hidden, system, or read only.
+Remove-Item: You do not have sufficient access rights to perform this operation or the item is hidden, system, or read only.
+Remove-Item: Directory C:\Users\Pranoti munjankar\OneDrive\Desktop\iit tirupati\PROJECT\project3\05_results\robustness cannot be removed because it is not empty.
+Remove-Item: You do not have sufficient access rights to perform this operation or the item is hidden, system, or read only.
+Remove-Item: You do not have sufficient access rights to perform this operation or the item is hidden, system, or read only.
+Remove-Item: You do not have sufficient access rights to perform this operation or the item is hidden, system, or read only.
+Remove-Item: Directory C:\Users\Pranoti munjankar\OneDrive\Desktop\iit tirupati\PROJECT\project3\05_results cannot be removed because it is not empty.
+PS C:\Users\Pranoti munjankar\OneDrive\Desktop\iit tirupati\PROJECT\project3> Copy-Item -Recurse 05_results_stage1_final 05_results
+PS C:\Users\Pranoti munjankar\OneDrive\Desktop\iit tirupati\PROJECT\project3> Copy-Item 02_data/processed/model_table_local.csv 02_data/processed/model_table.csv
+PS C:\Users\Pranoti munjankar\OneDrive\Desktop\iit tirupati\PROJECT\project3> python 04_scripts/14_make_report_tables.py --results 05_results_stage2 --out 15_stage2_results_tables.md
+Wrote C:\Users\Pranoti munjankar\OneDrive\Desktop\iit tirupati\PROJECT\project3\00_docs\15_stage2_results_tables.md
+PS C:\Users\Pranoti munjankar\OneDrive\Desktop\iit tirupati\PROJECT\project3> powershell -ExecutionPolicy Bypass -File tools/cleanup.ps1                                              
+moved text
+not found (skipped): .tmp_raw_check.txt
+not found (skipped): 04_scripts/01c_build_analysis_panel.py
+not found (skipped): 04_scripts/00_check_raw_data.py
+Done. Check that python run_from_07.py --dry-run still works, then delete archive/cleanup_2026-11-05 if you like.
+PS C:\Users\Pranoti munjankar\OneDrive\Desktop\iit tirupati\PROJECT\project3> python run_from_07.py --dry-run                  
+Analysing table: model_table_local.csv
+
+=== STEP 7: 07_leadtime ===
+$ Rscript 04_scripts/07_leadtime.R --perms=1000
+
+=== STEP 8: 08_validation ===
+$ Rscript 04_scripts/08_validation.R
+
+=== STEP 9: 09_early_warning ===
+$ C:\Program Files\Python310\python.exe 04_scripts/09_early_warning.py --boot 500
+
+=== STEP 10: 10_spatial_checks ===
+$ Rscript 04_scripts/10_spatial_checks.R
+
+=== STEP 11: 11_placebos ===
+$ C:\Program Files\Python310\python.exe 04_scripts/11_placebos_surrogates.py --perms 1000
+
+=== STEP 12: 12_multiplicity ===
+$ C:\Program Files\Python310\python.exe 04_scripts/12_multiplicity.py
+
+=== STEP 13: 13_confound_check ===
+$ C:\Program Files\Python310\python.exe 04_scripts/13_confound_check.py --n_test 4
+
+=========== SUMMARY ===========
+(dry run)
+Logs: 05_results/logs   |   First check: 05_results/tables/calibration_by_year.csv, model_scores_lfo.csv
+PS C:\Users\Pranoti munjankar\OneDrive\Desktop\iit tirupati\PROJECT\project3> 

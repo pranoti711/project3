@@ -1,6 +1,6 @@
 # 13_stage2_plan.md - Stage 2 (EXPLORATORY): neighbour-county and socioeconomic layer
 
-Write the date and git commit of this file BEFORE running stage 2: **FILL date / commit**.
+Write the date and git commit of this file BEFORE running stage 2: stage 1 frozen at commit bbc9ebe2b45b2cc551696e37867bc8606ac75ffc.
 
 ## Status
 Stage 1 (own history + population, mortality deviations, context) is frozen and reported as a null result. Stage 2

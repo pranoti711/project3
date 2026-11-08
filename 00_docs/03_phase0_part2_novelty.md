@@ -35,7 +35,7 @@ Everything in the "closest prior work" column must be verified. The PubMed searc
 | N4 | Placebo and surrogate-disease nulls plus simulation guard against false positives | Implemented; the placebos plus the confound check removed the first-pass apparent signals | **Supported (as a methods contribution)** |
 | N5 | Pooled AUC across years/diseases can create spurious cross-domain "signals" and even AUC < 0.5 | Observed in run 1 (pooled 0.355, within-cell 0.72) | **Supported, worth reporting** |
 | N6 | Context features (AQI, drought) give a small spatial-transfer gain | In the corrected run C is better in 2 of 6 blocks, LOGO 3/5, not significant | **Withdrawn** (the earlier lead came from the baseline lacking population) |
-| N7 | An apparent mortality signal can come entirely from county size: missing-value flags act as a small-county marker, and a county-swap placebo cannot detect this | First pass B - A = +0.025 and a "supported" group; population alone raised AUC 0.504 to 0.644; mortality deviations on top gave -0.004 (stand-in model) | **Supported by your own results; worth reporting as a methods lesson** |
+| N7 | An apparent mortality signal can come entirely from county size: missing-value flags act as a small-county marker, and a county-swap placebo cannot detect this | First pass B - A = +0.025 and a "supported" group; population alone raised AUC 0.524 to 0.625; mortality deviations on top gave -0.012 (stand-in model, 81 events) | **Supported by your own results; worth reporting as a methods lesson** |
 
 ## 3. Additions to the base design (components as built)
 

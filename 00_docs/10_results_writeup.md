@@ -56,9 +56,9 @@ levels, no population in model A and mortality missing-value flags. It gave B - 
 +0.065), C - A = +0.036, and the environment group passed both placebos after Holm (p = 0.005). Four things
 explained it:
 
-1. **County size.** In a fast logistic stand-in with the same design, population alone raised within-year AUC
-   from 0.504 to 0.644. Adding mortality deviations on top changed AUC by -0.004, and adding mortality
-   levels plus missing flags on top of population by -0.008.
+1. **County size.** In a fast logistic stand-in with the same design (test years 2017-2022, the same 81
+   events), population alone raised within-year AUC from 0.524 to 0.625. Adding mortality deviations on top
+   changed AUC by -0.012, and adding mortality levels plus missing flags on top of population by -0.002.
 2. **Suppression flags.** Drug-overdose and suicide rates are missing for 43% of county-year rows and homicide
    for 66%, mostly in the smallest counties, so the missing flags were a small-county marker.
 3. **The old county-swap placebo.** Swapping mortality between counties also destroys a fixed county trait such
