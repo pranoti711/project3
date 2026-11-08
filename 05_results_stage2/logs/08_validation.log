@@ -1,0 +1,147 @@
+STAGE 2 features ON (exploratory)
+Skipping absent columns: poverty_l1, unemp_l1
+Rows: 19938 | diseases: 16 | event rate: 0.0216
+REMINDER: HIST features at year t must use data up to t only (see header).
+disease=Campylobacteriosis model A (36s)
+disease=Campylobacteriosis model B (35s)
+disease=Campylobacteriosis model C (37s)
+disease=Campylobacteriosis model D (45s)
+disease=Chlamydia model A (29s)
+disease=Chlamydia model B (34s)
+disease=Chlamydia model C (37s)
+disease=Chlamydia model D (123s)
+disease=Coccidioidomycosis model A (32s)
+disease=Coccidioidomycosis model B (31s)
+disease=Coccidioidomycosis model C (34s)
+disease=Coccidioidomycosis model D (38s)
+disease=Cryptosporidiosis model A (28s)
+disease=Cryptosporidiosis model B (32s)
+disease=Cryptosporidiosis model C (48s)
+disease=Cryptosporidiosis model D (53s)
+disease=Early Syphilis model A (33s)
+disease=Early Syphilis model B (37s)
+disease=Early Syphilis model C (34s)
+disease=Early Syphilis model D (42s)
+disease=Giardiasis model A (31s)
+disease=Giardiasis model B (36s)
+disease=Giardiasis model C (37s)
+disease=Giardiasis model D (44s)
+disease=Gonorrhea model A (30s)
+disease=Gonorrhea model B (38s)
+disease=Gonorrhea model C (35s)
+disease=Gonorrhea model D (46s)
+disease=Legionellosis model A (41s)
+disease=Legionellosis model B (51s)
+disease=Legionellosis model C (69s)
+disease=Legionellosis model D (73s)
+disease=Listeriosis model A (49s)
+disease=Listeriosis model B (54s)
+disease=Listeriosis model C (55s)
+disease=Listeriosis model D (56s)
+disease=Lyme Disease model A (48s)
+disease=Lyme Disease model B (50s)
+disease=Lyme Disease model C (59s)
+disease=Lyme Disease model D (66s)
+disease=Malaria model A (47s)
+disease=Malaria model B (49s)
+disease=Malaria model C (55s)
+disease=Malaria model D (47s)
+disease=Salmonellosis model A (35s)
+disease=Salmonellosis model B (40s)
+disease=Salmonellosis model C (41s)
+disease=Salmonellosis model D (43s)
+disease=Shiga toxin-producing E. coli (STEC) without HUS model A (34s)
+disease=Shiga toxin-producing E. coli (STEC) without HUS model B (43s)
+disease=Shiga toxin-producing E. coli (STEC) without HUS model C (36s)
+disease=Shiga toxin-producing E. coli (STEC) without HUS model D (45s)
+disease=Shigellosis model A (35s)
+disease=Shigellosis model B (36s)
+disease=Shigellosis model C (39s)
+disease=Shigellosis model D (43s)
+disease=Vibrio Infection (non-Cholera) model A (33s)
+disease=Vibrio Infection (non-Cholera) model B (31s)
+disease=Vibrio Infection (non-Cholera) model C (34s)
+disease=Vibrio Infection (non-Cholera) model D (36s)
+disease=Yersiniosis model A (37s)
+disease=Yersiniosis model B (34s)
+disease=Yersiniosis model C (38s)
+disease=Yersiniosis model D (43s)
+group=ambiguous model A (29s)
+group=ambiguous model B (41s)
+group=ambiguous model C (38s)
+group=ambiguous model D (39s)
+group=comparison model A (29s)
+group=comparison model B (33s)
+group=comparison model C (34s)
+group=comparison model D (36s)
+group=environment model A (32s)
+group=environment model B (37s)
+group=environment model C (33s)
+group=environment model D (38s)
+group=review_sti model A (30s)
+group=review_sti model B (35s)
+group=review_sti model C (33s)
+group=review_sti model D (43s)
+group=review_travel model A (29s)
+group=review_travel model B (34s)
+group=review_travel model C (36s)
+group=review_travel model D (43s)
+
+=== Held-out transfer: AUC gain over model A ===
+                  scheme  model n_units mean_delta_auc median_delta_auc
+                  <char> <char>   <int>          <num>            <num>
+1: leave-one-disease-out      B      16   -0.005637502     -0.008015729
+2: leave-one-disease-out      C      16    0.004764780      0.003401361
+3: leave-one-disease-out      D      16    0.007698847      0.006142560
+4:   leave-one-group-out      B       5   -0.015450652     -0.008139535
+5:   leave-one-group-out      C       5   -0.007709213      0.002616659
+6:   leave-one-group-out      D       5   -0.014568073     -0.015822785
+   n_improved sign_test_p
+        <int>       <num>
+1:          6   0.8949432
+2:          8   0.5981903
+3:         11   0.1050568
+4:          1   0.9687500
+5:          3   0.5000000
+6:          0   1.0000000
+
+Per-disease gains for B (mortality):
+                                                unit         group         A
+                                              <char>        <char>     <num>
+ 1:                                      Shigellosis    comparison 0.7081448
+ 2:                   Vibrio Infection (non-Cholera)   environment 0.4275618
+ 3:                                    Legionellosis   environment 0.7110767
+ 4:                                   Early Syphilis     ambiguous 0.5741410
+ 5:                                    Salmonellosis    comparison 0.5667718
+ 6:                                     Lyme Disease   environment 0.6218750
+ 7:                               Campylobacteriosis    comparison 0.5732057
+ 8:                                        Gonorrhea    review_sti 0.5738052
+ 9:                                      Listeriosis    comparison 0.5292398
+10:                                       Giardiasis    comparison 0.6253636
+11:                                        Chlamydia    review_sti 0.5751469
+12: Shiga toxin-producing E. coli (STEC) without HUS    comparison 0.7072072
+13:                                Cryptosporidiosis    comparison 0.6324405
+14:                                      Yersiniosis    comparison 0.6348710
+15:                               Coccidioidomycosis   environment 0.7732463
+16:                                          Malaria review_travel 0.6884354
+            B            dB
+        <num>         <num>
+ 1: 0.7631976  0.0550527903
+ 2: 0.4558304  0.0282685512
+ 3: 0.7343145  0.0232378002
+ 4: 0.5917722  0.0176311031
+ 5: 0.5835962  0.0168243954
+ 6: 0.6296875  0.0078125000
+ 7: 0.5722488 -0.0009569378
+ 8: 0.5665457 -0.0072595281
+ 9: 0.5204678 -0.0087719298
+10: 0.6143106 -0.0110529378
+11: 0.5558354 -0.0193115029
+12: 0.6846847 -0.0225225225
+13: 0.6011905 -0.0312500000
+14: 0.6035966 -0.0312744332
+15: 0.7251223 -0.0481239804
+16: 0.6299320 -0.0585034014
+
+If mortality helps only inside one group and fails on held-out groups, say so: that is a group-specific
+ association, not a general cross-domain signal.

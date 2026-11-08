@@ -114,7 +114,7 @@ After controlling for county population and using within-county lagged mortality
 adds no detectable out-of-sample predictive value for next-year infectious-disease up-transitions in California
 (pooled change in AUC +0.001, 95% CI -0.028 to +0.034). No disease group survived placebo and Holm correction,
 the result did not transfer to held-out diseases or groups, spatial-block validation did not improve, and
-lead-time tests were null. An earlier apparent gain was explained by county size. With 81 scored events the
+lead-time tests were null. An earlier apparent gain was explained by county size. An exploratory second stage adding neighbouring counties' disease history and mortality, air quality, drought and static county traits also showed no gain (pooled C - A -0.011, 95% CI -0.048 to +0.020). With 81 scored events the
 study has low power, so small effects cannot be excluded.
 
 ## 8. Related work (to verify against the full papers before citing)
@@ -140,3 +140,27 @@ Position, with the limits of the search stated: to my knowledge, and based on th
 `03_phase0_part2_novelty.md`, I found no study that evaluates mortality series as out-of-sample predictors of
 county-level infectious-disease up-transition events with placebo and held-out-disease controls. This must be
 re-checked with a systematic PubMed search before it is claimed in any submission.
+
+## 9. Stage 2 (exploratory): neighbour counties, context and static county traits
+
+Pre-specified in `13_stage2_plan.md` (stage 1 frozen at commit bbc9ebe). Same test years and events as stage 1, so
+this is exploratory. Model A is unchanged; B adds own plus neighbour-county mortality deviations; C adds
+neighbour-county disease history, air quality, drought and static county traits (urban share, median age, log
+density, rural-urban code); D adds all. Poverty and unemployment were not available (not in the AHRF extract before 2022).
+
+| Result | Stage 1 | Stage 2 |
+|---|---|---|
+| B - A, pooled (95% CI) | +0.001 [-0.028, +0.034] | +0.006 [-0.030, +0.046] |
+| C - A, pooled | +0.003 [-0.005, +0.013] | -0.011 [-0.048, +0.020] |
+| D - A, pooled | +0.003 [-0.028, +0.037] | +0.007 [-0.037, +0.053] |
+| Held-out diseases, better than A (sign p): B / C / D | 7/16 (0.77), 10/16 (0.23), 12/16 (0.04) | 6/16 (0.89), 8/16 (0.60), 11/16 (0.11) |
+| Held-out groups, better than A: B / C / D | 2/5, 3/5, 2/5 | 1/5, 3/5, 0/5 |
+| Spatial-block CV, blocks better than A: B / C / D | 2/6, 2/6, 1/6 | 1/6, 2/6, 1/6 |
+| Early warning at 20% false alarms, hit-rate change: B / C / D | -7.4, -1.2, -6.2 points | -6.2, -1.2, -2.5 points (all CIs include 0) |
+| Groups supported after Holm | 0 of 4 | 0 of 4 (environment N1 p_holm 0.64) |
+
+Decision rule from the plan: both primary contrasts (B - A and C - A) have intervals that include 0, so nothing is
+suggestive. One descriptive observation: residual spatial autocorrelation of the out-of-sample errors (Moran's I)
+is 0.10 (p = 0.076) for A and 0.12 (p = 0.056) for B, but about 0 (p of 0.40-0.45) for C and D. The neighbour
+and context features absorb the leftover spatial pattern, yet do not improve discrimination. This is a
+hypothesis for new data, not a finding.

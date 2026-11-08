@@ -1,0 +1,11 @@
+disease,group,events,delta_auc
+Campylobacteriosis,comparison,5,0.0
+Chlamydia,review_sti,17,0.004469273743016759
+Coccidioidomycosis,environment,7,-0.01818181818181818
+Cryptosporidiosis,comparison,6,-0.02727272727272727
+Early Syphilis,ambiguous,8,-0.07045454545454545
+Giardiasis,comparison,8,-0.026905829596412557
+Gonorrhea,review_sti,9,-0.012474012474012475
+Legionellosis,environment,5,0.08185053380782918
+Shiga toxin-producing E. coli (STEC) without HUS,comparison,5,-0.03202846975088968
+Yersiniosis,comparison,5,0.036101083032490974

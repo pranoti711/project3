@@ -1,6 +1,6 @@
 # 13_stage2_plan.md - Stage 2 (EXPLORATORY): neighbour-county and socioeconomic layer
 
-Write the date and git commit of this file BEFORE running stage 2: stage 1 frozen at commit bbc9ebe2b45b2cc551696e37867bc8606ac75ffc.
+Write the date and git commit of this file BEFORE running stage 2: **FILL date / commit**.
 
 ## Status
 Stage 1 (own history + population, mortality deviations, context) is frozen and reported as a null result. Stage 2
@@ -36,3 +36,9 @@ mortality deviations. C = A + stage 1 context + the neighbour-history and socioe
 - Test years are the same as stage 1 (2017-2020, 81 events). Power is low.
 - A positive result is a hypothesis for new data, not a finding.
 - Static traits are county characteristics; the INLA models already contain a spatial county effect.
+
+## Outcome (added after the run, 2026-11-08; nothing above this line was changed)
+Run with `P3_STAGE2=1` on `model_table_stage2.csv`; poverty and unemployment columns were absent and skipped.
+Primary contrasts: B - A = +0.006 (95% CI -0.030 to +0.046); C - A = -0.011 (-0.048 to +0.020). Both intervals
+include 0, so by the rule above neither contrast is suggestive, and no group beat the placebos after Holm
+correction. Stage 2 is an exploratory null. Full tables: `05_results_stage2/` and `15_stage2_results_tables.md`.

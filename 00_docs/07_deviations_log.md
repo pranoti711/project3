@@ -106,6 +106,16 @@
   confirmatory. They are reported separately from the stage 1 headline result and labelled exploratory.
 - **Freeze:** stage 1 results are tagged `stage1-freeze` in git (`tools/git_freeze.ps1`) before stage 2 is run.
 
+## Stage 2 run (exploratory)
+
+- **Date:** 2026-11-08
+- **What:** Full pipeline run with the stage 2 features on `model_table_stage2.csv` (neighbour-county history and
+  mortality deviations, static county traits). Poverty and unemployment were not available and were skipped.
+- **Result:** no gain over model A (pooled B - A +0.006, C - A -0.011, intervals include 0); no group supported after
+  Holm; lead-time results unchanged (step 07 does not use the new features). Results kept in `05_results_stage2/`.
+- **Note:** step 13 ran with `--n_test 4` (the runner's default), so its output is the 31-event window; the 81-event
+  checks are in `confound_check_n6_*.csv`.
+
 ## Known limitations
 
 - Transition labels come from a smoother fitted on all years up to 2023 (hindsight). A fully clean forecast

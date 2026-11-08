@@ -1,0 +1,10 @@
+Test years used: [np.int64(2019), np.int64(2020), np.int64(2021), np.int64(2022)]
+       spec  strat_auc  delta_vs_A  delta_vs_A_nopop
+    A_nopop      0.504      -0.140             0.000
+          A      0.644       0.000             0.140
+      B_dev      0.641      -0.004             0.136
+    B_level      0.612      -0.032             0.108
+B_level+pop      0.637      -0.008             0.132
+
+If B_level > A_nopop but B_level+pop <= A, the old mortality gain was county size.
+Mortality adds value only if B_dev - A is clearly > 0 (then confirm with 06/11/12).

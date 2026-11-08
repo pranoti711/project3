@@ -1,0 +1,101 @@
+Loaded model_table.csv: 19,938 rows, 16 diseases, event rate 0.0216
+Test years: [np.int64(2017), np.int64(2018), np.int64(2019), np.int64(2020), np.int64(2021), np.int64(2022)] | (year x disease) cells: 90
+Observed delta AUC (B - A), stratified: {'comparison': np.float64(-0.0127), 'review_sti': np.float64(-0.0015), 'environment': np.float64(0.024), 'ambiguous': np.float64(-0.0705)}
+Observed delta AUC (B - A), OLD pooled : {'ambiguous': -0.1071, 'comparison': 0.06, 'environment': 0.0306, 'review_sti': -0.0047}
+  N1 25/1000
+  N1 50/1000
+  N1 75/1000
+  N1 100/1000
+  N1 125/1000
+  N1 150/1000
+  N1 175/1000
+  N1 200/1000
+  N1 225/1000
+  N1 250/1000
+  N1 275/1000
+  N1 300/1000
+  N1 325/1000
+  N1 350/1000
+  N1 375/1000
+  N1 400/1000
+  N1 425/1000
+  N1 450/1000
+  N1 475/1000
+  N1 500/1000
+  N1 525/1000
+  N1 550/1000
+  N1 575/1000
+  N1 600/1000
+  N1 625/1000
+  N1 650/1000
+  N1 675/1000
+  N1 700/1000
+  N1 725/1000
+  N1 750/1000
+  N1 775/1000
+  N1 800/1000
+  N1 825/1000
+  N1 850/1000
+  N1 875/1000
+  N1 900/1000
+  N1 925/1000
+  N1 950/1000
+  N1 975/1000
+  N1 1000/1000
+  N2 25/1000
+  N2 50/1000
+  N2 75/1000
+  N2 100/1000
+  N2 125/1000
+  N2 150/1000
+  N2 175/1000
+  N2 200/1000
+  N2 225/1000
+  N2 250/1000
+  N2 275/1000
+  N2 300/1000
+  N2 325/1000
+  N2 350/1000
+  N2 375/1000
+  N2 400/1000
+  N2 425/1000
+  N2 450/1000
+  N2 475/1000
+  N2 500/1000
+  N2 525/1000
+  N2 550/1000
+  N2 575/1000
+  N2 600/1000
+  N2 625/1000
+  N2 650/1000
+  N2 675/1000
+  N2 700/1000
+  N2 725/1000
+  N2 750/1000
+  N2 775/1000
+  N2 800/1000
+  N2 825/1000
+  N2 850/1000
+  N2 875/1000
+  N2 900/1000
+  N2 925/1000
+  N2 950/1000
+  N2 975/1000
+  N2 1000/1000
+
+=== Surrogate-disease test (rank vs comparison-group diseases) ===
+Chlamydia                           group=review_sti     dAUC=+0.0045 rank_p=0.333
+Coccidioidomycosis                  group=environment    dAUC=-0.0182 rank_p=0.500
+Early Syphilis                      group=ambiguous      dAUC=-0.0705 rank_p=1.000
+Gonorrhea                           group=review_sti     dAUC=-0.0125 rank_p=0.500
+Legionellosis                       group=environment    dAUC=+0.0819 rank_p=0.167
+
+=== Group tests ===
+      group  observed_delta_auc  observed_delta_auc_pooled  events  n1_null_mean   n1_p  n2_null_mean   n2_p  perms
+ comparison             -0.0127                     0.0600      31       -0.0145 0.4895       -0.0016 0.5774   1000
+ review_sti             -0.0015                    -0.0047      26        0.0028 0.5415       -0.0040 0.4825   1000
+environment              0.0240                     0.0306      12       -0.0170 0.1608       -0.0003 0.4076   1000
+  ambiguous             -0.0705                    -0.1071       8        0.0038 0.8831        0.0014 0.7073   1000
+
+Treat a group as supported only if the observed gain beats N1 AND N2 and the surrogate 
+diseases do not show the same gain. Correct for the number of groups tested (python 04_scripts/12_multiplicity.py).
