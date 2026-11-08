@@ -49,6 +49,24 @@ supported. Among surrogate diseases the largest gain was Legionellosis (+0.043, 
 - **Lead time:** 40 permutation tests, none significant after Holm (smallest Holm p = 1.0; smallest unadjusted
   p = 0.073).
 
+## 4b. Threshold sensitivity (fast stand-in model, same 2017-2022 test rows)
+
+The headline outcome uses a posterior-probability cut-off of 0.80. The same check at 0.70 and 0.90 gives the same
+picture. Population raises within-year AUC at every cut-off, and mortality deviations never improve on it.
+
+| Cut-off | Events scored | A without population | A (with population) | B (mortality deviations) minus A | Mortality levels + flags + population minus A |
+|---|---|---|---|---|---|
+| 0.70 | 91 | 0.551 | 0.650 | -0.025 | -0.031 |
+| 0.80 | 81 | 0.524 | 0.625 | -0.012 | -0.002 |
+| 0.90 | 50 | 0.558 | 0.612 | -0.012 | +0.008 |
+
+These are point estimates from a simplified logistic model without confidence intervals, so they show direction only.
+The one positive entry (levels at 0.90, +0.008) is far smaller than the sampling uncertainty reported for the main
+pipeline (about +/-0.03) and is not treated as a finding. An earlier run of the same check on only 2019-2022
+(15 events at 0.90) showed +0.034 for the same entry; it shrank to +0.008 on the full window, which is what noise on
+very few events looks like. The 0.70 and 0.90 outcomes were checked with this stand-in only; the full INLA pipeline
+was run on the 0.80 outcome.
+
 ## 5. Methods finding: why a first pass looked positive
 
 A first run used the original outcome (statewide trend dominated; 480 of 745 test events in 2020), mortality
@@ -85,7 +103,8 @@ interpreting any gain, and check that any placebo can actually separate the hypo
   epidemiology. Posterior-probability decision rules are known to be conservative when counts are small
   (Richardson et al., 2004). Uncertainty also widens at the end of the series (median 0.085 in 2019, 0.117 in
   2023), which is the likely reason 2021-2023 have no events.
-- Threshold sensitivity (tau 0.70 and 0.90) is a robustness check, not part of the headline analysis.
+- Threshold sensitivity (tau 0.70 and 0.90) was run with the fast stand-in only (no intervals, no full INLA run), as a
+  robustness check; the headline analysis is tau 0.80.
 - The drug-linked hypothesis (H2) could not be tested because no county-level drug-linked series is available
   (Part B of the prereg is the plan for that).
 

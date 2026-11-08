@@ -24,29 +24,34 @@ python 04_scripts/11_placebos_surrogates.py --input model_table_local_090.csv --
 Read the `B_dev - A` line of each `confound_check_n6_*.csv`. Report the three values side by side.
 
 ## Part C - Stage 2, exploratory (about 3-6 hours of compute)
-Before starting, check that these two things are true, otherwise stop:
-- `04_scripts/05c_add_stage2_features.py` exists, and `Select-String -Path 04_scripts/p3_common.R -Pattern P3_STAGE2` finds a line.
-- `05_results_stage1_final` exists (made in Part A) and is the real stage 1 result.
+Stage 1 is frozen in git (commit bbc9ebe, results included). Before starting, check:
+- `Test-Path 04_scripts/05c_add_stage2_features.py` prints True.
+- `Select-String -Path 04_scripts/p3_common.R -Pattern P3_STAGE2` finds a line.
+- The machine will not sleep (see the note below) and OneDrive sync is paused.
 
 ```powershell
+# 0. Plain backup of the stage 1 results (a new folder name, so nothing is nested)
+robocopy 05_results 05_results_s1_backup /E
+
 # 1. Build the stage 2 table (optional: first put saipe_ca_county.csv / laus_ca_county.csv in 02_data/raw/socio/)
 python 04_scripts/05c_add_stage2_features.py
-# STOP here if this printed an error or did not write model_table_stage2.csv. Do not continue.
+# STOP here if this printed an error or did not write model_table_stage2.csv.
 
 # 2. Run the full pipeline with the stage 2 switch on
 $env:P3_STAGE2 = "1"
 python run_from_07.py --from 6 --table model_table_stage2.csv
 Remove-Item Env:P3_STAGE2
 
-# 3. Keep stage 2 results apart, then restore stage 1 as the main results (robocopy copies exactly; do not delete folders)
+# 3. Keep stage 2 results apart, then restore stage 1 as the main results
 robocopy 05_results 05_results_stage2 /E
-robocopy 05_results_stage1_final 05_results /MIR
+robocopy 05_results_s1_backup 05_results /MIR
 Copy-Item 02_data/processed/model_table_local.csv 02_data/processed/model_table.csv
 
-# 4. Tables for stage 2
+# 4. Tables for stage 2 (read from the stage 2 folder)
 python 04_scripts/14_make_report_tables.py --results 05_results_stage2 --out 15_stage2_results_tables.md
 ```
-Robocopy prints a summary and uses exit codes below 8 for success; that is normal.
+Robocopy exit codes below 8 mean success. Keep the PC awake: `powercfg /change standby-timeout-ac 0`
+(restore afterwards with `powercfg /change standby-timeout-ac 30`).
 Read `00_docs/15_stage2_results_tables.md`: sections 2 (delta AUC) and 4 (placebos). Apply the decision rule in
 `13_stage2_plan.md`. Report stage 2 only as exploratory.
 
