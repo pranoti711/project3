@@ -1,0 +1,18 @@
+
+=== Matched false-alarm hit rates (all groups) ===
+model  far  hit_rate  hit_lo  hit_hi  gain_vs_A  gain_lo  gain_hi
+    A 0.05     0.123   0.058   0.180      0.000    0.000    0.000
+    B 0.05     0.099   0.039   0.196     -0.025   -0.069    0.059
+    C 0.05     0.123   0.056   0.181      0.000   -0.034    0.039
+    D 0.05     0.086   0.036   0.175     -0.037   -0.078    0.051
+    A 0.10     0.185   0.118   0.294      0.000    0.000    0.000
+    B 0.10     0.210   0.121   0.290      0.025   -0.049    0.051
+    C 0.10     0.185   0.106   0.288      0.000   -0.058    0.021
+    D 0.10     0.198   0.120   0.289      0.012   -0.054    0.053
+    A 0.20     0.432   0.303   0.534      0.000    0.000    0.000
+    B 0.20     0.358   0.239   0.459     -0.074   -0.143    0.000
+    C 0.20     0.420   0.301   0.549     -0.012   -0.043    0.059
+    D 0.20     0.370   0.243   0.467     -0.062   -0.147    0.000
+
+A gain whose interval excludes 0 means the extra information catches more events at the same
+false-alarm cost. Check the drug_linked row against the placebo results from script 11.

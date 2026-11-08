@@ -1,0 +1,17 @@
+group,disease,county_years,events,event_share
+ambiguous,Early Syphilis,1115,91,0.08161434977578476
+comparison,Campylobacteriosis,1269,242,0.19070133963750985
+comparison,Cryptosporidiosis,1247,231,0.18524458700882118
+comparison,Giardiasis,1276,133,0.1042319749216301
+comparison,Listeriosis,1271,17,0.013375295043273014
+comparison,Salmonellosis,1274,275,0.21585557299843014
+comparison,Shiga toxin-producing E. coli (STEC) without HUS,1249,251,0.20096076861489193
+comparison,Shigellosis,1226,267,0.21778140293637846
+comparison,Yersiniosis,1268,96,0.07570977917981073
+environment,Coccidioidomycosis,1253,261,0.2083000798084597
+environment,Legionellosis,1268,168,0.13249211356466878
+environment,Lyme Disease,1275,34,0.02666666666666667
+environment,Vibrio Infection (non-Cholera),1276,361,0.2829153605015674
+review_sti,Chlamydia,1106,126,0.11392405063291139
+review_sti,Gonorrhea,1124,121,0.10765124555160142
+review_travel,Malaria,1275,76,0.0596078431372549
