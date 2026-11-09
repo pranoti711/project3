@@ -47,6 +47,9 @@ MORT = ["allcause_dev", "drug_od_dev", "suicide_dev", "homicide_dev"]
 import os
 if os.environ.get("P3_STAGE2") == "1":
     MORT = MORT + ["nbr_allcause_dev", "nbr_drug_od_dev", "nbr_suicide_dev", "nbr_homicide_dev"]
+# STAGE 3 (exploratory): P3_STAGE3=1 uses the cross-disease signature of the same county as the tested block
+if os.environ.get("P3_STAGE3") == "1":
+    MORT = ["xd_n_up", "xd_share_rising", "xd_share_rising_same", "xd_share_rising_other"]
 
 
 def find_root():
@@ -86,7 +89,7 @@ def design(df, spec, train, hist, mort, groups):
     if spec == "B":
         for v in mort:
             zz = z(v)
-            if v.startswith("nbr_"):
+            if v.startswith("nbr_") or v.startswith("xd_"):
                 parts.append(zz[:, None])
                 continue
             for g in groups:

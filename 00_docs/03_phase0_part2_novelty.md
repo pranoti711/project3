@@ -20,10 +20,12 @@ Everything in the "closest prior work" column must be verified. The PubMed searc
 | 6 | 2026-11-06 | web | negative control outcome / falsification | Lipsitch et al. 2010 | method background for surrogate-disease test |
 | 7 | 2026-11-06 | web | external data streams vs autoregressive baseline | dengue and influenza nowcasting papers (to verify) | other diseases and data streams |
 | 8 | 2026-11-06 | web | leave-future-out cross-validation | Burkner et al. 2020 | method background |
-| 9 | todo | PubMed | county mortality AND infectious disease AND prediction | | |
-| 10 | todo | PubMed | drug overdose AND hepatitis OR HIV AND county forecasting | | |
-| 11 | todo | Scholar | cross-domain surveillance signals mortality leading indicator | | |
-| 12 | todo | Scholar | California county notifiable disease transition early warning | | |
+| 9 | 2026-11-08 | web | shared component / joint multi-disease spatio-temporal models | Knorr-Held and Best 2001 (JRSS-A 164:73-85); Gomez-Rubio et al. (joint spatio-temporal analysis of multiple diseases, to verify); Retegui et al. 2024 (arXiv, to verify) | descriptive joint disease mapping (mostly cancers); not predictive early warning of transition events |
+| 10 | 2026-11-08 | web | one disease as leading indicator for another, lead-lag | Cheng, Buckeridge, Bloom 2007 (JAMIA 14:76-85); recent PMC recommendations for leading-indicator analysis (to verify); recent arXiv paper on cross-disease transfer learning for forecasting (to verify) | association vs predictive lead is already distinguished; cross-disease forecasting is an active area, so any cross-disease claim is NOT new by itself |
+| 11 | todo | PubMed | county mortality AND infectious disease AND prediction | | |
+| 12 | todo | PubMed | drug overdose AND hepatitis OR HIV AND county forecasting | | |
+| 13 | todo | Scholar | cross-domain surveillance signals mortality leading indicator | | |
+| 14 | todo | Scholar | California county notifiable disease transition early warning | | |
 
 ## 2. Novelty matrix - claim vs evidence
 
@@ -37,6 +39,7 @@ Everything in the "closest prior work" column must be verified. The PubMed searc
 | N6 | Context features (AQI, drought) give a small spatial-transfer gain | In the corrected run C is better in 2 of 6 blocks, LOGO 3/5, not significant | **Withdrawn** (the earlier lead came from the baseline lacking population) |
 | N7 | An apparent mortality signal can come entirely from county size: missing-value flags act as a small-county marker, and a county-swap placebo cannot detect this | First pass B - A = +0.025 and a "supported" group; population alone raised AUC 0.524 to 0.625; mortality deviations on top gave -0.012 (stand-in model, 81 events) | **Supported by your own results; worth reporting as a methods lesson** |
 | N8 | Neighbouring counties' history, mortality and static traits improve prediction | Stage 2 (exploratory): pooled C - A -0.011 [-0.048, +0.020], B - A +0.006 [-0.030, +0.046]; residual spatial autocorrelation removed by C/D without a gain in AUC | **Not supported (exploratory)** |
+| N9 | Cross-disease transition signatures of the same and adjacent counties predict a disease's next up-transition (stage 3) | Planned in `17_stage3_plan.md`; not yet run | **Open (exploratory)**; co-movement within source-sharing disease groups is expected and is not itself novel |
 
 ## 3. Additions to the base design (components as built)
 

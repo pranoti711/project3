@@ -69,6 +69,16 @@ if (identical(Sys.getenv("P3_STAGE2"), "1")) {
   message("STAGE 2 features ON (exploratory)")
 }
 
+# STAGE 3 (exploratory, see 00_docs/17_stage3_plan.md). P3_STAGE3=1 replaces the mortality block with the
+# cross-disease signature of the SAME county (model B) and puts the neighbour-county cross-disease signature in
+# model C. Built by 05d_add_crossdisease_features.py. All these features get one pooled slope.
+# Steps 07 (lead time) and 13 (confound check) still use mortality and are not meaningful in stage 3.
+if (identical(Sys.getenv("P3_STAGE3"), "1")) {
+  MORT <- c("xd_n_up", "xd_share_rising", "xd_share_rising_same", "xd_share_rising_other")
+  CTX  <- c("nbr_xd_n_up", "nbr_xd_share_rising")
+  message("STAGE 3 cross-disease features ON (exploratory)")
+}
+
 # ---------------------------------------------------------------- geography
 get_graph <- function() {
   shp <- list.files(P$geo_raw, pattern = "\\.shp$", full.names = TRUE, recursive = TRUE)
@@ -180,7 +190,7 @@ build_design <- function(dat, train_mask, model, pooled = FALSE) {
   if (use_c) for (v in intersect(CTX, names(dat))) { z <- zs(v); z[is.na(z)] <- 0; X[[v]] <- z }
   if (use_m) for (v in intersect(MORT, names(dat))) {
     z <- zs(v); z[is.na(z)] <- 0   # no missing-indicator: suppression flags act as a county-size proxy
-    if (pooled || startsWith(v, "nbr_")) {
+    if (pooled || startsWith(v, "nbr_") || startsWith(v, "xd_")) {
       X[[v]] <- z
     } else {
       for (g in sort(unique(dat$group))) X[[paste0(v, "__", g)]] <- z * (dat$group == g)

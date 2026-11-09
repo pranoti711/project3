@@ -55,6 +55,35 @@ Robocopy exit codes below 8 mean success. Keep the PC awake: `powercfg /change s
 Read `00_docs/15_stage2_results_tables.md`: sections 2 (delta AUC) and 4 (placebos). Apply the decision rule in
 `13_stage2_plan.md`. Report stage 2 only as exploratory.
 
+## Part E - Stage 3, exploratory: cross-disease signatures (about 2-4 hours of compute)
+Only after stage 2 is saved (commit 75268e1) and `13_stage3_plan` -> `17_stage3_plan.md` is committed to git.
+```powershell
+# 0. Commit the plan first, then write the hash in 00_docs/17_stage3_plan.md
+git add -A
+git commit -m "Stage 3 plan and code"
+git tag stage3-plan-frozen
+
+# 1. Backup stage 1 results and build the stage 3 table
+robocopy 05_results 05_results_s1_backup3 /E
+python 04_scripts/05d_add_crossdisease_features.py
+# STOP if this printed an error or did not write model_table_stage3.csv.
+
+# 2. Run the pipeline with the stage 3 switch on (keep the PC awake, OneDrive paused)
+$env:P3_STAGE3 = "1"
+python run_from_07.py --from 6 --table model_table_stage3.csv
+Remove-Item Env:P3_STAGE3
+
+# 3. Save stage 3 apart and restore stage 1
+robocopy 05_results 05_results_stage3 /E
+robocopy 05_results_s1_backup3 05_results /MIR
+Copy-Item 02_data/processed/model_table_local.csv 02_data/processed/model_table.csv
+
+# 4. Tables for stage 3
+python 04_scripts/14_make_report_tables.py --results 05_results_stage3 --out 18_stage3_results_tables.md
+```
+Read sections 2 (delta AUC) and 4 (placebos) of `00_docs/18_stage3_results_tables.md`; ignore the lead-time and
+confound-check parts. Apply the decision rule in `17_stage3_plan.md`.
+
 ## Part D - Final tidy
 `powershell -ExecutionPolicy Bypass -File tools/cleanup.ps1`, then check `python run_from_07.py --dry-run`.
 
