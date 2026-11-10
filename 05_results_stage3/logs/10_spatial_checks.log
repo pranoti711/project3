@@ -1,0 +1,64 @@
+STAGE 3 cross-disease features ON (exploratory)
+Rows: 19938 | diseases: 16 | event rate: 0.0216
+REMINDER: HIST features at year t must use data up to t only (see header).
+block 1 model A (29s)
+block 1 model B (33s)
+block 1 model C (2593s)
+block 1 model D (27s)
+block 2 model A (28s)
+block 2 model B (25s)
+block 2 model C (37s)
+block 2 model D (37s)
+block 3 model A (1605s)
+block 3 model B (25s)
+block 3 model C (24s)
+block 3 model D (25s)
+block 4 model A (23s)
+block 4 model B (25s)
+block 4 model C (25s)
+block 4 model D (5797s)
+block 5 model A (61s)
+block 5 model B (46s)
+block 5 model C (52s)
+block 5 model D (45s)
+block 6 model A (40s)
+block 6 model B (55s)
+block 6 model C (46s)
+block 6 model D (48s)
+
+=== Spatial-block CV: AUC per held-out block ===
+Key: <block, n_counties>
+   block n_counties         A         B         C         D           dB
+   <int>      <int>     <num>     <num>     <num>     <num>        <num>
+1:     1          5 0.6028037 0.5934579 0.5747664 0.5607477 -0.009345794
+2:     2         12 0.6885246 0.6516393 0.6707650 0.6420765 -0.036885246
+3:     3          8 0.6200000 0.6228571 0.6342857 0.6285714  0.002857143
+4:     4         16 0.5578635 0.5744807 0.5590504 0.5649852  0.016617211
+5:     5          9 0.6222826 0.6086957 0.6250000 0.6195652 -0.013586957
+6:     6          8 0.6096257 0.6114082 0.5971480 0.6042781  0.001782531
+             dC           dD
+          <num>        <num>
+1: -0.028037383 -0.042056075
+2: -0.017759563 -0.046448087
+3:  0.014285714  0.008571429
+4:  0.001186944  0.007121662
+5:  0.002717391 -0.002717391
+6: -0.012477718 -0.005347594
+model B vs A: improved in 3 of 6 blocks, mean dAUC = -0.0064
+model C vs A: improved in 3 of 6 blocks, mean dAUC = -0.0067
+model D vs A: improved in 2 of 6 blocks, mean dAUC = -0.0135
+
+=== Moran's I of out-of-sample residuals (positive and small p = leftover spatial pattern) ===
+          model  year           I            p           scope
+         <char> <int>       <num>        <num>          <char>
+1:            A    NA  0.10193841 0.0761512065 residual_pooled
+2:            B    NA  0.10116614 0.0772466829 residual_pooled
+3:            C    NA  0.04726445 0.2187925499 residual_pooled
+4:            D    NA  0.04489668 0.2269826971 residual_pooled
+5: outcome_rate  2017  0.24245027 0.0009777691     raw_outcome
+6: outcome_rate  2018 -0.10844403 0.8623305993     raw_outcome
+7: outcome_rate  2019  0.02715537 0.2954633530     raw_outcome
+8: outcome_rate  2020  0.11889645 0.0490432495     raw_outcome
+
+If model D residuals show clear spatial clustering while A does not, mortality may be adding noise
+ with its own spatial structure; check that before interpreting B/D gains.

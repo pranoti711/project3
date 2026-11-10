@@ -1,6 +1,6 @@
 # 17_stage3_plan.md - Stage 3 (EXPLORATORY): cross-disease transition signatures
 
-Commit this file to git BEFORE running stage 3, then write the hash here: **FILL commit hash**.
+Commit this file to git BEFORE running stage 3, then write the hash here: ee54e5fbbdf490186ed910e1e616dd589607dc23.
 
 ## Status
 Stages 1 and 2 are frozen (commits bbc9ebe and 75268e1) and are null results. Stage 3 returns to your Proposal 3:

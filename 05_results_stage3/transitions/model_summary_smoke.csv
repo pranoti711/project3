@@ -1,0 +1,2 @@
+disease,group,n_rows,n_missing_cases,waic,nb_size_mean,minutes
+Campylobacteriosis,comparison,1334,0,9673.831764226825,67.6385737218178,2.1507415970166526

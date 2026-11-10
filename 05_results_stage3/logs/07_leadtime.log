@@ -1,0 +1,74 @@
+     zthr     mortality         group n_events n_nonevents p_alarm_event
+    <num>        <char>        <char>    <int>       <int>         <num>
+ 1:   1.5 homicide_rate     ambiguous       40        1109     0.5000000
+ 2:   1.0  suicide_rate   environment       62        5008     0.6595745
+ 3:   1.5  suicide_rate    comparison      187        9964     0.4296875
+ 4:   1.5  suicide_rate   environment       62        5008     0.4468085
+ 5:   1.0  drug_od_rate review_travel       13        1260     0.7777778
+ 6:   1.5  drug_od_rate   environment       62        5008     0.5714286
+ 7:   1.0 homicide_rate     ambiguous       40        1109     0.5000000
+ 8:   1.0  drug_od_rate   environment       62        5008     0.6938776
+ 9:   1.5  drug_od_rate     ambiguous       40        1109     0.5600000
+10:   1.0  suicide_rate    comparison      187        9964     0.5937500
+11:   1.5  drug_od_rate    comparison      187        9964     0.5298507
+12:   1.5  drug_od_rate    review_sti      129        2166     0.5308642
+13:   1.0  drug_od_rate    comparison      187        9964     0.6567164
+14:   1.0  drug_od_rate     ambiguous       40        1109     0.6400000
+15:   1.0  suicide_rate    review_sti      129        2166     0.5616438
+16:   1.0 homicide_rate review_travel       13        1260     0.3750000
+17:   1.5  suicide_rate    review_sti      129        2166     0.3698630
+18:   1.5  drug_od_rate review_travel       13        1260     0.4444444
+19:   1.5 homicide_rate    comparison      187        9964     0.3205128
+20:   1.5 allcause_rate    review_sti      129        2166     0.0781250
+     zthr     mortality         group n_events n_nonevents p_alarm_event
+    <num>        <char>        <char>    <int>       <int>         <num>
+    p_alarm_nonevent         diff    null_mean perm_p_one_sided
+               <num>        <num>        <num>            <num>
+ 1:       0.35410765  0.145892351  0.014552408       0.07292707
+ 2:       0.54656863  0.113005841  0.034940268       0.11188811
+ 3:       0.36061246  0.069075040  0.024544741       0.12387612
+ 4:       0.36099440  0.085814113  0.029867081       0.15584416
+ 5:       0.66113416  0.116643615 -0.027259106       0.17182817
+ 6:       0.55172414  0.019704433 -0.027570369       0.19880120
+ 7:       0.43342776  0.066572238  0.012453258       0.26873127
+ 8:       0.66388018  0.029997370 -0.004143532       0.28671329
+ 9:       0.52980132  0.030198675 -0.005423113       0.33366633
+10:       0.54699050  0.046759504  0.033647305       0.37162837
+11:       0.55199580 -0.022145052 -0.027919105       0.44655345
+12:       0.52653749  0.004326708  0.003830073       0.48451548
+13:       0.66386555 -0.007149128 -0.005066028       0.51848152
+14:       0.66225166 -0.022251656 -0.011643775       0.54045954
+15:       0.56700168 -0.005357839  0.006701556       0.60739261
+16:       0.43750000 -0.062500000 -0.028708333       0.60839161
+17:       0.38107203 -0.011209013  0.007402228       0.63536464
+18:       0.55186722 -0.107422775 -0.044701245       0.65834166
+19:       0.35655977 -0.036046946 -0.012543829       0.65834166
+20:       0.09274005 -0.014615047 -0.007997373       0.66233766
+    p_alarm_nonevent         diff    null_mean perm_p_one_sided
+               <num>        <num>        <num>            <num>
+    median_lead_years perm_p_holm
+                <num>       <num>
+ 1:               4.0           1
+ 2:               4.0           1
+ 3:               3.0           1
+ 4:               4.0           1
+ 5:               2.0           1
+ 6:               2.0           1
+ 7:               4.0           1
+ 8:               4.0           1
+ 9:               3.5           1
+10:               3.0           1
+11:               3.0           1
+12:               3.0           1
+13:               4.0           1
+14:               4.0           1
+15:               3.0           1
+16:               5.0           1
+17:               3.0           1
+18:               2.5           1
+19:               2.5           1
+20:               2.0           1
+    median_lead_years perm_p_holm
+                <num>       <num>
+
+Read this table with the Holm-adjusted p-values: with 4 mortality series x several groups x 2 thresholds you are testing many hypotheses.
