@@ -116,6 +116,16 @@
 - **Note:** step 13 ran with `--n_test 4` (the runner's default), so its output is the 31-event window; the 81-event
   checks are in `confound_check_n6_*.csv`.
 
+## Stage 3 run (exploratory)
+
+- **Date:** 2026-11-09
+- **What:** Cross-disease transition signatures of the same and adjacent counties (`05d_add_crossdisease_features.py`),
+  pre-specified in `17_stage3_plan.md` (commit ee54e5f) and run with `P3_STAGE3=1`.
+- **Result:** no gain over model A (pooled B - A +0.004, C - A -0.003, intervals include 0); no group supported after
+  Holm. Results kept in `05_results_stage3/`. Steps 07 and 13 still use mortality and are ignored for stage 3.
+- **Runtime note:** several single model fits took 40-100 minutes instead of about 40 seconds (INLA stalls). Results are
+  unaffected.
+
 ## Known limitations
 
 - Transition labels come from a smoother fitted on all years up to 2023 (hindsight). A fully clean forecast

@@ -114,7 +114,7 @@ After controlling for county population and using within-county lagged mortality
 adds no detectable out-of-sample predictive value for next-year infectious-disease up-transitions in California
 (pooled change in AUC +0.001, 95% CI -0.028 to +0.034). No disease group survived placebo and Holm correction,
 the result did not transfer to held-out diseases or groups, spatial-block validation did not improve, and
-lead-time tests were null. An earlier apparent gain was explained by county size. An exploratory second stage adding neighbouring counties' disease history and mortality, air quality, drought and static county traits also showed no gain (pooled C - A -0.011, 95% CI -0.048 to +0.020). With 81 scored events the
+lead-time tests were null. An earlier apparent gain was explained by county size. An exploratory second stage adding neighbouring counties' disease history and mortality, air quality, drought and static county traits also showed no gain (pooled C - A -0.011, 95% CI -0.048 to +0.020). A third exploratory stage using cross-disease transition signatures of the same and adjacent counties also showed no gain (pooled B - A +0.004, 95% CI -0.022 to +0.031; C - A -0.003, 95% CI -0.020 to +0.013). An exploratory third stage using the other diseases' transition signatures in the same and adjacent counties also showed no gain (pooled B - A +0.004, 95% CI -0.022 to +0.031). With 81 scored events the
 study has low power, so small effects cannot be excluded.
 
 ## 8. Related work (to verify against the full papers before citing)
@@ -164,3 +164,32 @@ suggestive. One descriptive observation: residual spatial autocorrelation of the
 is 0.10 (p = 0.076) for A and 0.12 (p = 0.056) for B, but about 0 (p of 0.40-0.45) for C and D. The neighbour
 and context features absorb the leftover spatial pattern, yet do not improve discrimination. This is a
 hypothesis for new data, not a finding.
+
+## 10. Stage 3 (exploratory): cross-disease transition signatures
+
+Pre-specified in `17_stage3_plan.md` (committed as ee54e5f before the run). Same test years and 81 events, so
+exploratory. Model A is unchanged. B adds the same county's cross-disease signature (number of other diseases
+with an up-transition, and the share of other diseases, same-group diseases and other-group diseases with a rising
+trend). C adds the same signature for adjacent counties. D adds both. The mortality block is not used in stage 3.
+
+| Result | Stage 3 |
+|---|---|
+| B - A, pooled (95% CI) | +0.004 [-0.022, +0.031] |
+| C - A, pooled | -0.003 [-0.020, +0.013] |
+| D - A, pooled | -0.005 [-0.032, +0.023] |
+| Held-out diseases, better than A (sign p): B / C / D | 7/16 (0.77), 5/16 (0.96), 7/16 (0.77) |
+| Held-out groups, better than A: B / C / D | 2/5, 2/5, 1/5 |
+| Spatial-block CV, blocks better than A (mean change): B / C / D | 3/6 (-0.006), 3/6 (-0.007), 2/6 (-0.014) |
+| Early warning, hit-rate change at 10% false alarms: B / C / D | 0.0, +3.7, +1.2 points (all CIs include 0) |
+| Groups supported after Holm | 0 of 4 (smallest N1 p_holm 0.61) |
+
+Decision rule from the plan: both primary contrasts include 0, so nothing is suggestive. The comparison group, where
+co-movement among enteric diseases would be expected, shows B - A = +0.010 [-0.027, +0.051], also not distinguishable
+from 0. Descriptive only: the residual spatial autocorrelation of errors is 0.10 (p = 0.076) for A and B but 0.047
+(p = 0.22) for C and D; the adjacent-county signature absorbs part of the spatial pattern without improving discrimination.
+Steps 07 (lead time) and 13 (confound check) use mortality and are not meaningful in stage 3.
+
+Across the three exploratory stages no contrast was positive, so correcting for the number of stages tried does not
+change the conclusion. A possible reason for the weak cross-disease result (a hypothesis, not tested) is that the
+local outcome removes the statewide yearly change, which also removes much of the shared year-to-year co-movement
+between diseases.
