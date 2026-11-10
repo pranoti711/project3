@@ -1,6 +1,6 @@
 # 17_stage3_plan.md - Stage 3 (EXPLORATORY): cross-disease transition signatures
 
-Commit this file to git BEFORE running stage 3, then write the hash here: **FILL commit hash**.
+Commit this file to git BEFORE running stage 3, then write the hash here: ee54e5fbbdf490186ed910e1e616dd589607dc23.
 
 ## Status
 Stages 1 and 2 are frozen (commits bbc9ebe and 75268e1) and are null results. Stage 3 returns to your Proposal 3:
@@ -35,3 +35,9 @@ All of these get one pooled slope. Model A is unchanged (own history + populatio
 - The "up-transition" feature (prev_up) comes from the smoother that uses all years (hindsight), as for the own history.
 - Steps 07 (lead time) and 13 (confound check) still use mortality, so their stage 3 output is not meaningful and is ignored.
 - Log messages and table headings still say "mortality" for the block that holds the cross-disease signature.
+
+## Outcome (added after the run, 2026-11-09; nothing above this line was changed)
+Run with `P3_STAGE3=1` on `model_table_stage3.csv`. Primary contrasts: B - A = +0.004 (95% CI -0.022 to +0.031);
+C - A = -0.003 (-0.020 to +0.013). Both intervals include 0, so by the rule above neither is suggestive, and no group
+beat the placebos after Holm correction. Stage 3 is an exploratory null. Tables: `05_results_stage3/` and
+`00_docs/18_stage3_results_tables.md`. As stated in the plan, this is the last stage.
