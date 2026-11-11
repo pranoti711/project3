@@ -163,7 +163,9 @@
 **Housekeeping changes.**
 - make_manifest.py, record_environment.py and run_advanced.ps1 moved to tools/.
 - Duplicate 22_tripod_probast.md removed; 20_tripod_probast.md kept.
+- Superseded drafts 20_advanced_analysis.py and 22_make_maps_and_heatmap.py removed (commit 50d7cd7); not part of the run.
 
 **Commits.** Plan and code: ed4e0b0. Results: db26fa0.
 
 **Impact on conclusions.** None to the primary analysis. The advanced layer supports describing the finding as no evidence of gain within the detectable range, not as proof of no effect.
+
