@@ -193,3 +193,34 @@ Across the three exploratory stages no contrast was positive, so correcting for 
 change the conclusion. A possible reason for the weak cross-disease result (a hypothesis, not tested) is that the
 local outcome removes the statewide yearly change, which also removes much of the shared year-to-year co-movement
 between diseases.
+
+## 11. Advanced evaluation layer (robustness and uncertainty; no new hypotheses)
+
+Choices fixed in `19_advanced_evaluation_plan.md` before running. Scripts 19-26; numbers in `20_advanced_results.md` and
+`21_supplementary_results.md`; figures in `05_results/figures_report/`. All use the stage 1 out-of-fold predictions and the
+same 81 test events, so they describe how informative the null is; they are not new tests. The equivalence margins and the
+supplementary diagnostics were chosen or added after seeing stage 1 results, so they are post-hoc.
+
+- **How small an effect is ruled out.** The 90% interval for the gain of mortality (B) over A is [-0.026, +0.026] AUC: inside
+  +/-0.03 but not inside +/-0.02. For context (C) it is [-0.004, +0.013], inside +/-0.02. The minimum detectable gain was about
+  0.045 AUC (80% power). A signal-injection test (a synthetic predictor of known strength added to model A) detected gains of
+  about 0.06 AUC in 80% of runs, and flagged a zero-strength predictor in 1 of 10 runs (expected for a 5% error rate with so
+  few runs). Smaller gains could exist and would not have been detected.
+- **Between-disease consistency.** Random-effects pooling of the per-disease gain of B over 12 diseases: -0.001 (95% CI -0.023 to
+  +0.020), no detectable heterogeneity (I2 = 0%), 95% prediction interval -0.025 to +0.023.
+- **A non-linear learner.** Gradient boosting with fixed settings: B - A = -0.004 (95% CI -0.044 to +0.033); D - A = +0.006
+  (-0.039 to +0.047). The boosted model uses the all-cause mortality deviation (shuffling it lowers AUC by about 0.035), but
+  using a feature is not the same as improving out-of-sample prediction.
+- **Practical value.** Net-benefit differences against model A are indistinguishable from zero at alarm thresholds of 2-10%.
+  Model A is well calibrated (slope 1.03, intercept 0.01) but barely beats predicting the average rate (Brier skill 0.005).
+- **Specification curve.** Every estimate of the headline mortality gain lies around zero; only the confounded first pass
+  (original outcome, no population baseline) sits outside +/-0.02.
+- **County size.** Events per quartile of county size rise from 6 (smallest) to 19, 27 and 29 (largest), and discrimination of
+  model A is 0.71, 0.61, 0.54 and 0.59. Posterior uncertainty of the trend falls with county size (Spearman -0.46), but event
+  rates still differ by county size inside each uncertainty band, so detectability explains only part of the population effect.
+- **Spatial and cross-disease detail.** County maps of events, predicted risk and observed-minus-predicted risk are in
+  `figures_report/map_*.png`. The average correlation between diseases' county-year trend slopes is only 0.05 (range -0.07 to
+  0.31), which fits the null cross-disease result of stage 3.
+- **Reporting.** `22_tripod_probast.md` maps the project to reporting-guideline topics and gives a risk-of-bias self-assessment
+  (outcome and analysis domains rated high concern); `tests/test_leakage.py` checks the leakage rules in code.
+

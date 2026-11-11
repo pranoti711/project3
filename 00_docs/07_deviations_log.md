@@ -126,6 +126,16 @@
 - **Runtime note:** several single model fits took 40-100 minutes instead of about 40 seconds (INLA stalls). Results are
   unaffected.
 
+## Advanced evaluation layer (post-hoc)
+
+- **Date:** 2026-11-11
+- **What:** Scripts 19-26: signal-injection power test, equivalence bounds, random-effects meta-analysis over diseases, gradient
+  boosting robustness, decision curve, figures and maps, a specification curve, performance by county size, calibration summary
+  and a precision diagnostic, plus unit tests for the leakage rules. The plan (`19_advanced_evaluation_plan.md`) fixes the choices
+  and is committed before running. They use stage 1 results and run no new INLA models.
+- **Status:** robustness and description, not new hypotheses. The +/-0.02 margin and the supplementary diagnostics were chosen
+  after seeing stage 1 results. The precision diagnostic uses the outcome year's posterior uncertainty and is not a predictor.
+
 ## Known limitations
 
 - Transition labels come from a smoother fitted on all years up to 2023 (hindsight). A fully clean forecast

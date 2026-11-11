@@ -84,6 +84,26 @@ python 04_scripts/14_make_report_tables.py --results 05_results_stage3 --out 18_
 Read sections 2 (delta AUC) and 4 (placebos) of `00_docs/18_stage3_results_tables.md`; ignore the lead-time and
 confound-check parts. Apply the decision rule in `17_stage3_plan.md`.
 
+## Part F - Advanced layer (no INLA refits, about 20-40 minutes)
+Run after `05_results` is the stage 1 result (check with `git status --short 05_results`).
+```powershell
+# 1. Commit the plan first (it fixes the choices), and write the hash into 00_docs/19_advanced_evaluation_plan.md
+git add -A
+git commit -m "Advanced layer plan and code"
+
+# 2. Install packages and run everything (tests first)
+pip install -r requirements.txt
+powershell -ExecutionPolicy Bypass -File tools/run_advanced.ps1
+
+# 3. Save the outputs
+git add -A
+git add -f 05_results/figures_report
+git commit -m "Advanced layer results"
+```
+Outputs: `00_docs/20_advanced_results.md`, `21_supplementary_results.md`, `23_environment.md`, `manifest.csv`,
+`05_results/figures_report/`, `05_results/tables/adv_*.csv`, `05_results_addons/`. The specification curve also reads
+`05_results_stage2`, `05_results_stage3` and `05_results_origoutcome_run` if those folders exist.
+
 ## Part D - Final tidy
 `powershell -ExecutionPolicy Bypass -File tools/cleanup.ps1`, then check `python run_from_07.py --dry-run`.
 
