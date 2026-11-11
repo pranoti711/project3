@@ -145,3 +145,25 @@
 - Only 81 events are scored; the study has low power for small effects.
 - Time-varying poverty and unemployment are not in the AHRF extract before 2022 (about 9% non-missing), so stage 2 uses static
   county traits unless the optional SAIPE/LAUS files are added.
+
+## Deviation 2026-11-11: advanced evaluation layer (exploratory, after stage 3)
+
+**What changed.** After stages 1 to 3 were frozen, an advanced evaluation layer was added using only existing data. It does not change the primary outcome, the models A to D, or the validation design. It is exploratory and was not in the pre-registered plan.
+
+**What was added.**
+- Positive-control power analysis (script 19): injected signals of known size into the stand-in model to find the smallest gain the pipeline can detect (about +0.063 AUC for 80% detection).
+- Equivalence testing and minimum detectable effect (script 20): B-A, C-A and D-A tested against margins of 0.02, 0.03 and 0.05; minimum detectable effect 0.045 AUC at 80% power.
+- Gradient-boosting robustness check (script 21): models A, B and D only (C not run); B-A -0.0089 (95% CI -0.0425 to 0.0234), D-A -0.0092 (-0.0541 to 0.0332).
+- Decision-curve analysis (script 22): net benefit differences at thresholds 0.02 to 0.10; none have a CI excluding zero.
+- Figures, supplementary diagnostics and maps (scripts 23, 25, 26), plus the auto-generated reports 20_advanced_results.md and 21_supplementary_results.md.
+- Unit tests (6 passed), environment record and file manifest (202 files).
+
+**Result.** No gain over model A in any stage or in the advanced checks. Equivalence holds for C-A within 0.02, and for B-A and D-A within 0.03. The data cannot rule out true gains below about 0.045 AUC.
+
+**Housekeeping changes.**
+- make_manifest.py, record_environment.py and run_advanced.ps1 moved to tools/.
+- Duplicate 22_tripod_probast.md removed; 20_tripod_probast.md kept.
+
+**Commits.** Plan and code: ed4e0b0. Results: db26fa0.
+
+**Impact on conclusions.** None to the primary analysis. The advanced layer supports describing the finding as no evidence of gain within the detectable range, not as proof of no effect.

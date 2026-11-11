@@ -173,3 +173,139 @@ Wrote C:\Users\Pranoti munjankar\OneDrive\Desktop\iit tirupati\PROJECT\project3\
 
 Done. Read 00_docs/20_advanced_results.md and 00_docs/21_supplementary_results.md; figures are in 05_results/figures_report/
 PS C:\Users\Pranoti munjankar\OneDrive\Desktop\iit tirupati\PROJECT\project3> 
+ Test-Path 00_docs/20_advanced_results.md
+True
+PS C:\Users\Pranoti munjankar\OneDrive\Desktop\iit tirupati\PROJECT\project3> Test-Path 00_docs/21_supplementary_results.md
+True
+PS C:\Users\Pranoti munjankar\OneDrive\Desktop\iit tirupati\PROJECT\project3> Get-ChildItem 05_results/figures_report | Select-Object Name
+
+Name
+----
+disease_comovement.png
+f1_three_stages_forest.png
+f2_auc_by_year.png
+f3_population_vs_mortality.png
+f4_calibration_model_A.png
+f5_per_disease_forest.png
+f6_power_curve.png
+f7_decision_curve.png
+f8_county_map.png
+map_events.png
+map_obs_minus_pred.png
+map_predicted_risk.png
+specification_curve.png
+
+PS C:\Users\Pranoti munjankar\OneDrive\Desktop\iit tirupati\PROJECT\project3> git add -A                                        
+warning: in the working copy of 'tools/make_manifest.py', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'tools/record_environment.py', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'tools/run_advanced.ps1', LF will be replaced by CRLF the next time Git touches it
+PS C:\Users\Pranoti munjankar\OneDrive\Desktop\iit tirupati\PROJECT\project3> git add -f 05_results/figures_report
+PS C:\Users\Pranoti munjankar\OneDrive\Desktop\iit tirupati\PROJECT\project3> git commit -m "Advanced layer results"
+[master db26fa0] Advanced layer results
+ 36 files changed, 6033 insertions(+), 261 deletions(-)
+ create mode 100644 00_docs/19_environment.md
+ create mode 100644 00_docs/20_advanced_results.md
+ create mode 100644 00_docs/21_supplementary_results.md
+ create mode 100644 00_docs/manifest.csv
+ create mode 100644 05_results/figures_report/disease_comovement.png
+ create mode 100644 05_results/figures_report/f1_three_stages_forest.png
+ create mode 100644 05_results/figures_report/f2_auc_by_year.png
+ create mode 100644 05_results/figures_report/f3_population_vs_mortality.png
+ create mode 100644 05_results/figures_report/f4_calibration_model_A.png
+ create mode 100644 05_results/figures_report/f5_per_disease_forest.png
+ create mode 100644 05_results/figures_report/f6_power_curve.png
+ create mode 100644 05_results/figures_report/f7_decision_curve.png
+ create mode 100644 05_results/figures_report/f8_county_map.png
+ create mode 100644 05_results/figures_report/map_events.png
+ create mode 100644 05_results/figures_report/map_obs_minus_pred.png
+ create mode 100644 05_results/figures_report/map_predicted_risk.png
+ create mode 100644 05_results/figures_report/specification_curve.png
+ create mode 100644 05_results/tables/adv_decision_curve.csv
+ create mode 100644 05_results/tables/adv_decision_diff.csv
+ create mode 100644 05_results/tables/adv_equivalence.csv
+ create mode 100644 05_results/tables/adv_gbm_delta.csv
+ create mode 100644 05_results/tables/adv_gbm_importance.csv
+ create mode 100644 05_results/tables/adv_gbm_oof.csv
+ create mode 100644 05_results/tables/adv_gbm_scores.csv
+ create mode 100644 05_results/tables/adv_mde.csv
+ create mode 100644 05_results/tables/adv_meta_analysis.csv
+ create mode 100644 05_results/tables/adv_per_disease_delta.csv
+ create mode 100644 05_results/tables/adv_power_curve.csv
+ create mode 100644 05_results/tables/adv_supp_calibration_summary.csv
+ create mode 100644 05_results/tables/adv_supp_performance_by_county_size.csv
+ create mode 100644 05_results/tables/adv_supp_precision_diagnostic.csv
+ create mode 100644 05_results/tables/adv_supp_specification_curve.csv
+ rename {04_scripts => tools}/make_manifest.py (100%)
+ rename {04_scripts => tools}/record_environment.py (100%)
+ rename run_advanced.ps1 => tools/run_advanced.ps1 (93%)
+PS C:\Users\Pranoti munjankar\OneDrive\Desktop\iit tirupati\PROJECT\project3> git rev-parse HEAD
+db26fa096cb4eceb1bf1bbc43b7441256e010f37
+PS C:\Users\Pranoti munjankar\OneDrive\Desktop\iit tirupati\PROJECT\project3> 
+Test-Path 00_docs/20_advanced_results.md
+True
+PS C:\Users\Pranoti munjankar\OneDrive\Desktop\iit tirupati\PROJECT\project3> Test-Path 00_docs/21_supplementary_results.md
+True
+PS C:\Users\Pranoti munjankar\OneDrive\Desktop\iit tirupati\PROJECT\project3> Get-ChildItem 05_results/figures_report | Select-Object Name
+
+Name
+----
+disease_comovement.png
+f1_three_stages_forest.png
+f2_auc_by_year.png
+f3_population_vs_mortality.png
+f4_calibration_model_A.png
+f5_per_disease_forest.png
+f6_power_curve.png
+f7_decision_curve.png
+f8_county_map.png
+map_events.png
+map_obs_minus_pred.png
+map_predicted_risk.png
+specification_curve.png
+
+PS C:\Users\Pranoti munjankar\OneDrive\Desktop\iit tirupati\PROJECT\project3> git add -A                                        
+warning: in the working copy of 'tools/make_manifest.py', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'tools/record_environment.py', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'tools/run_advanced.ps1', LF will be replaced by CRLF the next time Git touches it
+PS C:\Users\Pranoti munjankar\OneDrive\Desktop\iit tirupati\PROJECT\project3> git add -f 05_results/figures_report
+PS C:\Users\Pranoti munjankar\OneDrive\Desktop\iit tirupati\PROJECT\project3> git commit -m "Advanced layer results"
+[master db26fa0] Advanced layer results
+ 36 files changed, 6033 insertions(+), 261 deletions(-)
+ create mode 100644 00_docs/19_environment.md
+ create mode 100644 00_docs/20_advanced_results.md
+ create mode 100644 00_docs/21_supplementary_results.md
+ create mode 100644 00_docs/manifest.csv
+ create mode 100644 05_results/figures_report/disease_comovement.png
+ create mode 100644 05_results/figures_report/f1_three_stages_forest.png
+ create mode 100644 05_results/figures_report/f2_auc_by_year.png
+ create mode 100644 05_results/figures_report/f3_population_vs_mortality.png
+ create mode 100644 05_results/figures_report/f4_calibration_model_A.png
+ create mode 100644 05_results/figures_report/f5_per_disease_forest.png
+ create mode 100644 05_results/figures_report/f6_power_curve.png
+ create mode 100644 05_results/figures_report/f7_decision_curve.png
+ create mode 100644 05_results/figures_report/f8_county_map.png
+ create mode 100644 05_results/figures_report/map_events.png
+ create mode 100644 05_results/figures_report/map_obs_minus_pred.png
+ create mode 100644 05_results/figures_report/map_predicted_risk.png
+ create mode 100644 05_results/figures_report/specification_curve.png
+ create mode 100644 05_results/tables/adv_decision_curve.csv
+ create mode 100644 05_results/tables/adv_decision_diff.csv
+ create mode 100644 05_results/tables/adv_equivalence.csv
+ create mode 100644 05_results/tables/adv_gbm_delta.csv
+ create mode 100644 05_results/tables/adv_gbm_importance.csv
+ create mode 100644 05_results/tables/adv_gbm_oof.csv
+ create mode 100644 05_results/tables/adv_gbm_scores.csv
+ create mode 100644 05_results/tables/adv_mde.csv
+ create mode 100644 05_results/tables/adv_meta_analysis.csv
+ create mode 100644 05_results/tables/adv_per_disease_delta.csv
+ create mode 100644 05_results/tables/adv_power_curve.csv
+ create mode 100644 05_results/tables/adv_supp_calibration_summary.csv
+ create mode 100644 05_results/tables/adv_supp_performance_by_county_size.csv
+ create mode 100644 05_results/tables/adv_supp_precision_diagnostic.csv
+ create mode 100644 05_results/tables/adv_supp_specification_curve.csv
+ rename {04_scripts => tools}/make_manifest.py (100%)
+ rename {04_scripts => tools}/record_environment.py (100%)
+ rename run_advanced.ps1 => tools/run_advanced.ps1 (93%)
+PS C:\Users\Pranoti munjankar\OneDrive\Desktop\iit tirupati\PROJECT\project3> git rev-parse HEAD
+db26fa096cb4eceb1bf1bbc43b7441256e010f37
+PS C:\Users\Pranoti munjankar\OneDrive\Desktop\iit tirupati\PROJECT\project3> 
