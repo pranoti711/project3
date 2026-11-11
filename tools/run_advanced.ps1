@@ -4,12 +4,13 @@
 #        and: pip install -r requirements.txt
 # Commit 00_docs/19_advanced_evaluation_plan.md to git BEFORE running this (it fixes the choices in advance).
 $ErrorActionPreference = "Stop"
+Set-Location (Split-Path -Parent $PSScriptRoot)
 function Step($name, $cmd) {
   Write-Host "`n=== $name ===" -ForegroundColor Cyan
   Invoke-Expression $cmd
   if ($LASTEXITCODE -ne 0) { Write-Host "FAILED: $name" -ForegroundColor Red; exit 1 }
 }
-Step "0  unit tests"            "python -m pytest tests -q"
+Step "0  unit tests"            "python -m pytest 04_scripts -q"
 Step "19 positive control"      "python 04_scripts/19_positive_control_power.py"
 Step "20 equivalence + power"   "python 04_scripts/20_equivalence_power.py --boot 1000"
 Step "21 gradient boosting"     "python 04_scripts/21_gbm_robustness.py --boot 500"
