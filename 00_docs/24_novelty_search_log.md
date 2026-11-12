@@ -27,11 +27,11 @@ Gonsalves et al. and a machine-learning neighbourhood vulnerability study) that 
 | Marks et al., Transl Res 2021 (review) | 46 studies on detection, risk assessment, prediction of opioid epidemics; search to Jan 2021 | Full text read | Risk assessments lack validation; geospatial work mainly explanatory; infection prediction used dynamic models. Supports gap. |
 | Van Handel et al., JAIDS 2016 | Acute HCV as IDU proxy, 15 indicators, 6 retained incl. overdose deaths; 220 counties ranked | Abstract and summaries | Cross-sectional; mortality is an indicator; no validation per Marks review. |
 | Rickles et al., CID 2018 | Tennessee version; opioid-related mortality an indicator | Abstract and Marks table | Cross-sectional ranking. |
-| Sumetsky et al., JECH 2019 | PA ZIP codes 2004-2014; previous-year opioid hospitalisations vs HCV/HIV | Abstract | Lagged association; no out-of-sample test. |
-| Gezer et al., Lancet Public Health 2024 | SC ZIP codes; train 2016-20, validate 2021; all-cause mortality among factors (RR 1.18 per SD) | Abstract and snippets of full text | Closest study; one state, hospitalisation counts, no incremental or placebo design. |
-| Gonsalves et al., OFID 2021 and CID 2023 | Massachusetts distributed-lag models; overdose lagged ~8 months vs HIV in Lawrence/Lowell; statewide no overdose association | Abstracts | Lagged mortality-infection association in one setting, not predictive per the authors. |
+| Sumetsky et al., JECH 2019 | Bayesian spatiotemporal Poisson (CAR), PA ZIP codes 2004-2014; previous-year opioid hospitalisations vs HCV/HIV | Abstract checked 2026-11-12 | Association (RR 1.09 HCV, 1.10 HIV); exposure is hospitalisation, not mortality; no out-of-sample test. |
+| Gezer et al., Lancet Public Health 2024 | SC ZIP codes; train 2016-20, validate 2021; accuracy = median percent agreement of predicted vs observed counts from fully adjusted NB mixed models using previous counts; all-cause mortality per 1,000 among factors (RR 1.18 per SD, combined outcome) | Abstract and full-text snippets (PMC blocked automated access) | Closest study; one state, hospitalisation counts, no ablation of mortality, no placebo design. Association models were adjusted for time and a population offset; whether mortality stays significant in the fully adjusted model is not verified (read Table 2). |
+| Gonsalves et al., OFID 2021 and CID 2023 | OFID: Lawrence/Lowell 2005-2018, overdose 8 months earlier RR 1.03 (90% CrI 1.00-1.06) for HIV. CID: all Massachusetts ZIP codes 2005-2018, monthly HIV presence, ages 15-50; HCV and SSTI preceded HIV, no overdose association | Abstracts and methods snippets | Lagged mortality-infection association in one setting only; authors state the lagged associations are not predictive of outbreaks. |
 | Marks et al., Lancet Public Health 2021; Bauer 2023; Patton 2025; Sumetsky 2021 | Forecast overdose itself | Abstracts | Related, outcome is mortality. |
-| Gizamba et al., BMC Public Health 2026 | HCV risk in LA County ZIP codes with machine learning | Not read (abstract not seen) | Check predictors. |
+| Gizamba et al., BMC Public Health 2026 | Cross-sectional, 245 LA County ZIP codes, Elastic Net and random forest, hepatitis C rate ages 18-39; 49 very high risk; nine variables of importance | Abstract only | Cross-sectional, no temporal holdout; predictor list not seen (check whether overdose mortality is included). |
 | Cohen 2003; Abara 2019 | Premature mortality and gonorrhoea (cities); opioid prescribing and gonorrhoea (counties) | Titles only | Verify. |
 
 ## Notes for the discussion
@@ -43,5 +43,5 @@ Gonsalves et al. and a machine-learning neighbourhood vulnerability study) that 
 ## Still to do
 - Run a looser PubMed string (drop the forecasting block; add "risk" and "vulnerab*") and record the hit count.
 - Search Embase, Web of Science, Scopus, medRxiv and arXiv; record strings and counts.
-- Read in full: Gezer 2024, Sumetsky 2019, Gonsalves 2021 and 2023, Gizamba 2026; verify Cohen 2003, Abara 2019, Bauer 2023, Patton 2025.
+- Read Table 2, Table 3 and the accuracy method in Gezer 2024 in a browser; read the Gizamba 2026 predictor list; verify Cohen 2003, Abara 2019, Patton 2025.
 - Citation-chase forward from Gezer 2024 and from the Marks et al. review for 2021-2026 studies.

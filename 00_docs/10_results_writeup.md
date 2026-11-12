@@ -123,7 +123,7 @@ lead-time tests were null. An earlier apparent gain was explained by county size
 
 Verification status. Full text read: Drewes et al. 2021; Marks et al. 2021 (Transl Res review). Abstract and parts of the full text seen:
 Van Handel et al. 2016, Gezer et al. 2024, Sumetsky et al. 2019, Rickles et al. 2018, Gonsalves et al. 2021 and 2023. Not yet checked: Cohen et al.
-2003, Abara et al. 2019, Bauer et al. 2023, Patton et al. 2025, Gizamba et al. 2026, and the methods references. Full entries for the
+2003, Abara et al. 2019, Bauer et al. 2023, Patton et al. 2025, and the methods references. Full entries for the
 earlier references are in `06_paper/references.bib`.
 
 - **Vulnerability assessments (cross-sectional).** Van Handel et al. (2016) regressed county acute hepatitis C in 2012-2013, a proxy
@@ -131,21 +131,18 @@ earlier references are in `06_paper/references.bib`.
   income, race and ethnicity, unemployment and buprenorphine capacity, and 220 counties in 26 states were ranked as most vulnerable.
   Tennessee (Rickles et al., 2018) and Utah versions followed, and Rickles et al. used opioid-related mortality as an indicator. The
   Marks et al. (2021) review notes that the scores were computed on the same data used to fit the models and that no internal or external
-  validation was applied. These assessments therefore assume that overdose mortality marks infection risk but did not test it out of
-  sample.
+  validation was applied. These assessments therefore assume that overdose mortality marks infection risk but did not test it out of sample. Cross-sectional machine-learning risk mapping continues (Gizamba et al., 2026: hepatitis C in 245 Los Angeles County ZIP codes with Elastic Net and random forest; its predictor set has not been checked).
 - **Association and lag studies.** Drewes et al. (2021) analysed 245 Northeast US counties in three two-year windows (2012-2017) with
   negative binomial mixed models. After adjustment, opioid death rates were not associated with gonorrhoea, chlamydia or HIV, except
   for gonorrhoea in urban counties (rate ratio 1.11, 95% CI 1.02 to 1.20; none in rural counties); the homicide rate was also associated
-  with urban gonorrhoea (1.28). In Pennsylvania ZIP codes, previous-year opioid-related hospitalisations were associated with higher
-  HCV and HIV hospitalisations (Sumetsky et al., 2019). In Lawrence and Lowell, Massachusetts, fatal overdoses about 8 months earlier
-  were associated with current-month HIV counts, although the authors state they were not making short-term predictions (Gonsalves
-  et al., 2021). In a statewide Massachusetts analysis, earlier HCV and skin and soft tissue infections preceded HIV rises, overdose
+  with urban gonorrhoea (1.28). In Pennsylvania ZIP codes (2004-2014), Bayesian spatiotemporal Poisson models found previous-year opioid-related hospitalisations associated with higher HCV and HIV hospitalisations (rate ratios about 1.09 and 1.10; Sumetsky et al., 2019); the exposure is hospitalisation, not mortality, and the paper reports association, not prediction. In Lawrence and Lowell, Massachusetts, fatal overdoses about 8 months earlier
+  were associated with current-month HIV counts (rate ratio 1.03 per additional overdose, 90% credible interval 1.00 to 1.06), although the authors state they were not making short-term predictions (Gonsalves
+  et al., 2021). In a statewide Massachusetts analysis at ZIP-code level (2005-2018, monthly presence of HIV), earlier HCV and skin and soft tissue infections preceded HIV rises, overdose
   showed no such association, and the authors concluded the lagged associations cannot be described as predictive of HIV outbreaks
   (Gonsalves et al., 2023). Older ecological studies linked premature mortality (Cohen et al., 2003) and opioid prescribing trends
   (Abara et al., 2019) with gonorrhoea rates; these two are not yet verified.
 - **Area-level prediction with a temporal holdout.** In South Carolina ZIP codes, mixed-effects negative binomial models trained on
-  2016-2020 hospitalisations were validated on 2021 (median accuracy about 80% for opioid-related and 75% for HCV-related
-  hospitalisations), and all-cause mortality per 1,000 residents was among the associated factors (rate ratio 1.18 per standard
+  2016-2020 hospitalisations were validated on 2021 (median percent agreement between predicted and observed counts about 80% for opioid-related and 75% for HCV-related hospitalisations, using fully adjusted models and previous hospitalisation counts), and all-cause mortality per 1,000 residents was among the associated factors (rate ratio 1.18 per standard
   deviation for the combined outcome; Gezer et al., 2024). This is the closest study found. It differs from ours in outcome
   (hospitalisation counts, not transition events), geography (one state), diseases (HCV and opioid-related admissions) and design (the
   mortality measure is all-cause, there is no incremental comparison against a population-adjusted baseline, and there are no placebo or
