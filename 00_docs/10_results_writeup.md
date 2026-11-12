@@ -107,6 +107,8 @@ interpreting any gain, and check that any placebo can actually separate the hypo
   robustness check; the headline analysis is tau 0.80.
 - The drug-linked hypothesis (H2) could not be tested because no county-level drug-linked series is available
   (Part B of the prereg is the plan for that).
+- The equivalence margins (+/-0.02, 0.03, 0.05), the supplementary diagnostics and the second advanced layer (script 27) were chosen after seeing stage 1 results, so they are post-hoc. Equivalence within +/-0.02 holds only for the context contrast (C - A); for mortality (B - A) and the combined model (D - A) it holds within +/-0.03.
+- Bootstrap shares reported in section 12 are frequentist approximations to a region-of-practical-equivalence statement, not posterior probabilities.
 
 ## 7. Conclusion (paste-ready)
 
@@ -114,8 +116,7 @@ After controlling for county population and using within-county lagged mortality
 adds no detectable out-of-sample predictive value for next-year infectious-disease up-transitions in California
 (pooled change in AUC +0.001, 95% CI -0.028 to +0.034). No disease group survived placebo and Holm correction,
 the result did not transfer to held-out diseases or groups, spatial-block validation did not improve, and
-lead-time tests were null. An earlier apparent gain was explained by county size. An exploratory second stage adding neighbouring counties' disease history and mortality, air quality, drought and static county traits also showed no gain (pooled C - A -0.011, 95% CI -0.048 to +0.020). A third exploratory stage using cross-disease transition signatures of the same and adjacent counties also showed no gain (pooled B - A +0.004, 95% CI -0.022 to +0.031; C - A -0.003, 95% CI -0.020 to +0.013). An exploratory third stage using the other diseases' transition signatures in the same and adjacent counties also showed no gain (pooled B - A +0.004, 95% CI -0.022 to +0.031). With 81 scored events the
-study has low power, so small effects cannot be excluded.
+lead-time tests were null. An earlier apparent gain was explained by county size. An exploratory second stage adding neighbouring counties' disease history and mortality, air quality, drought and static county traits also showed no gain (pooled C - A -0.011, 95% CI -0.048 to +0.020). A third exploratory stage using cross-disease transition signatures of the same and adjacent counties also showed no gain (pooled B - A +0.004, 95% CI -0.022 to +0.031; C - A -0.003, 95% CI -0.020 to +0.013). Two advanced evaluation layers (equivalence and power, gradient boosting, decision curves, proper scoring rules and calibration intervals) also showed no gain (sections 11 and 12). With 81 scored events the study has low power: gains below about 0.045 AUC could not be reliably detected, so small effects cannot be excluded.
 
 ## 8. Related work (to verify against the full papers before citing)
 
@@ -196,7 +197,7 @@ between diseases.
 
 ## 11. Advanced evaluation layer (robustness and uncertainty; no new hypotheses)
 
-Choices fixed in `19_advanced_evaluation_plan.md` before running. Scripts 19-26; numbers in `20_advanced_results.md` and
+Choices fixed in `19_advanced_evaluation_plan.md` before running. Scripts 19-26 (the second layer, script 27, is section 12); numbers in `20_advanced_results.md` and
 `21_supplementary_results.md`; figures in `05_results/figures_report/`. All use the stage 1 out-of-fold predictions and the
 same 81 test events, so they describe how informative the null is; they are not new tests. The equivalence margins and the
 supplementary diagnostics were chosen or added after seeing stage 1 results, so they are post-hoc.
@@ -208,19 +209,46 @@ supplementary diagnostics were chosen or added after seeing stage 1 results, so 
   few runs). Smaller gains could exist and would not have been detected.
 - **Between-disease consistency.** Random-effects pooling of the per-disease gain of B over 12 diseases: -0.001 (95% CI -0.023 to
   +0.020), no detectable heterogeneity (I2 = 0%), 95% prediction interval -0.025 to +0.023.
-- **A non-linear learner.** Gradient boosting with fixed settings: B - A = -0.004 (95% CI -0.044 to +0.033); D - A = +0.006
-  (-0.039 to +0.047). The boosted model uses the all-cause mortality deviation (shuffling it lowers AUC by about 0.035), but
+- **A non-linear learner.** Gradient boosting with fixed settings (models A, B and D): B - A = -0.009 (95% CI -0.043 to +0.023); D - A = -0.009 (-0.054 to +0.033). The boosted model uses the all-cause mortality deviation (shuffling it lowers AUC by about 0.033), but
   using a feature is not the same as improving out-of-sample prediction.
 - **Practical value.** Net-benefit differences against model A are indistinguishable from zero at alarm thresholds of 2-10%.
   Model A is well calibrated (slope 1.03, intercept 0.01) but barely beats predicting the average rate (Brier skill 0.005).
-- **Specification curve.** Every estimate of the headline mortality gain lies around zero; only the confounded first pass
-  (original outcome, no population baseline) sits outside +/-0.02.
+- **Specification curve.** Every estimate of the headline mortality gain lies around zero; only the confounded first pass (original outcome, no population baseline; +0.025 to +0.036) and the 0.70 stand-in cut-off (-0.025) sit outside +/-0.02, the first in the positive and the second in the negative direction.
 - **County size.** Events per quartile of county size rise from 6 (smallest) to 19, 27 and 29 (largest), and discrimination of
   model A is 0.71, 0.61, 0.54 and 0.59. Posterior uncertainty of the trend falls with county size (Spearman -0.46), but event
-  rates still differ by county size inside each uncertainty band, so detectability explains only part of the population effect.
+  rates still differ by county size inside each uncertainty band, so detectability may explain only part of the population effect (the cells hold between 1 and 17 events, so this is descriptive).
 - **Spatial and cross-disease detail.** County maps of events, predicted risk and observed-minus-predicted risk are in
   `figures_report/map_*.png`. The average correlation between diseases' county-year trend slopes is only 0.05 (range -0.07 to
   0.31), which fits the null cross-disease result of stage 3.
-- **Reporting.** `22_tripod_probast.md` maps the project to reporting-guideline topics and gives a risk-of-bias self-assessment
-  (outcome and analysis domains rated high concern); `tests/test_leakage.py` checks the leakage rules in code.
+- **Reporting.** `20_tripod_probast.md` maps the project to reporting-guideline topics and gives a risk-of-bias self-assessment
+  (outcome and analysis domains rated high concern); `04_scripts/test_leakage.py` checks the leakage rules in code.
 
+## 12. Second advanced layer (proper scoring rules and influence; post-hoc, no new hypotheses)
+
+Script 27 (`27_proper_scoring_and_influence.py`, numbers in `23_proper_scoring_results.md`, tables `adv2_*.csv`). Same
+stage 1 out-of-fold predictions and 81 events; 1,000 county-cluster bootstrap draws. Added after the first advanced layer
+and not part of `19_advanced_evaluation_plan.md`, so it is post-hoc. AUC only looks at ranking; proper scoring rules also
+see calibration and are a stricter test of whether mortality adds information.
+
+| Contrast with A | Log-loss difference (95% CI) | Brier difference (95% CI) |
+|---|---|---|
+| B (mortality) | +0.0007 [-0.0007, +0.0018] | +0.0001 [-0.0000, +0.0002] |
+| C (context) | -0.0002 [-0.0004, +0.0001] | -0.0000 [-0.0000, +0.0000] |
+| D (all) | +0.0005 [-0.0009, +0.0017] | +0.0001 [-0.0000, +0.0002] |
+
+Positive differences mean the model is worse than A. No interval excludes zero, and B and D are on the worse side of zero
+in 81% and 76% of bootstrap draws for log-loss.
+
+- **Calibration.** Calibration slope: A 1.030 (95% CI 0.783 to 1.299), B 0.881 (0.637 to 1.144). Intercept in the large
+  with the slope fixed at 1: A -0.098 (-0.33 to +0.095), B -0.108 (-0.35 to +0.087). B's slope is lower than A's, but its
+  interval includes 1, so over-confidence of B is not demonstrated. The B intercept of -0.524 in
+  `21_supplementary_results.md` comes from a fit with a free slope and is not comparable to the fixed-slope intercept here.
+- **Bootstrap probability statements** (shares of draws, not posterior probabilities). B - A lies inside +/-0.02 AUC in 81% of
+  draws, inside +/-0.03 in 94% and inside +/-0.05 in 99%; the share of draws with a gain above 0.05 is 0.5%. For D - A the
+  shares are 79%, 93% and 99%. C - A lies inside +/-0.02 in all draws.
+- **Leave-one-disease-out.** Dropping each of the 16 diseases in turn moves B - A between -0.004 and +0.006, and no interval
+  excludes zero, so no single disease drives or hides an effect. Four diseases (Listeriosis, Lyme Disease, Salmonellosis,
+  Vibrio Infection) leave the estimate unchanged, consistent with having no scored events.
+
+Taken together with section 11, the proper-scoring and calibration checks agree with the AUC result: no evidence that
+mortality improves out-of-sample prediction, within the limits of 81 events.
