@@ -118,29 +118,48 @@ adds no detectable out-of-sample predictive value for next-year infectious-disea
 the result did not transfer to held-out diseases or groups, spatial-block validation did not improve, and
 lead-time tests were null. An earlier apparent gain was explained by county size. An exploratory second stage adding neighbouring counties' disease history and mortality, air quality, drought and static county traits also showed no gain (pooled C - A -0.011, 95% CI -0.048 to +0.020). A third exploratory stage using cross-disease transition signatures of the same and adjacent counties also showed no gain (pooled B - A +0.004, 95% CI -0.022 to +0.031; C - A -0.003, 95% CI -0.020 to +0.013). Two advanced evaluation layers (equivalence and power, gradient boosting, decision curves, proper scoring rules and calibration intervals) also showed no gain (sections 11 and 12). With 81 scored events the study has low power: gains below about 0.045 AUC could not be reliably detected, so small effects cannot be excluded.
 
-## 8. Related work (to verify against the full papers before citing)
+## 8. Related work (screened 2026-11-12; verify every entry against the full paper before citing)
 
-Citations below come from a web search of abstracts and snippets on 2026-11-06, not from reading the papers.
-Full entries are in `06_paper/references.bib`; confirm each one before it goes into a manuscript.
+Sources: PubMed searches on 2026-11-12 (two strings, see `24_novelty_search_log.md`) plus web searches. Most entries below were
+judged from titles and abstracts only. Full entries for the earlier references are in `06_paper/references.bib`.
 
-- County vulnerability assessments for HIV and hepatitis C outbreaks among people who inject drugs use acute
-  hepatitis C as a proxy outcome and include drug overdose deaths among the indicators (Van Handel et al., 2016).
-  They rank counties at one time point; they do not forecast next-year transitions out of sample.
-- Association studies of opioid mortality and sexually transmitted infections in Northeast US counties
-  (2012-2017) found no significant association after adjustment, except for gonorrhea in urban counties
-  (Drewes et al., 2020). That is consistent with the null result here.
-- A distributed-lag study in Massachusetts reported that lagged associations were not predictive of HIV
-  outbreaks (to verify).
-- Flagging areas by posterior probability of elevated risk with a cut-off of 70-80% is established in disease
-  mapping, and the rule is conservative for small counts (Richardson et al., 2004).
-- Negative-control exposures and outcomes for detecting confounding (Lipsitch et al., 2010) and leave-future-out
-  validation for time series (Burkner et al., 2020) underlie the placebo, surrogate-disease and temporal
-  validation designs.
+- **Vulnerability assessments for HIV and hepatitis C outbreaks.** County or ZIP-code assessments for rapid dissemination of HIV or
+  HCV among people who inject drugs use acute hepatitis C as a proxy outcome and overdose-related indicators among predictors
+  (Van Handel et al., 2016; Rickles et al., 2018 for Tennessee). They rank areas at one time point and do not evaluate
+  forecasts of next-year transitions out of sample.
+- **Lagged associations with infection.** In Pennsylvania ZIP codes, previous-year opioid-related hospitalisations were associated
+  with higher HCV and HIV hospitalisations after adjustment (Sumetsky et al., 2019). In Northeast US counties, opioid death rates
+  were studied against gonorrhoea, chlamydia and HIV rates in 2012-2017 (Drewes et al., 2020); the pattern by urbanicity must be
+  checked against the full text before it is described. Older ecological work linked premature mortality with gonorrhoea rates
+  across US cities (Cohen et al., 2003). These are association studies, not tests of incremental out-of-sample prediction.
+- **Area-level prediction with a temporal holdout.** In South Carolina ZIP codes, models trained on 2016-2020 predicted 2021
+  opioid-related and HCV-related hospitalisations, and an area mortality measure was among the associated factors (Gezer et al.,
+  2024). This is the closest study found. It differs from ours in outcome (hospitalisation counts, not transition events), geography
+  (one state), number of diseases (one) and design (no placebo or held-out-disease controls, no population-adjusted
+  incremental comparison).
+- **Forecasting overdose itself.** County and small-area forecasts of overdose mortality (Marks et al., 2021, Lancet Public Health;
+  Bauer et al., 2023) and early-warning alerts for overdose outbreaks (Patton et al., 2025) predict mortality, not infectious
+  disease. A narrative review covers prediction methods for opioid-related epidemics (Marks et al., 2021, Transl Res); its included
+  studies still need to be checked for infectious-disease outcomes.
+- **Methods behind the design.** Flagging areas by posterior probability of elevated risk with a 70-80% cut-off is established in
+  disease mapping and is conservative for small counts (Richardson et al., 2004). Negative-control exposures and outcomes
+  (Lipsitch et al., 2010) and leave-future-out validation (Burkner et al., 2020) underlie the placebo, surrogate-disease and
+  temporal validation designs.
 
-Position, with the limits of the search stated: to my knowledge, and based on the limited searches logged in
-`03_phase0_part2_novelty.md`, I found no study that evaluates mortality series as out-of-sample predictors of
-county-level infectious-disease up-transition events with placebo and held-out-disease controls. This must be
-re-checked with a systematic PubMed search before it is claimed in any submission.
+Removed from the earlier draft: a "distributed-lag study in Massachusetts" that was never traced to a source.
+
+**How the results relate to earlier work.** Prior area-level studies mostly report positive associations of opioid-related
+indicators with HCV, HIV or STI outcomes. Our question is different: whether mortality adds out-of-sample predictive value after
+adjusting for county population. Our first-pass confounded run showed how county size can create an apparent gain; whether size or
+detectability also partly explains earlier associations is a hypothesis, not a finding, because the exposures, outcomes and
+geographies differ.
+
+**Position, with the limits of the search stated.** To our knowledge, and after PubMed searches on 2026-11-12 supplemented by web
+searches, we found no study that tests whether county mortality adds out-of-sample predictive value for infectious-disease
+up-transition events across multiple diseases, against a population-adjusted baseline, with placebo and held-out-disease controls.
+Limits: only PubMed was searched systematically; Embase, Web of Science, Scopus and preprint servers are not yet searched; the full
+texts of Gezer et al. 2024, the Marks et al. 2021 review and Gizamba et al. 2026 are not yet read; and the narrow search string
+missed at least one relevant paper that a web search found. This must be re-checked before any claim of novelty in a submission.
 
 ## 9. Stage 2 (exploratory): neighbour counties, context and static county traits
 
