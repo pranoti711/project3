@@ -19,6 +19,7 @@ Step "23 figures and map"       "python 04_scripts/23_make_figures.py"
 Step "24 advanced report"       "python 04_scripts/24_write_advanced_report.py"
 Step "25 supplementary"         "python 04_scripts/25_supplementary_diagnostics.py"
 Step "26 maps and co-movement"  "python 04_scripts/26_maps_and_comovement.py"
+Step "27 proper scoring + influence" "python 04_scripts/27_proper_scoring_and_influence.py --boot 1000"
 Step "environment record"       "python tools/record_environment.py"
 Step "file manifest"            "python tools/make_manifest.py"
 Write-Host "`nDone. Read 00_docs/20_advanced_results.md and 00_docs/21_supplementary_results.md; figures are in 05_results/figures_report/" -ForegroundColor Green

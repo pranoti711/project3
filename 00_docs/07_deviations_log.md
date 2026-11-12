@@ -169,3 +169,17 @@
 
 **Impact on conclusions.** None to the primary analysis. The advanced layer supports describing the finding as no evidence of gain within the detectable range, not as proof of no effect.
 
+
+## Deviation 2026-11-12: second advanced layer (exploratory, after advanced-freeze)
+
+**What changed.** Script 27 added proper scoring rules, calibration intervals, bootstrap probability statements and a leave-one-disease-out check. It uses only the saved stage 1 out-of-sample predictions. It does not change the primary outcome, models A to D or the validation design, and it was not in the pre-registered plan.
+
+**Results.**
+- Log-loss B-A +0.0007 (95% CI -0.0007 to +0.0018); C-A -0.0002 (-0.0004 to +0.0001); no interval excludes zero.
+- Calibration slope A 1.030 and B 0.881 (95% CI 0.637 to 1.144); intercept in the large -0.098 (A) and -0.108 (B). Over-confidence of B is not demonstrated.
+- Share of bootstrap draws with B-A inside +/-0.03 AUC: 0.94; probability of a gain above 0.05: 0.005 (bootstrap shares, not posterior probabilities).
+- Leave-one-disease-out B-A ranges from -0.0043 to +0.0058; no interval excludes zero.
+
+**Correction.** The earlier supplementary table reported a B calibration intercept of -0.524 (free-slope fit). That figure is not comparable to the fixed-slope intercept above and should not be described as miscalibration.
+
+**Impact on conclusions.** None. The finding remains no evidence of gain within the detectable range.
