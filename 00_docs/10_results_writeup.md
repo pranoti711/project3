@@ -122,7 +122,7 @@ lead-time tests were null. An earlier apparent gain was explained by county size
 
 ## 8. Related work (checked 2026-11-12 against full text or abstracts; see `24_novelty_search_log.md`)
 
-Verification status. Full text read: Drewes et al. 2021; Marks et al. 2021 (Transl Res review); Gizamba et al. 2026; the CDPH California assessment; Kidd et al. 2019 and Shover et al. 2020 were checked at abstract and summary level. Abstract and parts of the full text seen:
+Verification status. Full text read: Drewes et al. 2021; Marks et al. 2021 (Transl Res review); Gizamba et al. 2026; the CDPH California assessment. Abstract and summary level only: Kidd et al. 2019 and Shover et al. 2020. Abstract and parts of the full text seen:
 Van Handel et al. 2016, Gezer et al. 2024, Sumetsky et al. 2019, Rickles et al. 2018, Gonsalves et al. 2021 and 2023. Not yet checked: Cohen et al.
 2003, Abara et al. 2019, Bauer et al. 2023, Patton et al. 2025; Lipsitch 2010, Burkner 2020 and Richardson 2004 were checked on 2026-11-13; the wider review is in `25_topic_literature_review.md`. Full entries for the
 earlier references are in `06_paper/references.bib`.
@@ -279,3 +279,4 @@ in 81% and 76% of bootstrap draws for log-loss.
 
 Taken together with section 11, the proper-scoring and calibration checks agree with the AUC result: no evidence that
 mortality improves out-of-sample prediction, within the limits of 81 events.
+
