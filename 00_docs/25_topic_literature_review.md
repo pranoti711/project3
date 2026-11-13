@@ -17,8 +17,7 @@ TITLE = title or citation only. Verify every entry against the paper before citi
   Lawrence and Lowell (rate ratio 1.03, 90% CrI 1.00 to 1.06); Gonsalves et al. (2023): no overdose association statewide (ABSTRACT).
 - Abara et al. (opioid prescribing trends and gonorrhoea in US counties, 2010-2015): positive association that weakened over the period; the
   authors note possible confounding by men who have sex with men (ABSTRACT).
-- Individual-level link: methamphetamine and injection drug use among people with primary and secondary syphilis (Kidd et al., MMWR 2019;
-  TITLE). Individual links do not imply that county mortality predicts county infection counts.
+- Individual-level link: methamphetamine and injection drug use among people with primary and secondary syphilis (Kidd et al., MMWR 2019; ABSTRACT, details in section 8). Individual links do not imply that county mortality predicts county infection counts.
 Reading: the link is plausible and sometimes significant in association models, but no study reports a test of added predictive value.
 
 ## 2. Prediction and validation evidence
@@ -45,7 +44,7 @@ Reading: the missing piece is an incremental, out-of-sample, placebo-controlled 
 - CDC WONDER suppresses county counts of 1 to 9 deaths and flags counts under 20 as unreliable; suppression falls mostly on small, rural counties
   (ABSTRACT-level sources, including County Health Rankings documentation). In this panel 43% of drug-overdose and suicide rows and 66% of
   homicide rows were missing (write-up section 5).
-- Fentanyl-related mortality rose steeply west of the Mississippi later than in the East (Drug Alcohol Depend 2020;216:108314; TITLE). Whether this
+- Fentanyl-related mortality rose steeply west of the Mississippi later than in the East (Shover et al., Drug Alcohol Depend 2020;216:108314; ABSTRACT, details in section 8). Whether this
   limited exposure variation in California during 2017-2020 is a hypothesis, not a finding.
 
 ## 5. Evaluation and reporting methods
@@ -68,5 +67,38 @@ Reading: the missing piece is an incremental, out-of-sample, placebo-controlled 
    an operational early-warning system.
 
 ## 7. Still to verify
-Gezer 2024 Table 2 and the accuracy formula; Gizamba 2026 predictor list; Sumetsky 2019, Gonsalves 2021 and 2023 full text; Kidd 2019; the
-fentanyl-timing paper; Abellan 2008; Leening 2014 page numbers; Embase, Web of Science, Scopus and preprint searches.
+Gezer 2024 Table 2 and the accuracy formula (PMC blocked automated access); Sumetsky 2019, Gonsalves 2021 and 2023 full text; Gizamba 2025 systematic synthesis; the Oklahoma county study; Abellan 2008; Leening 2014 page numbers; Embase, Web of Science and Scopus (not accessible).
+
+## 8. Second verification pass (13 Nov 2026)
+- Gizamba et al. (2026, BMC Public Health 26:2297; FULL): cross-sectional study of 245 Los Angeles County ZIP code tabulation areas, first-time
+  RNA-positive hepatitis C among ages 18-39, January 2020 to December 2023; 31 predictors covering socioeconomic conditions, healthcare access and
+  opioid-related morbidity (hospitalisations and emergency visits for 2022, new HIV diagnoses). Overdose mortality was not a predictor. Validation was
+  random 5-fold nested cross-validation (RMSE 11, pseudo R-squared 0.34); agreement between predicted and observed risk categories was modest
+  (accuracy 34.6%, kappa 0.18); calibration was not assessed. The authors say the map supports prioritisation and hypothesis generation, not
+  fine-scale allocation. It is not a temporal holdout and does not test mortality.
+- California Department of Public Health vulnerability assessment (2017 data; FULL): all 58 counties; separate models for fatal opioid overdose and for
+  HIV or HCV vulnerability. The HIV or HCV model retained race and ethnicity, heroin emergency visits (ages 15-29), estimated HCV prevalence (age 40+),
+  felony drug arrests and households without a vehicle; overdose mortality was not in that model. The report states that its findings are not
+  predictive. Twelve counties were high risk for HIV or HCV and 11 for fatal overdose, concentrated in northern California and small counties. This is the
+  closest California precedent and shares the project's 58 counties.
+- CDC jurisdictional assessments (CDC web pages and Shrestha et al., Prev Med 2023;170:107490; ABSTRACT): core indicators used by states include drug
+  overdose mortality, prescriptions, arrests and acute HCV; these are ranking tools, not forecasts.
+- Kidd et al. (MMWR 2019;68:144; ABSTRACT and CDC summary): among women with primary and secondary syphilis, methamphetamine use rose from 6.2% to 16.6%
+  during 2013-2017, injection drug use from 4.0% to 10.5% and heroin use from 2.1% to 5.8%; among men who have sex with men methamphetamine use fell from
+  9.2% to 8.0%. Stimulants matter for syphilis, so a mortality series dominated by opioids may be a weak proxy. A California report notes that
+  amphetamine-related overdose deaths rose 198% in 2012-2018.
+- Shover et al. (Drug Alcohol Depend 2020;216:108314; ABSTRACT and partial full text): in 2018 states east of the Mississippi had 88% of synthetic opioid
+  deaths; available 2020 data showed a 63% rise in fentanyl mortality over 2019. A 2025 JAMA Netw Open report (abstract level) found that states such as
+  California had rapidly rising drug mortality after 2019 relative to pre-2020 trends. The steepest California rise therefore falls mostly after the scored
+  test years (a hypothesis, not a finding).
+- Gezer et al. (2024; ABSTRACT, Table 2 not accessible): 41,691 opioid-related and 26,860 HCV-related hospitalisations in South Carolina, 2016-2021; per
+  standard deviation, relative risks 1.24 (uninsured, poverty), 1.18 (mortality, 95% CI 1.12 to 1.25) and 1.17 (social vulnerability), and 0.79 (income);
+  trained on 2016-2020, median accuracy for 2021 was 80.4% (IQR 66.8 to 91.1) for opioid-related and 75.2% (61.2 to 87.7) for HCV-related
+  hospitalisations. Whether the mortality estimate is mutually adjusted, and the exact accuracy formula, remain unconfirmed (the paper cites the "Table 2
+  fallacy" literature, which hints at a multivariable model).
+- Others (ABSTRACT or title level): Yedinak et al., Int J Drug Policy 2021;96:103395 (statewide neighbourhood machine-learning vulnerability scores using overdose
+  deaths as a proxy outcome); an Oklahoma county vulnerability index using drug-related mortality as an indicator (PubMed 38722958, 2024; findings not
+  retrieved); a July 2026 medRxiv preprint on surveillance-adjusted syphilis risk across US counties (cross-sectional Bayesian spatial model, no
+  mortality predictor); Gizamba et al. 2025 systematic synthesis of area-level hepatitis C determinants (BMC Public Health 25:687; not read).
+- Search coverage: Embase, Web of Science and Scopus could not be accessed with the tools used; PubMed was screened systematically and medRxiv and arXiv were
+  covered only through web searches. No study testing incremental out-of-sample value of mortality for infection transitions was found.

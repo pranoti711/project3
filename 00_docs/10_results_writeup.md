@@ -110,7 +110,7 @@ interpreting any gain, and check that any placebo can actually separate the hypo
 - The equivalence margins (+/-0.02, 0.03, 0.05), the supplementary diagnostics and the second advanced layer (script 27) were chosen after seeing stage 1 results, so they are post-hoc. Equivalence within +/-0.02 holds only for the context contrast (C - A); for mortality (B - A) and the combined model (D - A) it holds within +/-0.03.
 - Bootstrap shares reported in section 12 are frequentist approximations to a region-of-practical-equivalence statement, not posterior probabilities.
 - The 16 diseases include three STIs (chlamydia, gonorrhoea, early syphilis) but not hepatitis C or HIV, the infections most often linked to opioid-related outbreaks, so the result does not address bloodborne outbreaks.
-- County mortality counts are suppressed by CDC WONDER when fewer than 10 deaths occur (rates from fewer than 20 deaths are flagged unreliable), and suppression falls mostly on small, rural counties. Missing mortality therefore tracks county size (section 5) and weakens the exposure where events are hardest to detect. Whether limited year-to-year variation in California mortality during 2017-2020 also reduced the signal is a hypothesis, not a finding.
+- County mortality counts are suppressed by CDC WONDER when fewer than 10 deaths occur (rates from fewer than 20 deaths are flagged unreliable), and suppression falls mostly on small, rural counties. Missing mortality therefore tracks county size (section 5) and weakens the exposure where events are hardest to detect. Whether limited year-to-year variation in California mortality during 2017-2020 also reduced the signal is a hypothesis, not a finding: fentanyl reached western illicit drug markets late (Shover et al., 2020) and California's steepest rise in drug-related mortality came after 2019 (an abstract-level report), mostly after the scored test years.
 
 ## 7. Conclusion (paste-ready)
 
@@ -122,7 +122,7 @@ lead-time tests were null. An earlier apparent gain was explained by county size
 
 ## 8. Related work (checked 2026-11-12 against full text or abstracts; see `24_novelty_search_log.md`)
 
-Verification status. Full text read: Drewes et al. 2021; Marks et al. 2021 (Transl Res review). Abstract and parts of the full text seen:
+Verification status. Full text read: Drewes et al. 2021; Marks et al. 2021 (Transl Res review); Gizamba et al. 2026; the CDPH California assessment; Kidd et al. 2019 and Shover et al. 2020 were checked at abstract and summary level. Abstract and parts of the full text seen:
 Van Handel et al. 2016, Gezer et al. 2024, Sumetsky et al. 2019, Rickles et al. 2018, Gonsalves et al. 2021 and 2023. Not yet checked: Cohen et al.
 2003, Abara et al. 2019, Bauer et al. 2023, Patton et al. 2025; Lipsitch 2010, Burkner 2020 and Richardson 2004 were checked on 2026-11-13; the wider review is in `25_topic_literature_review.md`. Full entries for the
 earlier references are in `06_paper/references.bib`.
@@ -132,7 +132,7 @@ earlier references are in `06_paper/references.bib`.
   income, race and ethnicity, unemployment and buprenorphine capacity, and 220 counties in 26 states were ranked as most vulnerable.
   Tennessee (Rickles et al., 2018) and Utah versions followed, and Rickles et al. used opioid-related mortality as an indicator. The
   Marks et al. (2021) review notes that the scores were computed on the same data used to fit the models and that no internal or external
-  validation was applied. These assessments therefore assume that overdose mortality marks infection risk but did not test it out of sample. Cross-sectional machine-learning risk mapping continues (Gizamba et al., 2026: hepatitis C in 245 Los Angeles County ZIP codes with Elastic Net and random forest; its predictor set has not been checked).
+  validation was applied. These assessments therefore assume that overdose mortality marks infection risk but did not test it out of sample. Cross-sectional machine-learning risk mapping continues (Gizamba et al., 2026: hepatitis C in 245 Los Angeles County ZIP codes with Elastic Net and random forest; its predictors included opioid-related hospitalisations and emergency visits and new HIV diagnoses but not overdose mortality, validation was random 5-fold cross-validation, and agreement between predicted and observed risk categories was modest). The California Department of Public Health assessment of all 58 counties (2017 data) used indicators such as heroin emergency visits, hepatitis C prevalence and drug arrests, did not include overdose mortality in its HIV or HCV model, and states that its results are not predictive.
 - **Association and lag studies.** Drewes et al. (2021) analysed 245 Northeast US counties in three two-year windows (2012-2017) with
   negative binomial mixed models. After adjustment, opioid death rates were not associated with gonorrhoea, chlamydia or HIV, except
   for gonorrhoea in urban counties (rate ratio 1.11, 95% CI 1.02 to 1.20; none in rural counties); the homicide rate was also associated
@@ -143,8 +143,7 @@ earlier references are in `06_paper/references.bib`.
   (Gonsalves et al., 2023). Older ecological studies linked premature mortality (Cohen et al., 2003) and opioid prescribing trends
   (Abara et al., 2019) with gonorrhoea rates; the Abara association was positive but weakened over 2010-2015 and the authors noted possible confounding by men who have sex with men (abstract level); Cohen is not verified.
 - **Area-level prediction with a temporal holdout.** In South Carolina ZIP codes, mixed-effects negative binomial models trained on
-  2016-2020 hospitalisations were validated on 2021 (median percent agreement between predicted and observed counts about 80% for opioid-related and 75% for HCV-related hospitalisations, using fully adjusted models and previous hospitalisation counts), and all-cause mortality per 1,000 residents was among the associated factors (rate ratio 1.18 per standard
-  deviation for the combined outcome; Gezer et al., 2024). This is the closest study found. It differs from ours in outcome
+  2016-2020 hospitalisations were validated on 2021 (median percent agreement between predicted and observed counts about 80% for opioid-related and 75% for HCV-related hospitalisations, using fully adjusted models and previous hospitalisation counts), and all-cause mortality per 1,000 residents was among the associated factors (rate ratio 1.18, 95% CI 1.12 to 1.25, per standard deviation for the combined outcome, alongside poverty and uninsured rate; Gezer et al., 2024). This is the closest study found. It differs from ours in outcome
   (hospitalisation counts, not transition events), geography (one state), diseases (HCV and opioid-related admissions) and design (the
   mortality measure is all-cause, there is no incremental comparison against a population-adjusted baseline, and there are no placebo or
   held-out-disease controls).
@@ -167,8 +166,7 @@ syphilis) but not HCV or HIV, so the null result does not speak to bloodborne ou
 **Position, with the limits of the search stated.** To our knowledge, and after PubMed searches on 2026-11-12, reading of the Marks et al.
 review and web searches, we found no study that tests whether county mortality adds out-of-sample predictive value for infectious-disease
 up-transition events across multiple diseases, against a population-adjusted baseline, with placebo and held-out-disease controls. The
-closest work is Gezer et al. (2024). Limits: only PubMed was searched systematically; Embase, Web of Science, Scopus and preprint servers are
-not yet searched; the Marks et al. review ends in January 2021; and the narrow search string missed relevant papers that web searches found.
+closest work is Gezer et al. (2024). Limits: only PubMed was searched systematically; Embase, Web of Science and Scopus could not be accessed and medRxiv was reached only through web search; the Marks et al. review ends in January 2021; and the narrow search string missed relevant papers that web searches found.
 This must be re-checked before any claim of novelty in a submission.
 
 ## 9. Stage 2 (exploratory): neighbour counties, context and static county traits
