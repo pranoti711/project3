@@ -45,3 +45,15 @@ Gonsalves et al. and a machine-learning neighbourhood vulnerability study) that 
 - Search Embase, Web of Science, Scopus, medRxiv and arXiv; record strings and counts.
 - Read Table 2, Table 3 and the accuracy method in Gezer 2024 in a browser; read the Gizamba 2026 predictor list; verify Cohen 2003, Abara 2019, Patton 2025.
 - Citation-chase forward from Gezer 2024 and from the Marks et al. review for 2021-2026 studies.
+
+## Additional sources checked 2026-11-13 (see 25_topic_literature_review.md)
+| Source | Level | Note |
+|---|---|---|
+| Abara et al., opioid prescribing trends and gonorrhoea, US counties 2010-2015 | Abstract | Positive but weakening association; possible confounding by MSM |
+| Ma et al., Front Public Health 2026;14:1888674 | Full text | State-level syphilis forecasting; co-STI and socioeconomic covariates helped modestly; no mortality |
+| Richardson et al., Environ Health Perspect 2004 | Abstract | Posterior-probability rule specific but low sensitivity under 2-fold excess |
+| Lipsitch et al., Epidemiology 2010; Burkner et al., J Stat Comput Simul 2020 | Abstract | Methods references verified |
+| Pencina 2008; Cook 2007; Baker 2014; Leening 2014 | Abstract or title | Small AUC change vs decision value; NRI limits |
+| TRIPOD+AI (BMJ 2024); PROBAST+AI (BMJ 2025); TRIPOD-Cluster (2023) | Abstract or title | Reporting and risk-of-bias tools |
+| CDC WONDER suppression rule (1-9 deaths; under 20 unreliable) | Documentation | Suppression concentrated in small rural counties |
+| Kidd et al., MMWR 2019; fentanyl-timing paper, Drug Alcohol Depend 2020;216:108314 | Title only | Verify before citing |

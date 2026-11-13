@@ -1,7 +1,6 @@
 # 20_tripod_probast.md - Reporting map and risk-of-bias self-assessment
 
-This is my own mapping and self-assessment, not an official audit. TRIPOD+AI (Collins et al., BMJ 2024) and PROBAST
-(Wolff et al., Annals of Internal Medicine 2019) are the reference guidelines; check the item numbers against the
+This is my own mapping and self-assessment, not an official audit. TRIPOD+AI (Collins et al., BMJ 2024) and PROBAST (Wolff et al., Annals of Internal Medicine 2019) are the reference guidelines; PROBAST+AI (BMJ 2025) and TRIPOD-Cluster (Debray et al., 2023, for county-clustered data) are newer companions to check; check the item numbers against the
 published checklists before citing (marked VERIFY). The topics below are grouped by what the guidelines ask for.
 
 ## A. Reporting map (where each topic is in this project)
@@ -16,11 +15,12 @@ published checklists before citing (marked VERIFY). The topics below are grouped
 | Model specification and fitting (INLA) | `05_transitions.R`, `06_models_ABCD.R` | Done |
 | Pre-registration and changes | `04_prereg.md`, `07_deviations_log.md`, `13_`, `17_` stage plans, git commits | Done |
 | Validation (temporal, spatial block, held-out disease and group) | steps 06, 08, 10 | Done |
-| Performance: discrimination, calibration, net benefit | `21_advanced_results.md` | Done (stage 1 predictions) |
-| Uncertainty (bootstrap intervals), equivalence summary | `21_advanced_results.md` s.1-2 | Done |
-| Subgroup performance (county size) | `21_advanced_results.md` s.4 | Done |
+| Performance: discrimination, calibration, net benefit | `20_advanced_results.md`, `23_proper_scoring_results.md` | Done (stage 1 predictions) |
+| Uncertainty (bootstrap intervals), equivalence summary | `20_advanced_results.md`, `23_proper_scoring_results.md` | Done |
+| Subgroup performance (county size) | `21_supplementary_results.md` | Done |
 | Limitations | write-up s.6, this file | Done |
 | Code, data and environment availability | `19_environment.md`, `manifest.csv`, `requirements.txt` | Done; raw data are public sources, not redistributed |
+| Literature search and novelty claim | `24_novelty_search_log.md`, `25_topic_literature_review.md` | Done; only PubMed searched systematically |
 | Funding, conflicts, patient involvement | - | Not applicable / to write |
 
 ## B. Risk-of-bias self-assessment (PROBAST-style, my ratings)

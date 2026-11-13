@@ -110,6 +110,7 @@ interpreting any gain, and check that any placebo can actually separate the hypo
 - The equivalence margins (+/-0.02, 0.03, 0.05), the supplementary diagnostics and the second advanced layer (script 27) were chosen after seeing stage 1 results, so they are post-hoc. Equivalence within +/-0.02 holds only for the context contrast (C - A); for mortality (B - A) and the combined model (D - A) it holds within +/-0.03.
 - Bootstrap shares reported in section 12 are frequentist approximations to a region-of-practical-equivalence statement, not posterior probabilities.
 - The 16 diseases include three STIs (chlamydia, gonorrhoea, early syphilis) but not hepatitis C or HIV, the infections most often linked to opioid-related outbreaks, so the result does not address bloodborne outbreaks.
+- County mortality counts are suppressed by CDC WONDER when fewer than 10 deaths occur (rates from fewer than 20 deaths are flagged unreliable), and suppression falls mostly on small, rural counties. Missing mortality therefore tracks county size (section 5) and weakens the exposure where events are hardest to detect. Whether limited year-to-year variation in California mortality during 2017-2020 also reduced the signal is a hypothesis, not a finding.
 
 ## 7. Conclusion (paste-ready)
 
@@ -123,7 +124,7 @@ lead-time tests were null. An earlier apparent gain was explained by county size
 
 Verification status. Full text read: Drewes et al. 2021; Marks et al. 2021 (Transl Res review). Abstract and parts of the full text seen:
 Van Handel et al. 2016, Gezer et al. 2024, Sumetsky et al. 2019, Rickles et al. 2018, Gonsalves et al. 2021 and 2023. Not yet checked: Cohen et al.
-2003, Abara et al. 2019, Bauer et al. 2023, Patton et al. 2025, and the methods references. Full entries for the
+2003, Abara et al. 2019, Bauer et al. 2023, Patton et al. 2025; Lipsitch 2010, Burkner 2020 and Richardson 2004 were checked on 2026-11-13; the wider review is in `25_topic_literature_review.md`. Full entries for the
 earlier references are in `06_paper/references.bib`.
 
 - **Vulnerability assessments (cross-sectional).** Van Handel et al. (2016) regressed county acute hepatitis C in 2012-2013, a proxy
@@ -140,7 +141,7 @@ earlier references are in `06_paper/references.bib`.
   et al., 2021). In a statewide Massachusetts analysis at ZIP-code level (2005-2018, monthly presence of HIV), earlier HCV and skin and soft tissue infections preceded HIV rises, overdose
   showed no such association, and the authors concluded the lagged associations cannot be described as predictive of HIV outbreaks
   (Gonsalves et al., 2023). Older ecological studies linked premature mortality (Cohen et al., 2003) and opioid prescribing trends
-  (Abara et al., 2019) with gonorrhoea rates; these two are not yet verified.
+  (Abara et al., 2019) with gonorrhoea rates; the Abara association was positive but weakened over 2010-2015 and the authors noted possible confounding by men who have sex with men (abstract level); Cohen is not verified.
 - **Area-level prediction with a temporal holdout.** In South Carolina ZIP codes, mixed-effects negative binomial models trained on
   2016-2020 hospitalisations were validated on 2021 (median percent agreement between predicted and observed counts about 80% for opioid-related and 75% for HCV-related hospitalisations, using fully adjusted models and previous hospitalisation counts), and all-cause mortality per 1,000 residents was among the associated factors (rate ratio 1.18 per standard
   deviation for the combined outcome; Gezer et al., 2024). This is the closest study found. It differs from ours in outcome
@@ -153,7 +154,7 @@ earlier references are in `06_paper/references.bib`.
   mechanistic modelling and notes that geospatial methods have been used mainly to explain rather than predict; in its prediction
   category, bloodborne-infection studies used dynamic models.
 - **Methods behind the design.** Flagging areas by posterior probability of elevated risk with a 70-80% cut-off is established in
-  disease mapping and is conservative for small counts (Richardson et al., 2004). Negative-control exposures and outcomes (Lipsitch et al.,
+  disease mapping and is conservative for small counts (Richardson et al., 2004); its sensitivity is low when the true excess is under 2-fold or expected counts are small, which is consistent with the county-size pattern seen here. Negative-control exposures and outcomes (Lipsitch et al.,
   2010) and leave-future-out validation (Burkner et al., 2020) underlie the placebo, surrogate-disease and temporal validation designs.
 
 **How the results relate to earlier work.** Prior area-level studies mostly report positive associations of opioid-related indicators
@@ -240,7 +241,7 @@ supplementary diagnostics were chosen or added after seeing stage 1 results, so 
 - **A non-linear learner.** Gradient boosting with fixed settings (models A, B and D): B - A = -0.009 (95% CI -0.043 to +0.023); D - A = -0.009 (-0.054 to +0.033). The boosted model uses the all-cause mortality deviation (shuffling it lowers AUC by about 0.033), but
   using a feature is not the same as improving out-of-sample prediction.
 - **Practical value.** Net-benefit differences against model A are indistinguishable from zero at alarm thresholds of 2-10%.
-  Model A is well calibrated (slope 1.03, intercept 0.01) but barely beats predicting the average rate (Brier skill 0.005).
+  Model A is well calibrated (slope 1.03, intercept 0.01) but barely beats predicting the average rate (Brier skill 0.005). Because a small change in AUC can hide decision value (Pencina et al., 2008; Baker et al., 2014), net benefit was assessed directly.
 - **Specification curve.** Every estimate of the headline mortality gain lies around zero; only the confounded first pass (original outcome, no population baseline; +0.025 to +0.036) and the 0.70 stand-in cut-off (-0.025) sit outside +/-0.02, the first in the positive and the second in the negative direction.
 - **County size.** Events per quartile of county size rise from 6 (smallest) to 19, 27 and 29 (largest), and discrimination of
   model A is 0.71, 0.61, 0.54 and 0.59. Posterior uncertainty of the trend falls with county size (Spearman -0.46), but event
