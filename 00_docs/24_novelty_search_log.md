@@ -32,7 +32,7 @@ Gonsalves et al. and a machine-learning neighbourhood vulnerability study) that 
 | Gonsalves et al., OFID 2021 and CID 2023 | OFID: Lawrence/Lowell 2005-2018, overdose 8 months earlier RR 1.03 (90% CrI 1.00-1.06) for HIV. CID: all Massachusetts ZIP codes 2005-2018, monthly HIV presence, ages 15-50; HCV and SSTI preceded HIV, no overdose association | Abstracts and methods snippets | Lagged mortality-infection association in one setting only; authors state the lagged associations are not predictive of outbreaks. |
 | Marks et al., Lancet Public Health 2021; Bauer 2023; Patton 2025; Sumetsky 2021 | Forecast overdose itself | Abstracts | Related, outcome is mortality. |
 | Gizamba et al., BMC Public Health 2026 | Cross-sectional, 245 LA County ZIP codes, Elastic Net and random forest, hepatitis C ages 18-39 | Full text read 2026-11-13 | No overdose mortality predictor (opioid hospitalisations, emergency visits and HIV were); random 5-fold CV; modest category agreement; not temporal. |
-| Cohen 2003; Abara 2019 | Premature mortality and gonorrhoea (cities); opioid prescribing and gonorrhoea (counties) | Titles only | Verify. |
+| Cohen et al., Am J Public Health 2003;93:467 (107 US cities); Abara et al. 2019 | Boarded-up housing as predictor of gonorrhoea and premature death; opioid prescribing trends vs gonorrhoea (counties) | Abstract level | Cohen: housing exposure, mortality is an outcome (description corrected 2026-11-13). Abara: positive but weakening association. |
 
 ## Notes for the discussion
 - Our 16 diseases include chlamydia, gonorrhoea and early syphilis but not HCV or HIV; the null does not address bloodborne outbreaks.

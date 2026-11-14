@@ -123,8 +123,7 @@ lead-time tests were null. An earlier apparent gain was explained by county size
 ## 8. Related work (checked 2026-11-12 against full text or abstracts; see `24_novelty_search_log.md`)
 
 Verification status. Full text read: Drewes et al. 2021; Marks et al. 2021 (Transl Res review); Gizamba et al. 2026; the CDPH California assessment. Abstract and summary level only: Kidd et al. 2019 and Shover et al. 2020. Abstract and parts of the full text seen:
-Van Handel et al. 2016, Gezer et al. 2024, Sumetsky et al. 2019, Rickles et al. 2018, Gonsalves et al. 2021 and 2023. Not yet checked: Cohen et al.
-2003, Abara et al. 2019, Bauer et al. 2023, Patton et al. 2025; Lipsitch 2010, Burkner 2020 and Richardson 2004 were checked on 2026-11-13; the wider review is in `25_topic_literature_review.md`. Full entries for the
+Van Handel et al. 2016, Gezer et al. 2024, Sumetsky et al. 2019, Rickles et al. 2018, Gonsalves et al. 2021 and 2023. Not yet checked in full: Cohen et al. 2003 and Abara et al. 2019 (abstract level), Bauer et al. 2023, Patton et al. 2025; Lipsitch 2010, Burkner 2020 and Richardson 2004 were checked on 2026-11-13; the wider review is in `25_topic_literature_review.md`. Full entries for the
 earlier references are in `06_paper/references.bib`.
 
 - **Vulnerability assessments (cross-sectional).** Van Handel et al. (2016) regressed county acute hepatitis C in 2012-2013, a proxy
@@ -140,8 +139,7 @@ earlier references are in `06_paper/references.bib`.
   were associated with current-month HIV counts (rate ratio 1.03 per additional overdose, 90% credible interval 1.00 to 1.06), although the authors state they were not making short-term predictions (Gonsalves
   et al., 2021). In a statewide Massachusetts analysis at ZIP-code level (2005-2018, monthly presence of HIV), earlier HCV and skin and soft tissue infections preceded HIV rises, overdose
   showed no such association, and the authors concluded the lagged associations cannot be described as predictive of HIV outbreaks
-  (Gonsalves et al., 2023). Older ecological studies linked premature mortality (Cohen et al., 2003) and opioid prescribing trends
-  (Abara et al., 2019) with gonorrhoea rates; the Abara association was positive but weakened over 2010-2015 and the authors noted possible confounding by men who have sex with men (abstract level); Cohen is not verified.
+  (Gonsalves et al., 2023). An older ecological study of 107 US cities modelled both gonorrhoea and premature death as outcomes of boarded-up housing (Cohen et al., 2003), and county opioid prescribing trends were associated with gonorrhoea rates (Abara et al., 2019); the Abara association was positive but weakened over 2010-2015 and the authors noted possible confounding by men who have sex with men (abstract level); the Cohen description is also abstract level.
 - **Area-level prediction with a temporal holdout.** In South Carolina ZIP codes, mixed-effects negative binomial models trained on
   2016-2020 hospitalisations were validated on 2021 (median percent agreement between predicted and observed counts about 80% for opioid-related and 75% for HCV-related hospitalisations, using fully adjusted models and previous hospitalisation counts), and all-cause mortality per 1,000 residents was among the associated factors (rate ratio 1.18, 95% CI 1.12 to 1.25, per standard deviation for the combined outcome, alongside poverty and uninsured rate; Gezer et al., 2024). This is the closest study found. It differs from ours in outcome
   (hospitalisation counts, not transition events), geography (one state), diseases (HCV and opioid-related admissions) and design (the
