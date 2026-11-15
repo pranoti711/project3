@@ -128,4 +128,4 @@ patch("28_final_checklist.md", [
  ("2. Read in full: Sumetsky 2019, Gonsalves 2021 and 2023, Gizamba 2025 synthesis. Verify Cohen 2003, Abara 2019, Bauer 2023, Patton 2025.",
   "2. Read in full: Sumetsky 2019, Gonsalves 2021 and 2023, Gizamba 2025 synthesis. Verify Bauer 2023 and Patton 2025 (Abara 2019 and Cohen 2003 checked 14 Nov 2026)."),
 ], marker="Table 2 and the accuracy definition were read on 14 Nov 2026")
-print("Done.")s
+print("Done.")
