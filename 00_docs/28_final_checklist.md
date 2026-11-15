@@ -13,8 +13,8 @@
 5. git archive --format=zip -o ..\project3_final.zip HEAD   (clean copy of tracked files only)
 
 ## For you to do
-1. Open Gezer 2024 on PMC in a browser: read the Table 2 footnote (is mortality mutually adjusted?) and the accuracy method; update 24 and 25.
-2. Read in full: Sumetsky 2019, Gonsalves 2021 and 2023, Gizamba 2025 synthesis. Verify Cohen 2003, Abara 2019, Bauer 2023, Patton 2025.
+1. Gezer 2024: Table 2 and the accuracy definition were read on 14 Nov 2026 (see 25, section 9); only the appendix (page 3, accuracy formula) is unread.
+2. Read in full: Sumetsky 2019, Gonsalves 2021, Gizamba 2025 synthesis. Verify Patton 2025 (Abara 2019, Bauer 2023, Cohen 2003 and Gonsalves 2023 checked 14 Nov 2026).
 3. If your library allows, run the PubMed strings in Embase, Web of Science and Scopus; record strings, dates and hit counts in `24_novelty_search_log.md`.
 4. Run a looser PubMed string (drop the forecasting block; add "risk" and "vulnerab*") and record the hit count.
 5. Check the abstract draft: every number must match the write-up; wording "no evidence of gain within the detectable range".

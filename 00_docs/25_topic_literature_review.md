@@ -25,8 +25,7 @@ Reading: the link is plausible and sometimes significant in association models, 
   January 2021). Risk assessments such as Van Handel were fitted and scored on the same data without validation; geospatial methods were mainly
   explanatory; bloodborne-infection prediction used dynamic models.
 - Gezer et al. (2024): fully adjusted negative binomial mixed models trained on 2016-2020 and checked on 2021 hospitalisations; accuracy is the
-  median percent agreement between predicted and observed ZIP-code counts (about 80% opioid-related, 75% HCV-related). There is no ablation
-  of mortality and no placebo design (ABSTRACT and snippets; Table 2 not read).
+  median percent agreement between predicted and observed ZIP-code counts (about 80% opioid-related, 75% HCV-related). Community-level covariates as a block were compared with a history-only model and gave only a mild accuracy gain; mortality was not isolated and there was no placebo design (FULL, see section 9).
 - Ma et al. (2026, Front Public Health 14:1888674; FULL): state-level forecasting of primary and secondary syphilis with gradient boosting,
   neural network, Bayesian and baseline models. Co-STI, HIV, poverty, unemployment and income covariates improved holdout error modestly
   (XGBoost WAPE 22.7% to 20.0%); mortality or overdose was not used. State counts, not county transitions.
@@ -67,7 +66,7 @@ Reading: the missing piece is an incremental, out-of-sample, placebo-controlled 
    an operational early-warning system.
 
 ## 7. Still to verify
-Gezer 2024 Table 2 and the accuracy formula (PMC blocked automated access); Sumetsky 2019, Gonsalves 2021 and 2023 full text; Gizamba 2025 systematic synthesis; the Oklahoma county study; Abellan 2008; Leening 2014 page numbers; Embase, Web of Science and Scopus (not accessible).
+Gezer 2024 appendix page 3 (accuracy formula); Sumetsky 2019 and Gonsalves 2021 full text; Gizamba 2025 systematic synthesis; the Oklahoma county study; Abellan 2008; Leening 2014 page numbers; Embase, Web of Science and Scopus (not accessible).
 
 ## 8. Second verification pass (13 Nov 2026)
 - Gizamba et al. (2026, BMC Public Health 26:2297; FULL): cross-sectional study of 245 Los Angeles County ZIP code tabulation areas, first-time
@@ -91,14 +90,62 @@ Gezer 2024 Table 2 and the accuracy formula (PMC blocked automated access); Sume
   deaths; available 2020 data showed a 63% rise in fentanyl mortality over 2019. A 2025 JAMA Netw Open report (abstract level) found that states such as
   California had rapidly rising drug mortality after 2019 relative to pre-2020 trends. The steepest California rise therefore falls mostly after the scored
   test years (a hypothesis, not a finding).
-- Gezer et al. (2024; ABSTRACT, Table 2 not accessible): 41,691 opioid-related and 26,860 HCV-related hospitalisations in South Carolina, 2016-2021; per
+- Gezer et al. (2024; FULL, see section 9): 41,691 opioid-related and 26,860 HCV-related hospitalisations in South Carolina, 2016-2021; per
   standard deviation, relative risks 1.24 (uninsured, poverty), 1.18 (mortality, 95% CI 1.12 to 1.25) and 1.17 (social vulnerability), and 0.79 (income);
   trained on 2016-2020, median accuracy for 2021 was 80.4% (IQR 66.8 to 91.1) for opioid-related and 75.2% (61.2 to 87.7) for HCV-related
-  hospitalisations. Whether the mortality estimate is mutually adjusted, and the exact accuracy formula, remain unconfirmed (the paper cites the "Table 2
-  fallacy" literature, which hints at a multivariable model).
+  hospitalisations. Resolved on 14 Nov 2026 (section 9): the Table 2 estimates are one predictor at a time, so mortality is not mutually adjusted.
 - Others (ABSTRACT or title level): Yedinak et al., Int J Drug Policy 2021;96:103395 (statewide neighbourhood machine-learning vulnerability scores using overdose
   deaths as a proxy outcome); an Oklahoma county vulnerability index using drug-related mortality as an indicator (PubMed 38722958, 2024; findings not
   retrieved); a July 2026 medRxiv preprint on surveillance-adjusted syphilis risk across US counties (cross-sectional Bayesian spatial model, no
   mortality predictor); Gizamba et al. 2025 systematic synthesis of area-level hepatitis C determinants (BMC Public Health 25:687; not read).
 - Search coverage: Embase, Web of Science and Scopus could not be accessed with the tools used; PubMed was screened systematically and medRxiv and arXiv were
   covered only through web searches. No study testing incremental out-of-sample value of mortality for infection transitions was found.
+
+## 9. Third verification pass (14 Nov 2026)
+- Gezer et al. (2024; FULL text read): Table 2 estimates were fitted one predictor at a time, each adjusting for time and a ZIP-code population offset
+  (the paper's partially adjusted models, with random intercepts and slopes for year); the mortality estimate (all-cause deaths per 1,000 residents,
+  RR 1.21 opioid, 1.17 HCV, 1.18 combined) is therefore not mutually adjusted. Fully adjusted models (all covariates except doctors per 1,000, because of
+  collinearity) were used only for prediction and also included lagged hospitalisation counts. Accuracy is the median percent agreement between predicted
+  and observed 2021 counts (formula in appendix page 3). Fully adjusted models were compared with models using previous hospitalisations, time and random
+  effects only, and with previous-year counts alone; covariate inclusion gave only a mild gain (for example 80.4% against 75.0% for opioid-related
+  hospitalisations in the annual 2021 scenario). The authors call the gain modest and note limited room for improvement given the strong benchmark.
+  Mortality was not isolated, the outcome was hospitalisation counts, and there was no placebo design.
+- Abara et al. (Ann Epidemiol 2019;36:26-32; FULL): linear mixed models, 2010-2015, county opioid prescribing rate (proxy for misuse) and male gonorrhoea
+  rate; coefficient 0.068 (95% CI 0.031 to 0.105); the association weakened over time (interaction -0.014, -0.023 to -0.006) except in counties where
+  prescribing increased; limits include ecologic design, proxy exposure and possible confounding by men who have sex with men.
+- Cohen et al. (Am J Public Health 2003;93:467; ABSTRACT): 107 US cities; boarded-up housing predicted gonorrhoea and premature mortality (including
+  homicide and suicide) after adjustment; mortality was an outcome, not a predictor.
+- Sumetsky et al. (JECH 2019;73:935; ABSTRACT confirmed): Bayesian hierarchical spatiotemporal Poisson regression with conditionally autoregressive effects,
+  Pennsylvania ZIP codes 2004-2014; previous-year opioid-related hospitalisations RR 1.092 (1.078 to 1.106) for HCV and 1.098 (1.068 to 1.126) for HIV;
+  the conclusion is that hospitalisations are connected to the comorbidities (association).
+- Gonsalves et al. (OFID 2021;8:ofab128; ABSTRACT confirmed): distributed-lag Poisson regression in a Bayesian setting, Lawrence and Lowell, 2005-2018;
+  current-month HIV counts were associated with fatal overdoses about 8 months earlier, endocarditis 10 months earlier and skin and soft tissue infections
+  12 months earlier; the authors suggest these could feed a sentinel (early-warning) system. The rate ratio of 1.03 and any statement about short-term
+  prediction came from search snippets and are not confirmed.
+- Still unverified beyond abstract or snippet: Gonsalves 2023 (CID), Bauer 2023, Patton 2025, Rickles 2018, Van Handel 2016 full text.
+
+## 10. Fourth verification pass (14 Nov 2026)
+- Gonsalves et al. (CID 2023;76:2134; FULL text read): hierarchical Bayesian distributed-lag logistic regression for the probability that a Massachusetts
+  ZIP code tabulation area had at least one HIV case in a month, 2005-2018, predictors lagged over months (overdose, HCV, SSTI, endocarditis, procedures;
+  ages 15-50 for clinical events; HIV and HCV counts of 1-4 were suppressed so both were binary). HCV 5 and 7 months earlier: OR 1.04 (90% CrI 1.01-1.10
+  and 1.00-1.09); drainage procedures OR 1.02 and SSTI OR 1.01 at 10-12 months; no association for echocardiograms, endocarditis or overdose. Sensitivity
+  analyses: shuffled lagged predictors (no positive significant estimates) and fatal automobile accidents as a negative control (no significant
+  estimates). The authors state the associations cannot be described as causal or predictive of HIV outbreaks, that the odds ratios are conditional on
+  the input data and should not be extrapolated, and that the earlier Lawrence and Lowell study first described the 8-month overdose lag.
+- Gezer et al. (2024; manuscript PDF read): confirms Table 2 (each predictor fitted independently, adjusted for time and a population offset), the
+  fully adjusted prediction models with lagged counts, the training and validation scenarios (Table 3), and that the accuracy metrics (median agreement
+  percentage, median absolute error, root mean squared error, ranking agreement) are defined in appendix page 3, which was not in the file. Gezer
+  describes Bauer et al. (2023) as a ZIP-code opioid-mortality forecast whose covariate gain was also modest (secondary description only).
+- This section supersedes the "still unverified" list in section 9 for Gonsalves 2023. Still unverified: Bauer 2023 and Patton 2025 (own text),
+  Sumetsky 2019 and Gonsalves 2021 full text, the Gezer appendix.
+
+## 11. Fifth verification pass (14 Nov 2026)
+- Bauer et al. (JMIR Public Health Surveill 2023;9:e41450; FULL text read): Bayesian spatiotemporal dynamic models (R-INLA) for opioid-related deaths in
+  537 Massachusetts ZIP code tabulation areas, 2005-2019 (16,377 deaths, ages 20 and over), evaluated one year ahead for 2016-2019 with mean absolute
+  error, root mean square error and a quintile rank-agreement measure. The model with full spatiotemporal dependence (AR(1) with conditional autoregressive
+  space) performed best; adding demographic and socioeconomic covariates improved prediction only for the model without spatial dependence, because the
+  spatial structure already captured the patterns tied to those covariates. Errors were larger in rural than urban ZIP codes, where rates are unstable
+  (small-area problem). The model under-predicted 2020-2021, which the authors attribute to disruption by COVID-19; they also note missing toxicology
+  (fentanyl) data. The outcome is mortality, not infection. Gezer et al. describe it correctly as a ZIP-code opioid-mortality forecast with modest covariate gain.
+- This section supersedes the earlier "still unverified" lists for Bauer 2023. Still unverified: Patton 2025 (own text), Sumetsky 2019 and Gonsalves 2021
+  full text, the Gezer appendix, the Gizamba 2025 synthesis.

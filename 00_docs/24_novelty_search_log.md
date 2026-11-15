@@ -28,9 +28,9 @@ Gonsalves et al. and a machine-learning neighbourhood vulnerability study) that 
 | Van Handel et al., JAIDS 2016 | Acute HCV as IDU proxy, 15 indicators, 6 retained incl. overdose deaths; 220 counties ranked | Abstract and summaries | Cross-sectional; mortality is an indicator; no validation per Marks review. |
 | Rickles et al., CID 2018 | Tennessee version; opioid-related mortality an indicator | Abstract and Marks table | Cross-sectional ranking. |
 | Sumetsky et al., JECH 2019 | Bayesian spatiotemporal Poisson (CAR), PA ZIP codes 2004-2014; previous-year opioid hospitalisations vs HCV/HIV | Abstract checked 2026-11-12 | Association (RR 1.09 HCV, 1.10 HIV); exposure is hospitalisation, not mortality; no out-of-sample test. |
-| Gezer et al., Lancet Public Health 2024 | SC ZIP codes; train 2016-20, validate 2021; accuracy = median percent agreement of predicted vs observed counts from fully adjusted NB mixed models using previous counts; all-cause mortality per 1,000 among factors (RR 1.18 per SD, combined outcome) | Abstract and full-text snippets (PMC blocked automated access) | Closest study; one state, hospitalisation counts, no ablation of mortality, no placebo design. Association models were adjusted for time and a population offset; whether mortality stays significant in the fully adjusted model is not verified (read Table 2). |
-| Gonsalves et al., OFID 2021 and CID 2023 | OFID: Lawrence/Lowell 2005-2018, overdose 8 months earlier RR 1.03 (90% CrI 1.00-1.06) for HIV. CID: all Massachusetts ZIP codes 2005-2018, monthly HIV presence, ages 15-50; HCV and SSTI preceded HIV, no overdose association | Abstracts and methods snippets | Lagged mortality-infection association in one setting only; authors state the lagged associations are not predictive of outbreaks. |
-| Marks et al., Lancet Public Health 2021; Bauer 2023; Patton 2025; Sumetsky 2021 | Forecast overdose itself | Abstracts | Related, outcome is mortality. |
+| Gezer et al., Lancet Public Health 2024 | SC ZIP codes; train 2016-20, validate 2021; accuracy = median percent agreement of predicted vs observed counts (appendix p 3); Table 2 RRs one predictor at a time (time and population offset), mortality RR 1.18 (1.12-1.25) combined | Full text read 2026-11-14 | Closest study; covariate block vs history-only gave only a mild gain; mortality not isolated; one state, hospitalisation counts, no placebo design. |
+| Gonsalves et al., OFID 2021 (abstract) and CID 2023;76:2134-2139 | Full text read 2026-11-14 (CID) | OFID: Lawrence/Lowell 2005-2018, overdose ~8 months before HIV counts. CID: all Massachusetts ZIP codes, monthly HIV presence; HCV OR 1.04, SSTI and drainage procedures precede HIV; no overdose association; shuffled predictors and car accidents as negative controls; authors say not predictive |
+| Marks et al., Lancet Public Health 2021; Bauer 2023 (full text read 2026-11-14); Patton 2025; Sumetsky 2021 | Forecast overdose itself | Abstracts; Bauer full text | Related, outcome is mortality. Bauer: MA ZIP codes 2005-2019, one year ahead; covariates helped only the non-spatial model; rural errors larger; 2020-21 under-predicted. |
 | Gizamba et al., BMC Public Health 2026 | Cross-sectional, 245 LA County ZIP codes, Elastic Net and random forest, hepatitis C ages 18-39 | Full text read 2026-11-13 | No overdose mortality predictor (opioid hospitalisations, emergency visits and HIV were); random 5-fold CV; modest category agreement; not temporal. |
 | Cohen et al., Am J Public Health 2003;93:467 (107 US cities); Abara et al. 2019 | Boarded-up housing as predictor of gonorrhoea and premature death; opioid prescribing trends vs gonorrhoea (counties) | Abstract level | Cohen: housing exposure, mortality is an outcome (description corrected 2026-11-13). Abara: positive but weakening association. |
 
@@ -43,13 +43,13 @@ Gonsalves et al. and a machine-learning neighbourhood vulnerability study) that 
 ## Still to do
 - Run a looser PubMed string (drop the forecasting block; add "risk" and "vulnerab*") and record the hit count.
 - Search Embase, Web of Science, Scopus, medRxiv and arXiv; record strings and counts.
-- Read Table 2 and the accuracy formula in Gezer 2024 in a browser; read Sumetsky 2019, Gonsalves 2021 and 2023 in full; Gizamba 2025 synthesis; Embase, Web of Science, Scopus.
+- Read the Gezer 2024 appendix (page 3, accuracy formula); read Sumetsky 2019 and Gonsalves 2021 in full; Gizamba 2025 synthesis; Embase, Web of Science, Scopus.
 - Citation-chase forward from Gezer 2024 and from the Marks et al. review for 2021-2026 studies.
 
 ## Additional sources checked 2026-11-13 (see 25_topic_literature_review.md)
 | Source | Level | Note |
 |---|---|---|
-| Abara et al., opioid prescribing trends and gonorrhoea, US counties 2010-2015 | Abstract | Positive but weakening association; possible confounding by MSM |
+| Abara et al., Ann Epidemiol 2019;36:26-32 | Full text | Opioid prescribing vs male gonorrhoea, counties 2010-2015; coefficient 0.068 (0.031-0.105); weakened over time; MSM confounding noted |
 | Ma et al., Front Public Health 2026;14:1888674 | Full text | State-level syphilis forecasting; co-STI and socioeconomic covariates helped modestly; no mortality |
 | Richardson et al., Environ Health Perspect 2004 | Abstract | Posterior-probability rule specific but low sensitivity under 2-fold excess |
 | Lipsitch et al., Epidemiology 2010; Burkner et al., J Stat Comput Simul 2020 | Abstract | Methods references verified |
@@ -65,6 +65,6 @@ Gonsalves et al. and a machine-learning neighbourhood vulnerability study) that 
 | CDPH California fatal opioid overdose and HIV/HCV vulnerability assessment (2017 data) | Full text | 58 counties; not predictive by its own statement; overdose mortality not in the HIV/HCV model |
 | Kidd et al., MMWR 2019;68:144 | Abstract and CDC summary | Meth, injection and heroin use rose among women and heterosexual men with syphilis |
 | Shover et al., Drug Alcohol Depend 2020;216:108314 | Abstract and partial full text | Fentanyl reached western markets late; 63% rise 2019 to 2020 in available data |
-| Gezer et al., Lancet Public Health 2024 | Abstract | Mortality RR 1.18 (1.12-1.25) per SD; Table 2 and accuracy formula still unseen |
+| Gezer et al., Lancet Public Health 2024 | Full text | Table 2 and accuracy definition resolved; see the main table |
 | Yedinak 2021; Oklahoma county index 2024; medRxiv syphilis county mapping 2026 | Abstract | No competing incremental-prediction study |
 Coverage: Embase, Web of Science and Scopus not accessible; medRxiv and arXiv reached only by web search.
