@@ -183,3 +183,11 @@
 **Correction.** The earlier supplementary table reported a B calibration intercept of -0.524 (free-slope fit). That figure is not comparable to the fixed-slope intercept above and should not be described as miscalibration.
 
 **Impact on conclusions.** None. The finding remains no evidence of gain within the detectable range.
+
+<!-- hiv-ext-patch -->
+### 17 Nov 2026 - HIV exploratory extension
+- Added HIV (Office of AIDS, 2012-2023) as an exploratory disease via 05x_transitions_ext_hiv.R and
+  05b_build_model_table.py; ran 06_models_ABCD.R with the hiv17 suffix.
+- Not pre-registered; reported as exploratory. Result null (pooled B-A -0.007, CI -0.039 to +0.023).
+- Missing-value handling in p3_common.R (z-score, then set to 0, no missing indicator) was checked and left unchanged.
+- Commit a1b6688, tag hiv-ext. Tags stage1-freeze and advanced-freeze untouched.

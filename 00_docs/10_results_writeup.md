@@ -272,3 +272,40 @@ in 81% and 76% of bootstrap draws for log-loss.
 Taken together with section 11, the proper-scoring and calibration checks agree with the AUC result: no evidence that
 mortality improves out-of-sample prediction, within the limits of 81 events.
 
+<!-- hiv-ext-patch -->
+## HIV exploratory extension (Office of AIDS series, 2012-2023)
+
+HIV new diagnoses (California Office of AIDS, county-year, 2012-2023) were added as an
+exploratory disease in the ambiguous scope, using the same transition method (negative
+binomial RW2 + BYM2 + space-time interaction), threshold 0.80, and the same leave-future-out
+evaluation. The extension adds 232 county-year rows and 4 test events (all scopes: n = 3944,
+85 events; ambiguous: n = 464, 12 events). It is underpowered by design and is reported as exploratory.
+
+| Scope | Model | Delta AUC vs A | 95% CI |
+|---|---|---|---|
+| all | B (+ mortality) | -0.007 | -0.039 to +0.023 |
+| all | C (+ context) | +0.0004 | -0.007 to +0.009 |
+| all | D (all) | -0.008 | -0.037 to +0.020 |
+| ambiguous | B | -0.065 | -0.166 to +0.041 |
+| ambiguous | C | -0.009 | -0.031 to +0.016 |
+| ambiguous | D | -0.069 | -0.167 to +0.035 |
+
+All intervals include 0. Brier score and log-loss are essentially identical across models
+A-D (Brier about 0.0210, log-loss about 0.099). Adding HIV therefore does not change the
+conclusion: mortality deviations give no out-of-sample gain. The more negative point estimate
+for B in the ambiguous scope (-0.065, 12 events) is within sampling noise. No positive result
+arose, so the placebo/surrogate step was not required for this run. Outputs: 05_results/tables/*__hiv17*
+(git commit a1b6688, tag hiv-ext).
+
+<!-- hiv-ext-patch -->
+### Limitations added 17 Nov 2026
+- **Scope of diseases.** HIV is included only as an exploratory group (Office of AIDS, 2012-2023;
+  4 test events in the leave-future-out window). HCV is still absent: county data exist only for 2014-2016.
+- **Suppressed mortality exposure.** County mortality deviations were missing in 19% (all-cause),
+  57% (drug overdose), 57% (suicide) and 74% (homicide) of county-years in the main model table
+  (HIV rows: about 1%, 43%, 45% and 69%), because of small-count suppression. Missing values were set to the
+  mean after z-scoring, with no missing indicator (by design, since suppression flags act as a county-size
+  proxy), so model B carries no mortality information for those rows. This probably biases B-A toward the null.
+  The null result should therefore be read as applying to publicly available, suppressed county-level data,
+  not as evidence that mortality has no predictive value in principle.
+- **Sparse context variable.** physicians_per_100k is about 91% missing in the HIV model table, which limits model C.

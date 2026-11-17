@@ -68,3 +68,8 @@ Gonsalves et al. and a machine-learning neighbourhood vulnerability study) that 
 | Gezer et al., Lancet Public Health 2024 | Full text | Table 2 and accuracy definition resolved; see the main table |
 | Yedinak 2021; Oklahoma county index 2024; medRxiv syphilis county mapping 2026 | Abstract | No competing incremental-prediction study |
 Coverage: Embase, Web of Science and Scopus not accessible; medRxiv and arXiv reached only by web search.
+
+<!-- hiv-ext-patch -->
+### 17 Nov 2026 - data note
+- HIV county series obtained from CDPH Office of AIDS reports (2012-2023); agrees with the CDPH HIV column for
+  2019-2023 (r = 0.9999). HCV county series available for 2014-2016 only; AtlasPlus not downloaded.
