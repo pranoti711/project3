@@ -153,7 +153,7 @@ with HCV, HIV or STI outcomes, and Van Handel-type assessments rely on overdose 
 whether mortality adds out-of-sample predictive value after adjusting for county population. Our first-pass confounded run showed how
 county size can create an apparent gain; whether size or detectability also partly explains earlier associations is a hypothesis, not a
 finding, because the exposures, outcomes and geographies differ. Our 16 diseases include three STIs (chlamydia, gonorrhoea, early
-syphilis) but not HCV or HIV, so the null result does not speak to bloodborne outbreaks.
+syphilis) but not HCV, and HIV only as an exploratory group with 4 test events (see the HIV extension section), so the null result does not speak to bloodborne outbreaks.
 
 **Position, with the limits of the search stated.** To our knowledge, and after PubMed searches on 2026-11-12, reading of the Marks et al.
 review and web searches, we found no study that tests whether county mortality adds out-of-sample predictive value for infectious-disease
