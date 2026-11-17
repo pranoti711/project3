@@ -1,0 +1,59 @@
+Rows: 20568 | diseases: 17 | event rate: 0.0214
+REMINDER: HIST features at year t must use data up to t only (see header).
+Leave-future-out test years: 2017, 2018, 2019, 2020, 2021, 2022
+year 2017 model A done (54s)
+year 2017 model B done (63s)
+year 2017 model C done (47s)
+year 2017 model D done (96s)
+year 2018 model A done (48s)
+year 2018 model B done (49s)
+year 2018 model C done (44s)
+year 2018 model D done (34s)
+year 2019 model A done (31s)
+year 2019 model B done (33s)
+year 2019 model C done (32s)
+year 2019 model D done (37s)
+year 2020 model A done (34s)
+year 2020 model B done (58s)
+year 2020 model C done (59s)
+year 2020 model D done (33s)
+No events in 2021, skipped
+No events in 2022, skipped
+
+=== Observed vs predicted event rate by test year (model A) ===
+    year events        rate     mean_p
+   <int>  <num>       <num>      <num>
+1:  2017     28 0.028397566 0.02337724
+2:  2018     24 0.024340771 0.02294285
+3:  2019     24 0.024340771 0.02385324
+4:  2020      9 0.009127789 0.02650210
+
+=== Overall scores (leave-future-out) ===
+    scope  model     n events       auc auc_pooled      brier    logloss
+   <char> <char> <int>  <num>     <num>      <num>      <num>      <num>
+1:    all      A  3944     85 0.6344132  0.7147874 0.02098695 0.09887595
+2:    all      B  3944     85 0.6275477  0.6971602 0.02105681 0.09971983
+3:    all      C  3944     85 0.6348423  0.7183909 0.02099096 0.09885070
+4:    all      D  3944     85 0.6266896  0.7013399 0.02105298 0.09955276
+
+=== Delta AUC vs model A (95% county-cluster bootstrap) ===
+          scope  model     delta_auc           lo          hi
+         <char> <char>         <num>        <num>       <num>
+ 1:         all      B -0.0068654795 -0.038806080 0.022962571
+ 2:         all      C  0.0004290925 -0.006876724 0.008920714
+ 3:         all      D -0.0077236644 -0.037455237 0.020127335
+ 4:  comparison      B -0.0115807759 -0.050863331 0.028896381
+ 5:  comparison      C  0.0000000000 -0.010595854 0.013894231
+ 6:  comparison      D -0.0121598147 -0.048391905 0.028758476
+ 7:  review_sti      B -0.0050872093 -0.047031518 0.034756011
+ 8:  review_sti      C  0.0065406977 -0.009201335 0.020369234
+ 9:  review_sti      D  0.0007267442 -0.041741665 0.047491166
+10: environment      B  0.0255255255 -0.051727733 0.099124364
+11: environment      C  0.0015015015 -0.014788206 0.014001456
+12: environment      D  0.0195195195 -0.063620530 0.100218426
+13:   ambiguous      B -0.0645645646 -0.165684219 0.040786614
+14:   ambiguous      C -0.0090090090 -0.030799108 0.015511449
+15:   ambiguous      D -0.0690690691 -0.167045708 0.035416667
+
+Interpretation: an interval for B-A that excludes 0 in a group means mortality adds out-of-sample
+ predictive value there. Run 11_placebos_surrogates.py before believing any positive result.
