@@ -14,3 +14,9 @@ What my quick prior-art check found
 No study in the snippets forecasts infectious disease transitions from county mortality. The closest work forecasts overdose deaths themselves, such as the Lancet Public Health 2021 county model. That is related work for your discussion, not a challenge to the claim.
 Drewes et al. (IJERPH, published December 2020, volume 18 issue 1) studied opioid death rates against gonorrhea, chlamydia and HIV in Northeast counties. Its outcome is county STI rates in a regression, not out-of-sample prediction of transitions.
 A discrepancy in section 8. The write-up says Drewes found an association “for gonorrhea in urban counties”, but a peer-reviewer comment in the snippets says it was significant “only for rural counties in 2016–2017”. Check the full paper and fix the sentence. Also confirm the year in references.bib (2020 online, 2021 volume).
+
+<!-- hiv-final-patch -->
+
+**Suggested sentence to insert in the results or conclusion:** An exploratory extension adding HIV
+(Office of AIDS county series, 2012-2023; 4 test events) gave the same null result (pooled B-A -0.007,
+95% CI -0.039 to +0.023).

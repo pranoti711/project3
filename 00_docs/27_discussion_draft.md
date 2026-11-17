@@ -41,3 +41,12 @@ population, and placebo tests should be able to separate the hypothesis from cou
 ## Future work
 Add hepatitis C and HIV series; test finer geography; extend the window beyond 2020 when events can be scored; use stimulant-specific and opioid-specific
 mortality; pre-specify an urban-county stratum (Drewes et al.) with enough events; repeat with a decision-analytic endpoint.
+
+<!-- hiv-final-patch -->
+
+**Limitations paragraph - add:** HIV was included only as an exploratory group (4 test events in the
+leave-future-out window) and HCV is absent (county data for 2014-2016 only). County mortality deviations
+were missing in 19% (all-cause), 57% (drug overdose), 57% (suicide) and 74% (homicide) of county-years
+because of small-count suppression; missing values were mean-imputed with no missing indicator, which
+probably biases model B toward the null. The null result therefore applies to publicly available,
+suppressed county-level data and does not show that mortality has no predictive value in principle.
