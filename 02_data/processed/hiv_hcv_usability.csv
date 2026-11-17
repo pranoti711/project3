@@ -1,0 +1,117 @@
+Disease,County,years,median_cases,years_with_cases,small_count_flag
+HIV (new diagnoses),Alameda,12,212.5,12,False
+HIV (new diagnoses),Alpine,12,0.0,0,True
+HIV (new diagnoses),Amador,12,1.0,9,True
+HIV (new diagnoses),Butte,12,10.0,12,False
+HIV (new diagnoses),Calaveras,12,1.0,10,True
+HIV (new diagnoses),Colusa,12,1.0,10,True
+HIV (new diagnoses),Contra Costa,12,107.5,12,False
+HIV (new diagnoses),Del Norte,12,0.0,5,True
+HIV (new diagnoses),El Dorado,12,6.0,12,False
+HIV (new diagnoses),Fresno,12,123.0,12,False
+HIV (new diagnoses),Glenn,12,0.5,6,True
+HIV (new diagnoses),Humboldt,12,6.0,12,False
+HIV (new diagnoses),Imperial,12,24.0,12,False
+HIV (new diagnoses),Inyo,12,1.0,7,True
+HIV (new diagnoses),Kern,12,153.5,12,False
+HIV (new diagnoses),Kings,12,9.5,12,False
+HIV (new diagnoses),Lake,12,3.0,12,True
+HIV (new diagnoses),Lassen,12,0.5,6,True
+HIV (new diagnoses),Los Angeles,12,1771.5,12,False
+HIV (new diagnoses),Madera,12,12.0,12,False
+HIV (new diagnoses),Marin,12,16.0,12,False
+HIV (new diagnoses),Mariposa,12,0.0,5,True
+HIV (new diagnoses),Mendocino,12,4.0,12,True
+HIV (new diagnoses),Merced,12,24.5,12,False
+HIV (new diagnoses),Modoc,12,0.0,0,True
+HIV (new diagnoses),Mono,12,0.0,3,True
+HIV (new diagnoses),Monterey,12,30.5,12,False
+HIV (new diagnoses),Napa,12,8.5,12,False
+HIV (new diagnoses),Nevada,12,3.5,12,True
+HIV (new diagnoses),Orange,12,278.0,12,False
+HIV (new diagnoses),Placer,12,13.0,12,False
+HIV (new diagnoses),Plumas,12,0.0,3,True
+HIV (new diagnoses),Riverside,12,272.5,12,False
+HIV (new diagnoses),Sacramento,12,183.5,12,False
+HIV (new diagnoses),San Benito,12,2.0,11,True
+HIV (new diagnoses),San Bernardino,12,263.5,12,False
+HIV (new diagnoses),San Diego,12,427.0,12,False
+HIV (new diagnoses),San Francisco,12,241.0,12,False
+HIV (new diagnoses),San Joaquin,12,75.0,12,False
+HIV (new diagnoses),San Luis Obispo,12,15.0,12,False
+HIV (new diagnoses),San Mateo,12,60.5,12,False
+HIV (new diagnoses),Santa Barbara,12,28.5,12,False
+HIV (new diagnoses),Santa Clara,12,158.0,12,False
+HIV (new diagnoses),Santa Cruz,12,16.0,12,False
+HIV (new diagnoses),Shasta,12,5.0,12,False
+HIV (new diagnoses),Sierra,12,0.0,1,True
+HIV (new diagnoses),Siskiyou,12,2.0,8,True
+HIV (new diagnoses),Solano,12,42.5,12,False
+HIV (new diagnoses),Sonoma,12,35.0,12,False
+HIV (new diagnoses),Stanislaus,12,40.0,12,False
+HIV (new diagnoses),Sutter,12,5.0,12,False
+HIV (new diagnoses),Tehama,12,2.0,10,True
+HIV (new diagnoses),Trinity,12,0.0,3,True
+HIV (new diagnoses),Tulare,12,33.0,12,False
+HIV (new diagnoses),Tuolumne,12,1.0,9,True
+HIV (new diagnoses),Ventura,12,52.5,12,False
+HIV (new diagnoses),Yolo,12,15.5,12,False
+HIV (new diagnoses),Yuba,12,3.0,12,True
+"Hepatitis C, chronic (newly reported)",Alameda,3,1265.0,3,False
+"Hepatitis C, chronic (newly reported)",Alpine,3,0.0,0,True
+"Hepatitis C, chronic (newly reported)",Amador,3,33.0,3,False
+"Hepatitis C, chronic (newly reported)",Butte,3,269.0,3,False
+"Hepatitis C, chronic (newly reported)",Calaveras,3,39.0,3,False
+"Hepatitis C, chronic (newly reported)",Colusa,3,10.0,3,False
+"Hepatitis C, chronic (newly reported)",Contra Costa,3,778.0,3,False
+"Hepatitis C, chronic (newly reported)",Del Norte,3,46.0,3,False
+"Hepatitis C, chronic (newly reported)",El Dorado,3,121.0,3,False
+"Hepatitis C, chronic (newly reported)",Fresno,3,601.0,3,False
+"Hepatitis C, chronic (newly reported)",Glenn,3,16.0,3,False
+"Hepatitis C, chronic (newly reported)",Humboldt,3,272.0,3,False
+"Hepatitis C, chronic (newly reported)",Imperial,3,156.0,3,False
+"Hepatitis C, chronic (newly reported)",Inyo,3,13.0,3,False
+"Hepatitis C, chronic (newly reported)",Kern,3,834.0,3,False
+"Hepatitis C, chronic (newly reported)",Kings,3,82.0,3,False
+"Hepatitis C, chronic (newly reported)",Lake,3,100.0,3,False
+"Hepatitis C, chronic (newly reported)",Lassen,3,53.0,3,False
+"Hepatitis C, chronic (newly reported)",Los Angeles,3,9831.0,3,False
+"Hepatitis C, chronic (newly reported)",Madera,3,99.0,3,False
+"Hepatitis C, chronic (newly reported)",Marin,3,242.0,3,False
+"Hepatitis C, chronic (newly reported)",Mariposa,3,28.0,3,False
+"Hepatitis C, chronic (newly reported)",Mendocino,3,128.0,3,False
+"Hepatitis C, chronic (newly reported)",Merced,3,224.0,3,False
+"Hepatitis C, chronic (newly reported)",Modoc,3,9.0,3,False
+"Hepatitis C, chronic (newly reported)",Mono,3,8.0,3,False
+"Hepatitis C, chronic (newly reported)",Monterey,3,219.0,3,False
+"Hepatitis C, chronic (newly reported)",Napa,3,122.0,3,False
+"Hepatitis C, chronic (newly reported)",Nevada,3,77.0,3,False
+"Hepatitis C, chronic (newly reported)",Orange,3,1993.0,3,False
+"Hepatitis C, chronic (newly reported)",Placer,3,256.0,3,False
+"Hepatitis C, chronic (newly reported)",Plumas,3,19.0,3,False
+"Hepatitis C, chronic (newly reported)",Riverside,3,1392.0,3,False
+"Hepatitis C, chronic (newly reported)",Sacramento,3,1758.0,3,False
+"Hepatitis C, chronic (newly reported)",San Benito,3,33.0,3,False
+"Hepatitis C, chronic (newly reported)",San Bernardino,3,1469.0,3,False
+"Hepatitis C, chronic (newly reported)",San Diego,3,2052.0,3,False
+"Hepatitis C, chronic (newly reported)",San Francisco,3,1115.0,3,False
+"Hepatitis C, chronic (newly reported)",San Joaquin,3,546.0,3,False
+"Hepatitis C, chronic (newly reported)",San Luis Obispo,3,208.0,3,False
+"Hepatitis C, chronic (newly reported)",San Mateo,3,816.0,3,False
+"Hepatitis C, chronic (newly reported)",Santa Barbara,3,359.0,3,False
+"Hepatitis C, chronic (newly reported)",Santa Clara,3,1342.0,3,False
+"Hepatitis C, chronic (newly reported)",Santa Cruz,3,305.0,3,False
+"Hepatitis C, chronic (newly reported)",Shasta,3,207.0,3,False
+"Hepatitis C, chronic (newly reported)",Sierra,3,4.0,3,True
+"Hepatitis C, chronic (newly reported)",Siskiyou,3,67.0,3,False
+"Hepatitis C, chronic (newly reported)",Solano,3,446.0,3,False
+"Hepatitis C, chronic (newly reported)",Sonoma,3,505.0,3,False
+"Hepatitis C, chronic (newly reported)",Stanislaus,3,460.0,3,False
+"Hepatitis C, chronic (newly reported)",Sutter,3,89.0,3,False
+"Hepatitis C, chronic (newly reported)",Tehama,3,62.0,3,False
+"Hepatitis C, chronic (newly reported)",Trinity,3,18.0,3,False
+"Hepatitis C, chronic (newly reported)",Tulare,3,271.0,3,False
+"Hepatitis C, chronic (newly reported)",Tuolumne,3,63.0,3,False
+"Hepatitis C, chronic (newly reported)",Ventura,3,423.0,3,False
+"Hepatitis C, chronic (newly reported)",Yolo,3,160.0,3,False
+"Hepatitis C, chronic (newly reported)",Yuba,3,83.0,3,False

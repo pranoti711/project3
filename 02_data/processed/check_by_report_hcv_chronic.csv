@@ -1,0 +1,4 @@
+report_year,year,counties,sum_cases,n_missing,report_total,diff
+2016,2014,58,29803.0,0,,
+2016,2015,58,31942.0,0,,
+2016,2016,58,35026.0,0,,

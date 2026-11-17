@@ -1,0 +1,175 @@
+county,year,cases,rate,flag,report_year,file
+Alameda,2014,346.0,21.6,,2016,hcv_2016.pdf
+Alameda,2015,1265.0,78.1,,2016,hcv_2016.pdf
+Alameda,2016,1989.0,121.4,,2016,hcv_2016.pdf
+Alpine,2014,0.0,,,2016,hcv_2016.pdf
+Alpine,2015,0.0,,,2016,hcv_2016.pdf
+Alpine,2016,0.0,,,2016,hcv_2016.pdf
+Amador,2014,33.0,95.7,,2016,hcv_2016.pdf
+Amador,2015,33.0,96.0,,2016,hcv_2016.pdf
+Amador,2016,35.0,101.8,,2016,hcv_2016.pdf
+Butte,2014,403.0,180.0,,2016,hcv_2016.pdf
+Butte,2015,223.0,99.4,,2016,hcv_2016.pdf
+Butte,2016,269.0,119.5,,2016,hcv_2016.pdf
+Calaveras,2014,39.0,86.6,,2016,hcv_2016.pdf
+Calaveras,2015,34.0,75.7,,2016,hcv_2016.pdf
+Calaveras,2016,55.0,122.8,,2016,hcv_2016.pdf
+Colusa,2014,5.0,,,2016,hcv_2016.pdf
+Colusa,2015,11.0,49.4,,2016,hcv_2016.pdf
+Colusa,2016,10.0,,,2016,hcv_2016.pdf
+Contra Costa,2014,766.0,69.5,,2016,hcv_2016.pdf
+Contra Costa,2015,778.0,69.7,,2016,hcv_2016.pdf
+Contra Costa,2016,890.0,78.8,,2016,hcv_2016.pdf
+Del Norte,2014,41.0,167.9,,2016,hcv_2016.pdf
+Del Norte,2015,46.0,188.7,,2016,hcv_2016.pdf
+Del Norte,2016,48.0,193.8,,2016,hcv_2016.pdf
+El Dorado,2014,121.0,66.3,,2016,hcv_2016.pdf
+El Dorado,2015,139.0,75.9,,2016,hcv_2016.pdf
+El Dorado,2016,107.0,58.1,,2016,hcv_2016.pdf
+Fresno,2014,574.0,59.4,,2016,hcv_2016.pdf
+Fresno,2015,601.0,61.5,,2016,hcv_2016.pdf
+Fresno,2016,752.0,76.3,,2016,hcv_2016.pdf
+Glenn,2014,15.0,52.0,,2016,hcv_2016.pdf
+Glenn,2015,16.0,55.2,,2016,hcv_2016.pdf
+Glenn,2016,22.0,75.7,,2016,hcv_2016.pdf
+Humboldt,2014,272.0,201.9,,2016,hcv_2016.pdf
+Humboldt,2015,325.0,240.6,,2016,hcv_2016.pdf
+Humboldt,2016,246.0,180.8,,2016,hcv_2016.pdf
+Imperial,2014,157.0,89.0,,2016,hcv_2016.pdf
+Imperial,2015,145.0,81.4,,2016,hcv_2016.pdf
+Imperial,2016,156.0,86.8,,2016,hcv_2016.pdf
+Inyo,2014,10.0,,,2016,hcv_2016.pdf
+Inyo,2015,13.0,69.7,,2016,hcv_2016.pdf
+Inyo,2016,21.0,112.6,,2016,hcv_2016.pdf
+Kern,2014,834.0,97.3,,2016,hcv_2016.pdf
+Kern,2015,830.0,96.0,,2016,hcv_2016.pdf
+Kern,2016,880.0,101.1,,2016,hcv_2016.pdf
+Kings,2014,83.0,61.1,,2016,hcv_2016.pdf
+Kings,2015,82.0,59.8,,2016,hcv_2016.pdf
+Kings,2016,76.0,55.4,,2016,hcv_2016.pdf
+Lake,2014,73.0,112.0,,2016,hcv_2016.pdf
+Lake,2015,100.0,153.4,,2016,hcv_2016.pdf
+Lake,2016,139.0,213.4,,2016,hcv_2016.pdf
+Lassen,2014,56.0,237.6,,2016,hcv_2016.pdf
+Lassen,2015,53.0,224.8,,2016,hcv_2016.pdf
+Lassen,2016,35.0,151.2,,2016,hcv_2016.pdf
+Los Angeles,2014,9944.0,98.2,,2016,hcv_2016.pdf
+Los Angeles,2015,9434.0,92.7,,2016,hcv_2016.pdf
+Los Angeles,2016,9831.0,96.1,,2016,hcv_2016.pdf
+Madera,2014,97.0,65.9,,2016,hcv_2016.pdf
+Madera,2015,99.0,66.7,,2016,hcv_2016.pdf
+Madera,2016,100.0,66.9,,2016,hcv_2016.pdf
+Marin,2014,234.0,91.0,,2016,hcv_2016.pdf
+Marin,2015,269.0,104.1,,2016,hcv_2016.pdf
+Marin,2016,242.0,93.4,,2016,hcv_2016.pdf
+Mariposa,2014,32.0,176.5,,2016,hcv_2016.pdf
+Mariposa,2015,28.0,154.8,,2016,hcv_2016.pdf
+Mariposa,2016,26.0,144.0,,2016,hcv_2016.pdf
+Mendocino,2014,159.0,179.6,,2016,hcv_2016.pdf
+Mendocino,2015,108.0,122.1,,2016,hcv_2016.pdf
+Mendocino,2016,128.0,143.8,,2016,hcv_2016.pdf
+Merced,2014,224.0,83.7,,2016,hcv_2016.pdf
+Merced,2015,174.0,64.5,,2016,hcv_2016.pdf
+Merced,2016,226.0,82.9,,2016,hcv_2016.pdf
+Modoc,2014,9.0,,,2016,hcv_2016.pdf
+Modoc,2015,17.0,178.8,,2016,hcv_2016.pdf
+Modoc,2016,7.0,,,2016,hcv_2016.pdf
+Mono,2014,8.0,,,2016,hcv_2016.pdf
+Mono,2015,11.0,79.6,,2016,hcv_2016.pdf
+Mono,2016,6.0,,,2016,hcv_2016.pdf
+Monterey,2014,217.0,51.5,,2016,hcv_2016.pdf
+Monterey,2015,246.0,57.6,,2016,hcv_2016.pdf
+Monterey,2016,219.0,50.7,,2016,hcv_2016.pdf
+Napa,2014,117.0,83.2,,2016,hcv_2016.pdf
+Napa,2015,122.0,86.2,,2016,hcv_2016.pdf
+Napa,2016,135.0,94.9,,2016,hcv_2016.pdf
+Nevada,2014,69.0,70.2,,2016,hcv_2016.pdf
+Nevada,2015,77.0,78.4,,2016,hcv_2016.pdf
+Nevada,2016,101.0,102.5,,2016,hcv_2016.pdf
+Orange,2014,1561.0,49.7,,2016,hcv_2016.pdf
+Orange,2015,1993.0,63.0,,2016,hcv_2016.pdf
+Orange,2016,2656.0,83.5,,2016,hcv_2016.pdf
+Placer,2014,269.0,73.1,,2016,hcv_2016.pdf
+Placer,2015,256.0,69.1,,2016,hcv_2016.pdf
+Placer,2016,230.0,61.2,,2016,hcv_2016.pdf
+Plumas,2014,30.0,152.3,,2016,hcv_2016.pdf
+Plumas,2015,18.0,91.9,,2016,hcv_2016.pdf
+Plumas,2016,19.0,97.5,,2016,hcv_2016.pdf
+Riverside,2014,1392.0,60.6,,2016,hcv_2016.pdf
+Riverside,2015,1363.0,58.8,,2016,hcv_2016.pdf
+Riverside,2016,1700.0,72.3,,2016,hcv_2016.pdf
+Sacramento,2014,1185.0,80.7,,2016,hcv_2016.pdf
+Sacramento,2015,1971.0,132.7,,2016,hcv_2016.pdf
+Sacramento,2016,1758.0,117.1,,2016,hcv_2016.pdf
+San Benito,2014,33.0,57.7,,2016,hcv_2016.pdf
+San Benito,2015,17.0,29.5,,2016,hcv_2016.pdf
+San Benito,2016,34.0,58.6,,2016,hcv_2016.pdf
+San Bernardino,2014,1469.0,69.7,,2016,hcv_2016.pdf
+San Bernardino,2015,1355.0,63.7,,2016,hcv_2016.pdf
+San Bernardino,2016,1691.0,78.9,,2016,hcv_2016.pdf
+San Diego,2014,1823.0,56.2,,2016,hcv_2016.pdf
+San Diego,2015,2052.0,62.7,,2016,hcv_2016.pdf
+San Diego,2016,2318.0,70.3,,2016,hcv_2016.pdf
+San Francisco,2014,1112.0,130.3,,2016,hcv_2016.pdf
+San Francisco,2015,1115.0,129.2,,2016,hcv_2016.pdf
+San Francisco,2016,1360.0,156.1,,2016,hcv_2016.pdf
+San Joaquin,2014,410.0,57.4,,2016,hcv_2016.pdf
+San Joaquin,2015,546.0,75.3,,2016,hcv_2016.pdf
+San Joaquin,2016,548.0,74.4,,2016,hcv_2016.pdf
+San Luis Obispo,2014,229.0,84.3,,2016,hcv_2016.pdf
+San Luis Obispo,2015,185.0,67.8,,2016,hcv_2016.pdf
+San Luis Obispo,2016,208.0,75.8,,2016,hcv_2016.pdf
+San Mateo,2014,816.0,107.9,,2016,hcv_2016.pdf
+San Mateo,2015,1304.0,170.6,,2016,hcv_2016.pdf
+San Mateo,2016,390.0,50.8,,2016,hcv_2016.pdf
+Santa Barbara,2014,302.0,68.6,,2016,hcv_2016.pdf
+Santa Barbara,2015,359.0,80.7,,2016,hcv_2016.pdf
+Santa Barbara,2016,400.0,89.2,,2016,hcv_2016.pdf
+Santa Clara,2014,1405.0,74.3,,2016,hcv_2016.pdf
+Santa Clara,2015,989.0,51.6,,2016,hcv_2016.pdf
+Santa Clara,2016,1342.0,69.5,,2016,hcv_2016.pdf
+Santa Cruz,2014,305.0,112.3,,2016,hcv_2016.pdf
+Santa Cruz,2015,319.0,116.1,,2016,hcv_2016.pdf
+Santa Cruz,2016,288.0,104.3,,2016,hcv_2016.pdf
+Shasta,2014,207.0,115.5,,2016,hcv_2016.pdf
+Shasta,2015,188.0,105.2,,2016,hcv_2016.pdf
+Shasta,2016,269.0,150.9,,2016,hcv_2016.pdf
+Sierra,2014,6.0,,,2016,hcv_2016.pdf
+Sierra,2015,2.0,,,2016,hcv_2016.pdf
+Sierra,2016,4.0,,,2016,hcv_2016.pdf
+Siskiyou,2014,70.0,156.9,,2016,hcv_2016.pdf
+Siskiyou,2015,67.0,150.6,,2016,hcv_2016.pdf
+Siskiyou,2016,59.0,133.0,,2016,hcv_2016.pdf
+Solano,2014,185.0,44.1,,2016,hcv_2016.pdf
+Solano,2015,470.0,111.1,,2016,hcv_2016.pdf
+Solano,2016,446.0,104.3,,2016,hcv_2016.pdf
+Sonoma,2014,505.0,101.4,,2016,hcv_2016.pdf
+Sonoma,2015,457.0,91.2,,2016,hcv_2016.pdf
+Sonoma,2016,564.0,111.9,,2016,hcv_2016.pdf
+Stanislaus,2014,418.0,78.6,,2016,hcv_2016.pdf
+Stanislaus,2015,460.0,85.4,,2016,hcv_2016.pdf
+Stanislaus,2016,588.0,107.9,,2016,hcv_2016.pdf
+Sutter,2014,109.0,112.3,,2016,hcv_2016.pdf
+Sutter,2015,86.0,88.1,,2016,hcv_2016.pdf
+Sutter,2016,89.0,90.6,,2016,hcv_2016.pdf
+Tehama,2014,82.0,128.4,,2016,hcv_2016.pdf
+Tehama,2015,43.0,67.2,,2016,hcv_2016.pdf
+Tehama,2016,62.0,96.7,,2016,hcv_2016.pdf
+Trinity,2014,22.0,161.6,,2016,hcv_2016.pdf
+Trinity,2015,17.0,125.4,,2016,hcv_2016.pdf
+Trinity,2016,18.0,133.5,,2016,hcv_2016.pdf
+Tulare,2014,271.0,58.9,,2016,hcv_2016.pdf
+Tulare,2015,257.0,55.5,,2016,hcv_2016.pdf
+Tulare,2016,306.0,65.4,,2016,hcv_2016.pdf
+Tuolumne,2014,53.0,106.0,,2016,hcv_2016.pdf
+Tuolumne,2015,63.0,125.5,,2016,hcv_2016.pdf
+Tuolumne,2016,75.0,150.2,,2016,hcv_2016.pdf
+Ventura,2014,377.0,44.5,,2016,hcv_2016.pdf
+Ventura,2015,423.0,49.6,,2016,hcv_2016.pdf
+Ventura,2016,589.0,68.9,,2016,hcv_2016.pdf
+Yolo,2014,147.0,70.1,,2016,hcv_2016.pdf
+Yolo,2015,205.0,96.4,,2016,hcv_2016.pdf
+Yolo,2016,160.0,73.8,,2016,hcv_2016.pdf
+Yuba,2014,72.0,96.0,,2016,hcv_2016.pdf
+Yuba,2015,83.0,109.8,,2016,hcv_2016.pdf
+Yuba,2016,104.0,136.6,,2016,hcv_2016.pdf

@@ -1,0 +1,697 @@
+Disease,County,Year,Sex,Cases,Population,Rate,Source,Disease_group,Suppressed_flag,Report_year,Case_definition_changed,Cases_3yr
+HIV (new diagnoses),Alameda,2012,Total,236.0,1560713,15.121293921432065,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2016,False,
+HIV (new diagnoses),Alameda,2013,Total,218.0,1584064,13.762070219385075,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2017,False,
+HIV (new diagnoses),Alameda,2014,Total,213.0,1608614,13.241212621548739,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2018,False,667.0
+HIV (new diagnoses),Alameda,2015,Total,263.0,1630159,16.133395576750488,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2019,False,694.0
+HIV (new diagnoses),Alameda,2016,Total,272.0,1647332,16.511547156250227,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2019,False,748.0
+HIV (new diagnoses),Alameda,2017,Total,208.0,1659750,12.532007832504895,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2021,False,743.0
+HIV (new diagnoses),Alameda,2018,Total,205.0,1669659,12.277956157514797,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2022,False,685.0
+HIV (new diagnoses),Alameda,2019,Total,225.0,1678926,13.401424482079616,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2023,False,638.0
+HIV (new diagnoses),Alameda,2020,Total,165.0,1676458,9.842179165836543,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2023,False,595.0
+HIV (new diagnoses),Alameda,2021,Total,195.0,1654938,11.782918755868799,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2023,False,585.0
+HIV (new diagnoses),Alameda,2022,Total,212.0,1638979,12.934882021063112,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2023,False,572.0
+HIV (new diagnoses),Alameda,2023,Total,196.0,1638046,11.965475939015143,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2023,False,603.0
+HIV (new diagnoses),Alpine,2012,Total,0.0,1186,0.0,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2016,False,
+HIV (new diagnoses),Alpine,2013,Total,0.0,1193,0.0,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2017,False,
+HIV (new diagnoses),Alpine,2014,Total,0.0,1199,0.0,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2018,False,0.0
+HIV (new diagnoses),Alpine,2015,Total,0.0,1201,0.0,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2019,False,0.0
+HIV (new diagnoses),Alpine,2016,Total,0.0,1207,0.0,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2019,False,0.0
+HIV (new diagnoses),Alpine,2017,Total,0.0,1211,0.0,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2021,False,0.0
+HIV (new diagnoses),Alpine,2018,Total,0.0,1208,0.0,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2022,False,0.0
+HIV (new diagnoses),Alpine,2019,Total,0.0,1205,0.0,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2023,False,0.0
+HIV (new diagnoses),Alpine,2020,Total,0.0,1201,0.0,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2023,False,0.0
+HIV (new diagnoses),Alpine,2021,Total,0.0,1181,0.0,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2023,False,0.0
+HIV (new diagnoses),Alpine,2022,Total,0.0,1175,0.0,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2023,False,0.0
+HIV (new diagnoses),Alpine,2023,Total,0.0,1167,0.0,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2023,False,0.0
+HIV (new diagnoses),Amador,2012,Total,4.0,36903,10.83922716310327,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2016,False,
+HIV (new diagnoses),Amador,2013,Total,2.0,36561,5.4703098930554415,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2017,False,
+HIV (new diagnoses),Amador,2014,Total,0.0,36930,0.0,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2018,False,6.0
+HIV (new diagnoses),Amador,2015,Total,1.0,36905,2.7096599376778214,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2019,False,3.0
+HIV (new diagnoses),Amador,2016,Total,2.0,37929,5.273010097814337,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2019,False,3.0
+HIV (new diagnoses),Amador,2017,Total,1.0,38549,2.5941010142934964,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2021,False,4.0
+HIV (new diagnoses),Amador,2018,Total,3.0,40038,7.49288176232579,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2022,False,6.0
+HIV (new diagnoses),Amador,2019,Total,0.0,40279,0.0,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2023,False,4.0
+HIV (new diagnoses),Amador,2020,Total,1.0,40446,2.472432378974435,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2023,False,4.0
+HIV (new diagnoses),Amador,2021,Total,0.0,40222,0.0,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2023,False,1.0
+HIV (new diagnoses),Amador,2022,Total,1.0,40052,2.496754219514631,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2023,False,2.0
+HIV (new diagnoses),Amador,2023,Total,1.0,40088,2.4945120734384356,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2023,False,2.0
+HIV (new diagnoses),Butte,2012,Total,9.0,224316,4.012197079120526,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2016,False,
+HIV (new diagnoses),Butte,2013,Total,8.0,225544,3.546979746745646,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2017,False,
+HIV (new diagnoses),Butte,2014,Total,8.0,227830,3.5113900715445725,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2018,False,25.0
+HIV (new diagnoses),Butte,2015,Total,8.0,229359,3.4879817229757717,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2019,False,24.0
+HIV (new diagnoses),Butte,2016,Total,14.0,230681,6.0689870427126635,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2019,False,30.0
+HIV (new diagnoses),Butte,2017,Total,7.0,233080,3.0032606830272868,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2021,False,29.0
+HIV (new diagnoses),Butte,2018,Total,10.0,234627,4.262084073870441,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2022,False,31.0
+HIV (new diagnoses),Butte,2019,Total,10.0,226714,4.41084361795037,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2023,False,27.0
+HIV (new diagnoses),Butte,2020,Total,12.0,210426,5.702717344814804,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2023,False,32.0
+HIV (new diagnoses),Butte,2021,Total,12.0,206694,5.8056837644053525,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2023,False,34.0
+HIV (new diagnoses),Butte,2022,Total,16.0,206932,7.732008582529526,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2023,False,40.0
+HIV (new diagnoses),Butte,2023,Total,15.0,207615,7.224911494834188,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2023,False,43.0
+HIV (new diagnoses),Calaveras,2012,Total,0.0,45512,0.0,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2016,False,
+HIV (new diagnoses),Calaveras,2013,Total,3.0,45429,6.603711285742587,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2017,False,
+HIV (new diagnoses),Calaveras,2014,Total,3.0,45423,6.604583581005217,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2018,False,6.0
+HIV (new diagnoses),Calaveras,2015,Total,1.0,45414,2.201964152023605,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2019,False,7.0
+HIV (new diagnoses),Calaveras,2016,Total,1.0,45365,2.2043425548330213,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2019,False,5.0
+HIV (new diagnoses),Calaveras,2017,Total,2.0,45354,4.409754376681219,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2021,False,4.0
+HIV (new diagnoses),Calaveras,2018,Total,2.0,45365,4.408685109666043,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2022,False,5.0
+HIV (new diagnoses),Calaveras,2019,Total,2.0,45285,4.4164734459534065,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2023,False,6.0
+HIV (new diagnoses),Calaveras,2020,Total,1.0,45277,2.2086268966583473,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2023,False,5.0
+HIV (new diagnoses),Calaveras,2021,Total,1.0,45013,2.221580432319552,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2023,False,4.0
+HIV (new diagnoses),Calaveras,2022,Total,0.0,44833,0.0,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2023,False,2.0
+HIV (new diagnoses),Calaveras,2023,Total,1.0,44744,2.2349365278026103,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2023,False,2.0
+HIV (new diagnoses),Colusa,2012,Total,2.0,21406,9.34317481080071,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2016,False,
+HIV (new diagnoses),Colusa,2013,Total,0.0,21464,0.0,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2017,False,
+HIV (new diagnoses),Colusa,2014,Total,0.0,21414,0.0,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2018,False,2.0
+HIV (new diagnoses),Colusa,2015,Total,1.0,21455,4.6609182008855745,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2019,False,1.0
+HIV (new diagnoses),Colusa,2016,Total,1.0,21677,4.613184481247405,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2019,False,2.0
+HIV (new diagnoses),Colusa,2017,Total,2.0,21792,9.177679882525696,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2021,False,4.0
+HIV (new diagnoses),Colusa,2018,Total,2.0,21690,9.220839096357768,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2022,False,5.0
+HIV (new diagnoses),Colusa,2019,Total,5.0,21745,22.993791676247415,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2023,False,9.0
+HIV (new diagnoses),Colusa,2020,Total,1.0,21777,4.592000734720117,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2023,False,8.0
+HIV (new diagnoses),Colusa,2021,Total,3.0,21867,13.719303059404583,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2023,False,9.0
+HIV (new diagnoses),Colusa,2022,Total,1.0,21923,4.561419513752679,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2023,False,5.0
+HIV (new diagnoses),Colusa,2023,Total,1.0,21970,4.551661356395084,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2023,False,5.0
+HIV (new diagnoses),Contra Costa,2012,Total,92.0,1082513,8.498743202160158,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2016,False,
+HIV (new diagnoses),Contra Costa,2013,Total,72.0,1098192,6.556230604484461,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2017,False,
+HIV (new diagnoses),Contra Costa,2014,Total,107.0,1112733,9.615963577965244,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2018,False,271.0
+HIV (new diagnoses),Contra Costa,2015,Total,92.0,1128317,8.15373693740323,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2019,False,271.0
+HIV (new diagnoses),Contra Costa,2016,Total,118.0,1141566,10.336677861814385,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2019,False,317.0
+HIV (new diagnoses),Contra Costa,2017,Total,108.0,1149457,9.395740771512115,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2021,False,318.0
+HIV (new diagnoses),Contra Costa,2018,Total,113.0,1158017,9.758060546606828,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2022,False,339.0
+HIV (new diagnoses),Contra Costa,2019,Total,98.0,1162287,8.431652423196681,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2023,False,319.0
+HIV (new diagnoses),Contra Costa,2020,Total,74.0,1165556,6.348901296891784,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2023,False,285.0
+HIV (new diagnoses),Contra Costa,2021,Total,109.0,1160418,9.393166945014642,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2023,False,281.0
+HIV (new diagnoses),Contra Costa,2022,Total,120.0,1149586,10.43854048326963,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2023,False,303.0
+HIV (new diagnoses),Contra Costa,2023,Total,126.0,1144040,11.013600923044649,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2023,False,355.0
+HIV (new diagnoses),Del Norte,2012,Total,0.0,28038,0.0,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2016,False,
+HIV (new diagnoses),Del Norte,2013,Total,0.0,27589,0.0,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2017,False,
+HIV (new diagnoses),Del Norte,2014,Total,0.0,27260,0.0,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2018,False,0.0
+HIV (new diagnoses),Del Norte,2015,Total,2.0,27113,7.376535241397115,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2019,False,2.0
+HIV (new diagnoses),Del Norte,2016,Total,0.0,27070,0.0,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2019,False,2.0
+HIV (new diagnoses),Del Norte,2017,Total,1.0,26898,3.71774853148933,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2021,False,3.0
+HIV (new diagnoses),Del Norte,2018,Total,0.0,27572,0.0,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2022,False,1.0
+HIV (new diagnoses),Del Norte,2019,Total,0.0,27604,0.0,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2023,False,1.0
+HIV (new diagnoses),Del Norte,2020,Total,0.0,27638,0.0,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2023,False,0.0
+HIV (new diagnoses),Del Norte,2021,Total,1.0,27365,3.654302941713868,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2023,False,1.0
+HIV (new diagnoses),Del Norte,2022,Total,2.0,26604,7.517666516313337,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2023,False,3.0
+HIV (new diagnoses),Del Norte,2023,Total,1.0,26136,3.8261401897765532,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2023,False,4.0
+HIV (new diagnoses),El Dorado,2012,Total,3.0,180978,1.6576600470775453,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2016,False,
+HIV (new diagnoses),El Dorado,2013,Total,4.0,181963,2.198249094596154,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2017,False,
+HIV (new diagnoses),El Dorado,2014,Total,4.0,181898,2.1990346238001517,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2018,False,11.0
+HIV (new diagnoses),El Dorado,2015,Total,7.0,182205,3.8418265140912706,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2019,False,15.0
+HIV (new diagnoses),El Dorado,2016,Total,4.0,182937,2.1865450947593983,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2019,False,15.0
+HIV (new diagnoses),El Dorado,2017,Total,9.0,184800,4.87012987012987,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2021,False,20.0
+HIV (new diagnoses),El Dorado,2018,Total,5.0,187122,2.6720535265762444,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2022,False,18.0
+HIV (new diagnoses),El Dorado,2019,Total,7.0,187905,3.7252867140310264,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2023,False,21.0
+HIV (new diagnoses),El Dorado,2020,Total,6.0,191032,3.1408350433435235,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2023,False,18.0
+HIV (new diagnoses),El Dorado,2021,Total,8.0,191309,4.181716490076264,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2023,False,21.0
+HIV (new diagnoses),El Dorado,2022,Total,6.0,189382,3.168199723310557,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2023,False,20.0
+HIV (new diagnoses),El Dorado,2023,Total,6.0,188131,3.189267053276706,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2023,False,20.0
+HIV (new diagnoses),Fresno,2012,Total,103.0,949363,10.849380057996783,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2016,False,
+HIV (new diagnoses),Fresno,2013,Total,89.0,955481,9.314680250052069,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2017,False,
+HIV (new diagnoses),Fresno,2014,Total,109.0,963010,11.318677895348959,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2018,False,301.0
+HIV (new diagnoses),Fresno,2015,Total,102.0,970859,10.506160008816934,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2019,False,300.0
+HIV (new diagnoses),Fresno,2016,Total,135.0,977361,13.812705847685757,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2019,False,346.0
+HIV (new diagnoses),Fresno,2017,Total,157.0,985393,15.932729378024808,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2021,False,394.0
+HIV (new diagnoses),Fresno,2018,Total,110.0,993965,11.066788065978178,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2022,False,402.0
+HIV (new diagnoses),Fresno,2019,Total,117.0,1001640,11.680843416796455,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2023,False,384.0
+HIV (new diagnoses),Fresno,2020,Total,129.0,1007344,12.805953080576248,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2023,False,356.0
+HIV (new diagnoses),Fresno,2021,Total,151.0,1010453,14.943792536614765,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2023,False,397.0
+HIV (new diagnoses),Fresno,2022,Total,172.0,1012350,16.990171383414825,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2023,False,452.0
+HIV (new diagnoses),Fresno,2023,Total,178.0,1015793,17.523255230150237,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2023,False,501.0
+HIV (new diagnoses),Glenn,2012,Total,1.0,28009,3.5702809811132137,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2016,False,
+HIV (new diagnoses),Glenn,2013,Total,0.0,28014,0.0,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2017,False,
+HIV (new diagnoses),Glenn,2014,Total,0.0,28075,0.0,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2018,False,1.0
+HIV (new diagnoses),Glenn,2015,Total,1.0,28001,3.571301024963394,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2019,False,1.0
+HIV (new diagnoses),Glenn,2016,Total,2.0,28005,7.141581860382075,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2019,False,3.0
+HIV (new diagnoses),Glenn,2017,Total,2.0,28072,7.124536905101169,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2021,False,5.0
+HIV (new diagnoses),Glenn,2018,Total,1.0,28134,3.5544181417501957,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2022,False,5.0
+HIV (new diagnoses),Glenn,2019,Total,0.0,28525,0.0,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2023,False,3.0
+HIV (new diagnoses),Glenn,2020,Total,0.0,28891,0.0,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2023,False,1.0
+HIV (new diagnoses),Glenn,2021,Total,0.0,28734,0.0,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2023,False,0.0
+HIV (new diagnoses),Glenn,2022,Total,0.0,28685,0.0,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2023,False,0.0
+HIV (new diagnoses),Glenn,2023,Total,1.0,28760,3.4770514603616136,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2023,False,1.0
+HIV (new diagnoses),Humboldt,2012,Total,4.0,135500,2.952029520295203,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2016,False,
+HIV (new diagnoses),Humboldt,2013,Total,4.0,135676,2.9482001238244053,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2017,False,
+HIV (new diagnoses),Humboldt,2014,Total,6.0,135710,4.421192248176258,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2018,False,14.0
+HIV (new diagnoses),Humboldt,2015,Total,9.0,136348,6.600756886789685,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2019,False,19.0
+HIV (new diagnoses),Humboldt,2016,Total,6.0,137346,4.36852911624656,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2019,False,21.0
+HIV (new diagnoses),Humboldt,2017,Total,4.0,137492,2.9092601751374625,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2021,False,19.0
+HIV (new diagnoses),Humboldt,2018,Total,15.0,137493,10.909646309266654,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2022,False,25.0
+HIV (new diagnoses),Humboldt,2019,Total,6.0,136740,4.3878894251864855,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2023,False,25.0
+HIV (new diagnoses),Humboldt,2020,Total,4.0,136204,2.9367713136178084,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2023,False,25.0
+HIV (new diagnoses),Humboldt,2021,Total,8.0,134639,5.9418147787788085,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2023,False,18.0
+HIV (new diagnoses),Humboldt,2022,Total,10.0,134417,7.439535177842088,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2023,False,22.0
+HIV (new diagnoses),Humboldt,2023,Total,9.0,134304,6.701215153681201,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2023,False,27.0
+HIV (new diagnoses),Imperial,2012,Total,16.0,177385,9.019928404318291,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2016,False,
+HIV (new diagnoses),Imperial,2013,Total,20.0,177312,11.279552427359683,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2017,False,
+HIV (new diagnoses),Imperial,2014,Total,19.0,178967,10.616482368257836,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2018,False,55.0
+HIV (new diagnoses),Imperial,2015,Total,18.0,179952,10.002667377967459,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2019,False,57.0
+HIV (new diagnoses),Imperial,2016,Total,14.0,180280,7.765697803416907,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2019,False,51.0
+HIV (new diagnoses),Imperial,2017,Total,41.0,180627,22.69871060251236,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2021,False,73.0
+HIV (new diagnoses),Imperial,2018,Total,34.0,180627,18.82332098744927,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2022,False,89.0
+HIV (new diagnoses),Imperial,2019,Total,32.0,180809,17.69823404808389,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2023,False,107.0
+HIV (new diagnoses),Imperial,2020,Total,28.0,180182,15.539843047585219,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2023,False,94.0
+HIV (new diagnoses),Imperial,2021,Total,27.0,179340,15.055202408832384,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2023,False,87.0
+HIV (new diagnoses),Imperial,2022,Total,21.0,179062,11.727781438831242,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2023,False,76.0
+HIV (new diagnoses),Imperial,2023,Total,27.0,179790,15.017520440513932,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2023,False,75.0
+HIV (new diagnoses),Inyo,2012,Total,0.0,18702,0.0,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2016,False,
+HIV (new diagnoses),Inyo,2013,Total,0.0,18761,0.0,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2017,False,
+HIV (new diagnoses),Inyo,2014,Total,3.0,18873,15.895724050230488,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2018,False,3.0
+HIV (new diagnoses),Inyo,2015,Total,1.0,18911,5.287927661149595,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2019,False,4.0
+HIV (new diagnoses),Inyo,2016,Total,2.0,18956,10.550749103186327,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2019,False,6.0
+HIV (new diagnoses),Inyo,2017,Total,2.0,18945,10.556875164951174,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2021,False,5.0
+HIV (new diagnoses),Inyo,2018,Total,1.0,18953,5.276209571044162,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2022,False,5.0
+HIV (new diagnoses),Inyo,2019,Total,0.0,18947,0.0,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2023,False,3.0
+HIV (new diagnoses),Inyo,2020,Total,1.0,18985,5.267316302343956,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2023,False,2.0
+HIV (new diagnoses),Inyo,2021,Total,1.0,18879,5.2968907251443405,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2023,False,2.0
+HIV (new diagnoses),Inyo,2022,Total,0.0,18864,0.0,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2023,False,2.0
+HIV (new diagnoses),Inyo,2023,Total,0.0,18901,0.0,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2023,False,1.0
+HIV (new diagnoses),Kern,2012,Total,96.0,858439,11.183089305122438,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2016,False,
+HIV (new diagnoses),Kern,2013,Total,109.0,867036,12.571565655866655,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2017,False,
+HIV (new diagnoses),Kern,2014,Total,110.0,872913,12.601484913158584,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2018,False,315.0
+HIV (new diagnoses),Kern,2015,Total,122.0,878081,13.893934614232629,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2019,False,341.0
+HIV (new diagnoses),Kern,2016,Total,101.0,880702,11.468124291758166,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2019,False,333.0
+HIV (new diagnoses),Kern,2017,Total,152.0,888203,17.113204976790215,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2021,False,375.0
+HIV (new diagnoses),Kern,2018,Total,155.0,895655,17.305770637131484,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2022,False,408.0
+HIV (new diagnoses),Kern,2019,Total,181.0,903150,20.040967724076843,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2023,False,488.0
+HIV (new diagnoses),Kern,2020,Total,168.0,905241,18.558593788836344,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2023,False,504.0
+HIV (new diagnoses),Kern,2021,Total,187.0,908195,20.59029173250238,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2023,False,536.0
+HIV (new diagnoses),Kern,2022,Total,208.0,908513,22.89455406802104,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2023,False,563.0
+HIV (new diagnoses),Kern,2023,Total,215.0,910112,23.623466122850814,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2023,False,610.0
+HIV (new diagnoses),Kings,2012,Total,8.0,149766,5.341666332812521,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2016,False,
+HIV (new diagnoses),Kings,2013,Total,12.0,149667,8.017799514923128,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2017,False,
+HIV (new diagnoses),Kings,2014,Total,8.0,148494,5.387423060864412,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2018,False,28.0
+HIV (new diagnoses),Kings,2015,Total,8.0,148525,5.386298602928799,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2019,False,28.0
+HIV (new diagnoses),Kings,2016,Total,9.0,147615,6.0969413677471795,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2019,False,25.0
+HIV (new diagnoses),Kings,2017,Total,20.0,148933,13.428857271390491,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2021,False,37.0
+HIV (new diagnoses),Kings,2018,Total,10.0,151040,6.620762711864407,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2022,False,39.0
+HIV (new diagnoses),Kings,2019,Total,9.0,151691,5.933114027859267,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2023,False,39.0
+HIV (new diagnoses),Kings,2020,Total,8.0,152200,5.256241787122208,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2023,False,27.0
+HIV (new diagnoses),Kings,2021,Total,10.0,151514,6.600050160381219,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2023,False,27.0
+HIV (new diagnoses),Kings,2022,Total,11.0,151337,7.268546356806333,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2023,False,29.0
+HIV (new diagnoses),Kings,2023,Total,12.0,152340,7.877116975187081,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2023,False,33.0
+HIV (new diagnoses),Lake,2012,Total,2.0,67017,2.9843174119999403,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2016,False,
+HIV (new diagnoses),Lake,2013,Total,1.0,67300,1.4858841010401187,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2017,False,
+HIV (new diagnoses),Lake,2014,Total,3.0,67677,4.432820603750166,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2018,False,6.0
+HIV (new diagnoses),Lake,2015,Total,2.0,66931,2.988151977409571,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2019,False,6.0
+HIV (new diagnoses),Lake,2016,Total,1.0,66945,1.4937635372320561,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2019,False,6.0
+HIV (new diagnoses),Lake,2017,Total,4.0,67963,5.885555375719141,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2021,False,7.0
+HIV (new diagnoses),Lake,2018,Total,4.0,68358,5.851546271102139,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2022,False,9.0
+HIV (new diagnoses),Lake,2019,Total,4.0,68114,5.872507854479255,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2023,False,12.0
+HIV (new diagnoses),Lake,2020,Total,3.0,67637,4.4354421396572885,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2023,False,11.0
+HIV (new diagnoses),Lake,2021,Total,1.0,67572,1.479902918368555,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2023,False,8.0
+HIV (new diagnoses),Lake,2022,Total,5.0,67391,7.419388345624787,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2023,False,9.0
+HIV (new diagnoses),Lake,2023,Total,7.0,67402,10.38544850301178,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2023,False,13.0
+HIV (new diagnoses),Lassen,2012,Total,3.0,33533,8.946410998121253,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2016,False,
+HIV (new diagnoses),Lassen,2013,Total,0.0,33040,0.0,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2017,False,
+HIV (new diagnoses),Lassen,2014,Total,0.0,32725,0.0,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2018,False,3.0
+HIV (new diagnoses),Lassen,2015,Total,3.0,31697,9.464618102659557,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2019,False,3.0
+HIV (new diagnoses),Lassen,2016,Total,1.0,32309,3.0951128168621747,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2019,False,4.0
+HIV (new diagnoses),Lassen,2017,Total,2.0,32655,6.124636349716736,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2021,False,6.0
+HIV (new diagnoses),Lassen,2018,Total,0.0,32936,0.0,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2022,False,3.0
+HIV (new diagnoses),Lassen,2019,Total,0.0,32857,0.0,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2023,False,2.0
+HIV (new diagnoses),Lassen,2020,Total,0.0,31719,0.0,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2023,False,0.0
+HIV (new diagnoses),Lassen,2021,Total,0.0,30851,0.0,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2023,False,0.0
+HIV (new diagnoses),Lassen,2022,Total,2.0,29387,6.805730425017866,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2023,False,2.0
+HIV (new diagnoses),Lassen,2023,Total,2.0,28563,7.0020656093547595,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2023,False,4.0
+HIV (new diagnoses),Los Angeles,2012,Total,2141.0,9970512,21.473320527571705,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2016,False,
+HIV (new diagnoses),Los Angeles,2013,Total,1818.0,10012612,18.157100265145598,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2017,False,
+HIV (new diagnoses),Los Angeles,2014,Total,2155.0,10052498,21.43745763490826,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2018,False,6114.0
+HIV (new diagnoses),Los Angeles,2015,Total,1988.0,10083826,19.71473922695612,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2019,False,5961.0
+HIV (new diagnoses),Los Angeles,2016,Total,1891.0,10099858,18.723035511984428,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2019,False,6034.0
+HIV (new diagnoses),Los Angeles,2017,Total,1777.0,10114636,17.56860059027334,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2021,False,5656.0
+HIV (new diagnoses),Los Angeles,2018,Total,1766.0,10100671,17.483986954926063,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2022,False,5434.0
+HIV (new diagnoses),Los Angeles,2019,Total,1641.0,10063851,16.30588529182318,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2023,False,5184.0
+HIV (new diagnoses),Los Angeles,2020,Total,1465.0,10013543,14.630186338641577,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2023,False,4872.0
+HIV (new diagnoses),Los Angeles,2021,Total,1568.0,9905214,15.830046680465461,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2023,False,4674.0
+HIV (new diagnoses),Los Angeles,2022,Total,1640.0,9792167,16.748080378939616,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2023,False,4673.0
+HIV (new diagnoses),Los Angeles,2023,Total,1631.0,9750065,16.72809360758108,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2023,False,4839.0
+HIV (new diagnoses),Madera,2012,Total,11.0,150285,7.3194264231293875,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2016,False,
+HIV (new diagnoses),Madera,2013,Total,7.0,151234,4.628588809394713,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2017,False,
+HIV (new diagnoses),Madera,2014,Total,13.0,152611,8.518389893258021,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2018,False,31.0
+HIV (new diagnoses),Madera,2015,Total,6.0,152897,3.9242104161625146,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2019,False,26.0
+HIV (new diagnoses),Madera,2016,Total,7.0,153136,4.571100198516351,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2019,False,26.0
+HIV (new diagnoses),Madera,2017,Total,13.0,154238,8.42853252765207,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2021,False,26.0
+HIV (new diagnoses),Madera,2018,Total,15.0,155476,9.647791298978621,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2022,False,35.0
+HIV (new diagnoses),Madera,2019,Total,7.0,155291,4.507666252390673,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2023,False,35.0
+HIV (new diagnoses),Madera,2020,Total,9.0,156141,5.764020981036371,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2023,False,31.0
+HIV (new diagnoses),Madera,2021,Total,13.0,156860,8.287645033788092,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2023,False,29.0
+HIV (new diagnoses),Madera,2022,Total,17.0,157382,10.801743528484833,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2023,False,39.0
+HIV (new diagnoses),Madera,2023,Total,24.0,158276,15.163385478531174,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2023,False,54.0
+HIV (new diagnoses),Marin,2012,Total,11.0,257455,4.272591326639607,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2016,False,
+HIV (new diagnoses),Marin,2013,Total,14.0,260645,5.371290452531221,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2017,False,
+HIV (new diagnoses),Marin,2014,Total,24.0,263335,9.11386636793438,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2018,False,49.0
+HIV (new diagnoses),Marin,2015,Total,25.0,263964,9.470988468124443,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2019,False,63.0
+HIV (new diagnoses),Marin,2016,Total,29.0,265181,10.935926782084689,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2019,False,78.0
+HIV (new diagnoses),Marin,2017,Total,17.0,264753,6.421079270112143,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2021,False,71.0
+HIV (new diagnoses),Marin,2018,Total,21.0,264944,7.926203273144513,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2022,False,67.0
+HIV (new diagnoses),Marin,2019,Total,13.0,263917,4.925791063099384,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2023,False,51.0
+HIV (new diagnoses),Marin,2020,Total,14.0,261227,5.359323500250739,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2023,False,48.0
+HIV (new diagnoses),Marin,2021,Total,11.0,258385,4.25721307351433,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2023,False,38.0
+HIV (new diagnoses),Marin,2022,Total,15.0,254590,5.891826073294316,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2023,False,40.0
+HIV (new diagnoses),Marin,2023,Total,24.0,251808,9.531071292413268,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2023,False,50.0
+HIV (new diagnoses),Mariposa,2012,Total,3.0,18072,16.600265604249667,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2016,False,
+HIV (new diagnoses),Mariposa,2013,Total,0.0,17937,0.0,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2017,False,
+HIV (new diagnoses),Mariposa,2014,Total,0.0,17848,0.0,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2018,False,3.0
+HIV (new diagnoses),Mariposa,2015,Total,0.0,17732,0.0,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2019,False,0.0
+HIV (new diagnoses),Mariposa,2016,Total,1.0,17644,5.667649059170256,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2019,False,1.0
+HIV (new diagnoses),Mariposa,2017,Total,1.0,17502,5.713632727688264,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2021,False,2.0
+HIV (new diagnoses),Mariposa,2018,Total,2.0,17345,11.530700490054771,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2022,False,4.0
+HIV (new diagnoses),Mariposa,2019,Total,0.0,17213,0.0,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2023,False,3.0
+HIV (new diagnoses),Mariposa,2020,Total,1.0,17124,5.83975706610605,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2023,False,3.0
+HIV (new diagnoses),Mariposa,2021,Total,0.0,17016,0.0,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2023,False,1.0
+HIV (new diagnoses),Mariposa,2022,Total,0.0,16970,0.0,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2023,False,1.0
+HIV (new diagnoses),Mariposa,2023,Total,0.0,16988,0.0,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2023,False,0.0
+HIV (new diagnoses),Mendocino,2012,Total,3.0,88936,3.3732121975353064,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2016,False,
+HIV (new diagnoses),Mendocino,2013,Total,2.0,89346,2.238488572515837,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2017,False,
+HIV (new diagnoses),Mendocino,2014,Total,5.0,90108,5.548896879300395,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2018,False,10.0
+HIV (new diagnoses),Mendocino,2015,Total,4.0,90198,4.434688130557219,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2019,False,11.0
+HIV (new diagnoses),Mendocino,2016,Total,3.0,91021,3.2959426945430175,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2019,False,12.0
+HIV (new diagnoses),Mendocino,2017,Total,4.0,91609,4.366383215622919,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2021,False,11.0
+HIV (new diagnoses),Mendocino,2018,Total,5.0,91726,5.451017159802019,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2022,False,12.0
+HIV (new diagnoses),Mendocino,2019,Total,4.0,91727,4.3607661866189895,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2023,False,13.0
+HIV (new diagnoses),Mendocino,2020,Total,5.0,91074,5.49004106550717,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2023,False,14.0
+HIV (new diagnoses),Mendocino,2021,Total,4.0,90445,4.4225772568964565,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2023,False,13.0
+HIV (new diagnoses),Mendocino,2022,Total,2.0,89530,2.2338880822070815,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2023,False,11.0
+HIV (new diagnoses),Mendocino,2023,Total,3.0,89092,3.3673057064607375,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2023,False,9.0
+HIV (new diagnoses),Merced,2012,Total,15.0,262303,5.7185773704456295,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2016,False,
+HIV (new diagnoses),Merced,2013,Total,13.0,263324,4.936883838920873,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2017,False,
+HIV (new diagnoses),Merced,2014,Total,15.0,265556,5.64852611125337,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2018,False,43.0
+HIV (new diagnoses),Merced,2015,Total,21.0,267099,7.8622533218020285,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2019,False,49.0
+HIV (new diagnoses),Merced,2016,Total,21.0,268701,7.815378431788494,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2019,False,57.0
+HIV (new diagnoses),Merced,2017,Total,26.0,272610,9.537434430138292,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2021,False,68.0
+HIV (new diagnoses),Merced,2018,Total,28.0,274871,10.186596621687992,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2022,False,75.0
+HIV (new diagnoses),Merced,2019,Total,27.0,278157,9.706748347156463,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2023,False,81.0
+HIV (new diagnoses),Merced,2020,Total,31.0,280909,11.03560227689394,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2023,False,86.0
+HIV (new diagnoses),Merced,2021,Total,39.0,281750,13.842058562555458,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2023,False,97.0
+HIV (new diagnoses),Merced,2022,Total,23.0,285593,8.053418676228059,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2023,False,93.0
+HIV (new diagnoses),Merced,2023,Total,53.0,289712,18.294029933175015,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2023,False,115.0
+HIV (new diagnoses),Modoc,2012,Total,0.0,9341,0.0,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2016,False,
+HIV (new diagnoses),Modoc,2013,Total,0.0,9049,0.0,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2017,False,
+HIV (new diagnoses),Modoc,2014,Total,0.0,8959,0.0,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2018,False,0.0
+HIV (new diagnoses),Modoc,2015,Total,0.0,8952,0.0,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2019,False,0.0
+HIV (new diagnoses),Modoc,2016,Total,0.0,8795,0.0,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2019,False,0.0
+HIV (new diagnoses),Modoc,2017,Total,0.0,8691,0.0,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2021,False,0.0
+HIV (new diagnoses),Modoc,2018,Total,0.0,8755,0.0,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2022,False,0.0
+HIV (new diagnoses),Modoc,2019,Total,0.0,8709,0.0,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2023,False,0.0
+HIV (new diagnoses),Modoc,2020,Total,0.0,8703,0.0,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2023,False,0.0
+HIV (new diagnoses),Modoc,2021,Total,0.0,8579,0.0,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2023,False,0.0
+HIV (new diagnoses),Modoc,2022,Total,0.0,8640,0.0,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2023,False,0.0
+HIV (new diagnoses),Modoc,2023,Total,0.0,8670,0.0,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2023,False,0.0
+HIV (new diagnoses),Mono,2012,Total,0.0,13982,0.0,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2016,False,
+HIV (new diagnoses),Mono,2013,Total,0.0,13724,0.0,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2017,False,
+HIV (new diagnoses),Mono,2014,Total,0.0,13717,0.0,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2018,False,0.0
+HIV (new diagnoses),Mono,2015,Total,0.0,13548,0.0,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2019,False,0.0
+HIV (new diagnoses),Mono,2016,Total,0.0,13389,0.0,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2019,False,0.0
+HIV (new diagnoses),Mono,2017,Total,1.0,13355,7.487832272557094,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2021,False,1.0
+HIV (new diagnoses),Mono,2018,Total,0.0,13222,0.0,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2022,False,1.0
+HIV (new diagnoses),Mono,2019,Total,1.0,13227,7.560293339381567,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2023,False,2.0
+HIV (new diagnoses),Mono,2020,Total,0.0,13310,0.0,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2023,False,1.0
+HIV (new diagnoses),Mono,2021,Total,0.0,13258,0.0,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2023,False,1.0
+HIV (new diagnoses),Mono,2022,Total,1.0,13159,7.599361653621096,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2023,False,1.0
+HIV (new diagnoses),Mono,2023,Total,0.0,13183,0.0,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2023,False,1.0
+HIV (new diagnoses),Monterey,2012,Total,26.0,424445,6.125646432399957,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2016,False,
+HIV (new diagnoses),Monterey,2013,Total,29.0,426355,6.801843534144082,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2017,False,
+HIV (new diagnoses),Monterey,2014,Total,24.0,428633,5.599195582234685,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2018,False,79.0
+HIV (new diagnoses),Monterey,2015,Total,33.0,433478,7.6128430969968495,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2019,False,86.0
+HIV (new diagnoses),Monterey,2016,Total,42.0,437116,9.608433459310572,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2019,False,99.0
+HIV (new diagnoses),Monterey,2017,Total,47.0,438011,10.730324124279983,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2021,False,122.0
+HIV (new diagnoses),Monterey,2018,Total,43.0,439618,9.781219149352392,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2022,False,132.0
+HIV (new diagnoses),Monterey,2019,Total,29.0,440874,6.577843102564452,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2023,False,119.0
+HIV (new diagnoses),Monterey,2020,Total,31.0,439227,7.05785391153094,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2023,False,103.0
+HIV (new diagnoses),Monterey,2021,Total,39.0,437644,8.911352606227894,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2023,False,99.0
+HIV (new diagnoses),Monterey,2022,Total,28.0,434281,6.447438409693264,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2023,False,98.0
+HIV (new diagnoses),Monterey,2023,Total,30.0,433139,6.926183049783095,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2023,False,97.0
+HIV (new diagnoses),Napa,2012,Total,3.0,138859,2.1604649320533778,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2016,False,
+HIV (new diagnoses),Napa,2013,Total,5.0,139378,3.5873667293260056,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2017,False,
+HIV (new diagnoses),Napa,2014,Total,10.0,140461,7.119413929845295,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2018,False,18.0
+HIV (new diagnoses),Napa,2015,Total,4.0,140955,2.8377851087226422,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2019,False,19.0
+HIV (new diagnoses),Napa,2016,Total,12.0,141089,8.505269723366101,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2019,False,26.0
+HIV (new diagnoses),Napa,2017,Total,7.0,140299,4.989344186344877,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2021,False,23.0
+HIV (new diagnoses),Napa,2018,Total,7.0,139558,5.015835709884063,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2022,False,26.0
+HIV (new diagnoses),Napa,2019,Total,11.0,138965,7.915662217105026,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2023,False,25.0
+HIV (new diagnoses),Napa,2020,Total,6.0,138445,4.333850987756871,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2023,False,24.0
+HIV (new diagnoses),Napa,2021,Total,11.0,137386,8.006638230969676,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2023,False,28.0
+HIV (new diagnoses),Napa,2022,Total,16.0,135541,11.804546225865236,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2023,False,33.0
+HIV (new diagnoses),Napa,2023,Total,10.0,134580,7.43052459503641,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2023,False,37.0
+HIV (new diagnoses),Nevada,2012,Total,6.0,99264,6.044487427466151,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2016,False,
+HIV (new diagnoses),Nevada,2013,Total,6.0,99393,6.036642419486282,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2017,False,
+HIV (new diagnoses),Nevada,2014,Total,6.0,100370,5.977881837202351,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2018,False,18.0
+HIV (new diagnoses),Nevada,2015,Total,2.0,100456,1.9909213984231904,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2019,False,14.0
+HIV (new diagnoses),Nevada,2016,Total,6.0,100919,5.9453621220979205,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2019,False,14.0
+HIV (new diagnoses),Nevada,2017,Total,3.0,101384,2.959046792393277,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2021,False,11.0
+HIV (new diagnoses),Nevada,2018,Total,3.0,101920,2.9434850863422293,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2022,False,12.0
+HIV (new diagnoses),Nevada,2019,Total,7.0,102298,6.8427535240180655,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2023,False,13.0
+HIV (new diagnoses),Nevada,2020,Total,3.0,102184,2.935880372661082,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2023,False,13.0
+HIV (new diagnoses),Nevada,2021,Total,4.0,102221,3.913090265209693,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2023,False,14.0
+HIV (new diagnoses),Nevada,2022,Total,2.0,100788,1.9843632178433939,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2023,False,9.0
+HIV (new diagnoses),Nevada,2023,Total,2.0,99796,2.004088340214037,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2023,False,8.0
+HIV (new diagnoses),Orange,2012,Total,269.0,3087846,8.711574346648117,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2016,False,
+HIV (new diagnoses),Orange,2013,Total,304.0,3112757,9.76626187010422,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2017,False,
+HIV (new diagnoses),Orange,2014,Total,287.0,3135170,9.154208543715333,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2018,False,860.0
+HIV (new diagnoses),Orange,2015,Total,334.0,3155895,10.583368584823006,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2019,False,925.0
+HIV (new diagnoses),Orange,2016,Total,352.0,3170359,11.10284355809547,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2019,False,973.0
+HIV (new diagnoses),Orange,2017,Total,316.0,3188158,9.911679408611493,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2021,False,1002.0
+HIV (new diagnoses),Orange,2018,Total,287.0,3193464,8.987106164340666,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2022,False,955.0
+HIV (new diagnoses),Orange,2019,Total,245.0,3191365,7.67696581243449,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2023,False,848.0
+HIV (new diagnoses),Orange,2020,Total,264.0,3187189,8.283161117837693,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2023,False,796.0
+HIV (new diagnoses),Orange,2021,Total,269.0,3163851,8.502296726362903,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2023,False,778.0
+HIV (new diagnoses),Orange,2022,Total,258.0,3149004,8.193066760156544,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2023,False,791.0
+HIV (new diagnoses),Orange,2023,Total,262.0,3140475,8.342687013907133,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2023,False,789.0
+HIV (new diagnoses),Placer,2012,Total,17.0,362839,4.685273633760429,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2016,False,
+HIV (new diagnoses),Placer,2013,Total,13.0,368023,3.5323879214070857,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2017,False,
+HIV (new diagnoses),Placer,2014,Total,13.0,372407,3.4908044155990625,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2018,False,43.0
+HIV (new diagnoses),Placer,2015,Total,13.0,376215,3.4554709408184148,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2019,False,39.0
+HIV (new diagnoses),Placer,2016,Total,20.0,382010,5.235465040182194,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2019,False,46.0
+HIV (new diagnoses),Placer,2017,Total,19.0,388773,4.887170662571733,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2021,False,52.0
+HIV (new diagnoses),Placer,2018,Total,11.0,395677,2.780045340012182,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2022,False,50.0
+HIV (new diagnoses),Placer,2019,Total,13.0,401671,3.23647960644408,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2023,False,43.0
+HIV (new diagnoses),Placer,2020,Total,17.0,405937,4.187841955771463,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2023,False,41.0
+HIV (new diagnoses),Placer,2021,Total,14.0,409189,3.4214018460906814,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2023,False,44.0
+HIV (new diagnoses),Placer,2022,Total,9.0,410310,2.1934634788330776,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2023,False,40.0
+HIV (new diagnoses),Placer,2023,Total,8.0,413044,1.936839658728852,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2023,False,31.0
+HIV (new diagnoses),Plumas,2012,Total,0.0,19914,0.0,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2016,False,
+HIV (new diagnoses),Plumas,2013,Total,0.0,19817,0.0,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2017,False,
+HIV (new diagnoses),Plumas,2014,Total,0.0,19776,0.0,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2018,False,0.0
+HIV (new diagnoses),Plumas,2015,Total,0.0,19701,0.0,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2019,False,0.0
+HIV (new diagnoses),Plumas,2016,Total,0.0,19672,0.0,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2019,False,0.0
+HIV (new diagnoses),Plumas,2017,Total,0.0,19642,0.0,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2021,False,0.0
+HIV (new diagnoses),Plumas,2018,Total,0.0,19575,0.0,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2022,False,0.0
+HIV (new diagnoses),Plumas,2019,Total,1.0,19807,5.048720149442117,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2023,False,1.0
+HIV (new diagnoses),Plumas,2020,Total,1.0,19847,5.0385448682420515,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2023,False,2.0
+HIV (new diagnoses),Plumas,2021,Total,1.0,19720,5.070993914807302,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2023,False,3.0
+HIV (new diagnoses),Plumas,2022,Total,0.0,19252,0.0,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2023,False,2.0
+HIV (new diagnoses),Plumas,2023,Total,0.0,18909,0.0,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2023,False,1.0
+HIV (new diagnoses),Riverside,2012,Total,257.0,2249295,11.425802306945066,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2016,False,
+HIV (new diagnoses),Riverside,2013,Total,236.0,2268362,10.403983138493768,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2017,False,
+HIV (new diagnoses),Riverside,2014,Total,264.0,2291648,11.520093836400704,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2018,False,757.0
+HIV (new diagnoses),Riverside,2015,Total,275.0,2313162,11.888488571055552,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2019,False,775.0
+HIV (new diagnoses),Riverside,2016,Total,297.0,2337698,12.70480618112348,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2019,False,836.0
+HIV (new diagnoses),Riverside,2017,Total,277.0,2361995,11.727374528735242,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2021,False,849.0
+HIV (new diagnoses),Riverside,2018,Total,264.0,2383773,11.074880032620555,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2022,False,838.0
+HIV (new diagnoses),Riverside,2019,Total,271.0,2400535,11.289150126950867,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2023,False,812.0
+HIV (new diagnoses),Riverside,2020,Total,244.0,2422134,10.073761402135473,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2023,False,779.0
+HIV (new diagnoses),Riverside,2021,Total,274.0,2431238,11.269978504778225,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2023,False,789.0
+HIV (new diagnoses),Riverside,2022,Total,324.0,2437925,13.289990463201287,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2023,False,842.0
+HIV (new diagnoses),Riverside,2023,Total,300.0,2447642,12.256694402204243,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2023,False,898.0
+HIV (new diagnoses),Sacramento,2012,Total,185.0,1453048,12.731857447241936,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2016,False,
+HIV (new diagnoses),Sacramento,2013,Total,171.0,1465450,11.668770684772596,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2017,False,
+HIV (new diagnoses),Sacramento,2014,Total,185.0,1485006,12.457862123116001,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2018,False,541.0
+HIV (new diagnoses),Sacramento,2015,Total,164.0,1502821,10.912809975372982,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2019,False,520.0
+HIV (new diagnoses),Sacramento,2016,Total,193.0,1520401,12.69401953826655,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2019,False,542.0
+HIV (new diagnoses),Sacramento,2017,Total,185.0,1536517,12.040218233836658,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2021,False,542.0
+HIV (new diagnoses),Sacramento,2018,Total,182.0,1554668,11.706679496844341,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2022,False,560.0
+HIV (new diagnoses),Sacramento,2019,Total,168.0,1570918,10.694383793425246,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2023,False,535.0
+HIV (new diagnoses),Sacramento,2020,Total,157.0,1586796,9.894151485131044,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2023,False,507.0
+HIV (new diagnoses),Sacramento,2021,Total,182.0,1583084,11.496547245755753,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2023,False,507.0
+HIV (new diagnoses),Sacramento,2022,Total,191.0,1573364,12.13959388927165,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2023,False,530.0
+HIV (new diagnoses),Sacramento,2023,Total,186.0,1567562,11.865559384572986,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2023,False,559.0
+HIV (new diagnoses),San Benito,2012,Total,0.0,57055,0.0,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2016,False,
+HIV (new diagnoses),San Benito,2013,Total,1.0,57730,1.7322016282695307,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2017,False,
+HIV (new diagnoses),San Benito,2014,Total,1.0,58515,1.708963513628984,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2018,False,2.0
+HIV (new diagnoses),San Benito,2015,Total,4.0,59220,6.754474839581223,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2019,False,6.0
+HIV (new diagnoses),San Benito,2016,Total,1.0,60087,1.664253499092982,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2019,False,6.0
+HIV (new diagnoses),San Benito,2017,Total,8.0,60733,13.172410386445591,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2021,False,13.0
+HIV (new diagnoses),San Benito,2018,Total,3.0,61848,4.850601474582848,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2022,False,12.0
+HIV (new diagnoses),San Benito,2019,Total,2.0,63282,3.1604563698998134,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2023,False,13.0
+HIV (new diagnoses),San Benito,2020,Total,5.0,64432,7.760119195430843,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2023,False,10.0
+HIV (new diagnoses),San Benito,2021,Total,2.0,65170,3.0688967316249807,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2023,False,9.0
+HIV (new diagnoses),San Benito,2022,Total,1.0,65804,1.5196644580876542,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2023,False,8.0
+HIV (new diagnoses),San Benito,2023,Total,4.0,66451,6.019472995139275,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2023,False,7.0
+HIV (new diagnoses),San Bernardino,2012,Total,200.0,2076903,9.629722716949228,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2016,False,
+HIV (new diagnoses),San Bernardino,2013,Total,189.0,2088642,9.048941848339734,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2017,False,
+HIV (new diagnoses),San Bernardino,2014,Total,222.0,2104497,10.548838986228063,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2018,False,611.0
+HIV (new diagnoses),San Bernardino,2015,Total,196.0,2119575,9.247136808086527,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2019,False,607.0
+HIV (new diagnoses),San Bernardino,2016,Total,223.0,2132121,10.459068692630483,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2019,False,641.0
+HIV (new diagnoses),San Bernardino,2017,Total,258.0,2147291,12.015139075234796,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2021,False,677.0
+HIV (new diagnoses),San Bernardino,2018,Total,269.0,2160036,12.453496145434613,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2022,False,750.0
+HIV (new diagnoses),San Bernardino,2019,Total,303.0,2174437,13.934641472712247,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2023,False,830.0
+HIV (new diagnoses),San Bernardino,2020,Total,270.0,2185997,12.35134357457947,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2023,False,842.0
+HIV (new diagnoses),San Bernardino,2021,Total,304.0,2186572,13.9030409243327,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2023,False,877.0
+HIV (new diagnoses),San Bernardino,2022,Total,293.0,2182824,13.422978673498182,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2023,False,867.0
+HIV (new diagnoses),San Bernardino,2023,Total,296.0,2189276,13.520451509996912,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2023,False,893.0
+HIV (new diagnoses),San Diego,2012,Total,483.0,3169100,15.240920135054116,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2016,False,
+HIV (new diagnoses),San Diego,2013,Total,485.0,3197269,15.16919596067769,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2017,False,
+HIV (new diagnoses),San Diego,2014,Total,503.0,3228488,15.580048617185508,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2018,False,1471.0
+HIV (new diagnoses),San Diego,2015,Total,496.0,3248371,15.269191850315126,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2019,False,1484.0
+HIV (new diagnoses),San Diego,2016,Total,521.0,3263517,15.964372178848771,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2019,False,1520.0
+HIV (new diagnoses),San Diego,2017,Total,423.0,3276113,12.911642547128258,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2021,False,1440.0
+HIV (new diagnoses),San Diego,2018,Total,399.0,3293350,12.115323303019721,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2022,False,1343.0
+HIV (new diagnoses),San Diego,2019,Total,431.0,3294272,13.083315524643988,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2023,False,1253.0
+HIV (new diagnoses),San Diego,2020,Total,347.0,3301513,10.510332686862053,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2023,False,1177.0
+HIV (new diagnoses),San Diego,2021,Total,418.0,3284368,12.726953861443054,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2023,False,1196.0
+HIV (new diagnoses),San Diego,2022,Total,416.0,3279493,12.684887572560758,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2023,False,1181.0
+HIV (new diagnoses),San Diego,2023,Total,393.0,3293163,11.93381560524031,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2023,False,1227.0
+HIV (new diagnoses),San Francisco,2012,Total,456.0,831468,54.84276003406024,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2016,False,
+HIV (new diagnoses),San Francisco,2013,Total,397.0,840311,47.24441308039523,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2017,False,
+HIV (new diagnoses),San Francisco,2014,Total,327.0,848474,38.539778472881906,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2018,False,1180.0
+HIV (new diagnoses),San Francisco,2015,Total,297.0,857037,34.65427980355574,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2019,False,1021.0
+HIV (new diagnoses),San Francisco,2016,Total,265.0,863546,30.687421399670658,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2019,False,889.0
+HIV (new diagnoses),San Francisco,2017,Total,242.0,868879,27.851979389535252,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2021,False,804.0
+HIV (new diagnoses),San Francisco,2018,Total,240.0,872338,27.51227161948694,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2022,False,747.0
+HIV (new diagnoses),San Francisco,2019,Total,209.0,872205,23.962256579588516,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2023,False,691.0
+HIV (new diagnoses),San Francisco,2020,Total,157.0,870130,18.043280889062554,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2023,False,606.0
+HIV (new diagnoses),San Francisco,2021,Total,190.0,838402,22.662159679962596,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2023,False,556.0
+HIV (new diagnoses),San Francisco,2022,Total,211.0,834046,25.29836483839021,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2023,False,558.0
+HIV (new diagnoses),San Francisco,2023,Total,187.0,830272,22.5227395359593,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2023,False,588.0
+HIV (new diagnoses),San Joaquin,2012,Total,48.0,701991,6.837694500356842,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2016,False,
+HIV (new diagnoses),San Joaquin,2013,Total,79.0,707552,11.165257111844783,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2017,False,
+HIV (new diagnoses),San Joaquin,2014,Total,70.0,718498,9.742546256217832,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2018,False,197.0
+HIV (new diagnoses),San Joaquin,2015,Total,75.0,729411,10.28226884431411,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2019,False,224.0
+HIV (new diagnoses),San Joaquin,2016,Total,55.0,739814,7.43430105404872,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2019,False,200.0
+HIV (new diagnoses),San Joaquin,2017,Total,68.0,750306,9.062968975324734,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2021,False,198.0
+HIV (new diagnoses),San Joaquin,2018,Total,69.0,759753,9.081898985591371,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2022,False,192.0
+HIV (new diagnoses),San Joaquin,2019,Total,75.0,771083,9.726579369536093,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2023,False,212.0
+HIV (new diagnoses),San Joaquin,2020,Total,89.0,780207,11.407229107147206,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2023,False,233.0
+HIV (new diagnoses),San Joaquin,2021,Total,102.0,782894,13.028583690767844,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2023,False,266.0
+HIV (new diagnoses),San Joaquin,2022,Total,101.0,784420,12.875755335152087,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2023,False,292.0
+HIV (new diagnoses),San Joaquin,2023,Total,102.0,788279,12.939581036663416,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2023,False,305.0
+HIV (new diagnoses),San Luis Obispo,2012,Total,18.0,274697,6.5526744012493765,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2016,False,
+HIV (new diagnoses),San Luis Obispo,2013,Total,17.0,276018,6.159018614728025,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2017,False,
+HIV (new diagnoses),San Luis Obispo,2014,Total,10.0,278887,3.585681656011216,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2018,False,45.0
+HIV (new diagnoses),San Luis Obispo,2015,Total,17.0,279800,6.075768406004289,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2019,False,44.0
+HIV (new diagnoses),San Luis Obispo,2016,Total,17.0,281681,6.035195842105076,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2019,False,44.0
+HIV (new diagnoses),San Luis Obispo,2017,Total,9.0,282103,3.1903241014806647,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2021,False,43.0
+HIV (new diagnoses),San Luis Obispo,2018,Total,15.0,282952,5.3012525092595215,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2022,False,41.0
+HIV (new diagnoses),San Luis Obispo,2019,Total,15.0,282617,5.307536347778088,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2023,False,39.0
+HIV (new diagnoses),San Luis Obispo,2020,Total,11.0,282639,3.8918903619104226,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2023,False,41.0
+HIV (new diagnoses),San Luis Obispo,2021,Total,10.0,278600,3.589375448671931,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2023,False,36.0
+HIV (new diagnoses),San Luis Obispo,2022,Total,12.0,279760,4.289390906491278,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2023,False,33.0
+HIV (new diagnoses),San Luis Obispo,2023,Total,19.0,280972,6.76223965377333,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2023,False,41.0
+HIV (new diagnoses),San Mateo,2012,Total,66.0,740804,8.909239150976507,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2016,False,
+HIV (new diagnoses),San Mateo,2013,Total,51.0,748241,6.815985758599168,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2017,False,
+HIV (new diagnoses),San Mateo,2014,Total,70.0,755016,9.271326700361316,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2018,False,187.0
+HIV (new diagnoses),San Mateo,2015,Total,65.0,761484,8.53596398611133,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2019,False,186.0
+HIV (new diagnoses),San Mateo,2016,Total,59.0,764070,7.721805593728324,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2019,False,194.0
+HIV (new diagnoses),San Mateo,2017,Total,60.0,765601,7.836980359221056,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2021,False,184.0
+HIV (new diagnoses),San Mateo,2018,Total,61.0,766711,7.956061671216403,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2022,False,180.0
+HIV (new diagnoses),San Mateo,2019,Total,55.0,766312,7.177233294010794,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2023,False,176.0
+HIV (new diagnoses),San Mateo,2020,Total,47.0,760725,6.178316737322948,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2023,False,163.0
+HIV (new diagnoses),San Mateo,2021,Total,50.0,747900,6.685385746757588,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2023,False,152.0
+HIV (new diagnoses),San Mateo,2022,Total,62.0,739819,8.380428185813017,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2023,False,159.0
+HIV (new diagnoses),San Mateo,2023,Total,77.0,733081,10.503614198158186,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2023,False,189.0
+HIV (new diagnoses),Santa Barbara,2012,Total,30.0,430232,6.972982019003701,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2016,False,
+HIV (new diagnoses),Santa Barbara,2013,Total,19.0,434421,4.373637554353956,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2017,False,
+HIV (new diagnoses),Santa Barbara,2014,Total,26.0,438421,5.930372860789059,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2018,False,75.0
+HIV (new diagnoses),Santa Barbara,2015,Total,23.0,442188,5.201407546111609,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2019,False,68.0
+HIV (new diagnoses),Santa Barbara,2016,Total,29.0,444277,6.527459220261234,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2019,False,78.0
+HIV (new diagnoses),Santa Barbara,2017,Total,27.0,445801,6.056514005127848,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2021,False,79.0
+HIV (new diagnoses),Santa Barbara,2018,Total,31.0,447666,6.924805546992625,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2022,False,87.0
+HIV (new diagnoses),Santa Barbara,2019,Total,38.0,448815,8.46674019362098,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2023,False,96.0
+HIV (new diagnoses),Santa Barbara,2020,Total,25.0,448484,5.574334870363269,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2023,False,94.0
+HIV (new diagnoses),Santa Barbara,2021,Total,28.0,439322,6.373457281902567,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2023,False,91.0
+HIV (new diagnoses),Santa Barbara,2022,Total,31.0,443210,6.99442702105097,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2023,False,84.0
+HIV (new diagnoses),Santa Barbara,2023,Total,43.0,446369,9.633285465612532,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2023,False,102.0
+HIV (new diagnoses),Santa Clara,2012,Total,138.0,1842698,7.489018819144538,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2016,False,
+HIV (new diagnoses),Santa Clara,2013,Total,137.0,1867932,7.334314097087045,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2017,False,
+HIV (new diagnoses),Santa Clara,2014,Total,166.0,1891328,8.776901732539253,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2018,False,441.0
+HIV (new diagnoses),Santa Clara,2015,Total,158.0,1914457,8.252992885188855,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2019,False,461.0
+HIV (new diagnoses),Santa Clara,2016,Total,138.0,1925914,7.165428985925643,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2019,False,462.0
+HIV (new diagnoses),Santa Clara,2017,Total,158.0,1932947,8.174047193223611,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2021,False,454.0
+HIV (new diagnoses),Santa Clara,2018,Total,167.0,1937985,8.617197759528581,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2022,False,463.0
+HIV (new diagnoses),Santa Clara,2019,Total,166.0,1936521,8.572073321177513,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2023,False,491.0
+HIV (new diagnoses),Santa Clara,2020,Total,116.0,1925225,6.025269773662818,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2023,False,449.0
+HIV (new diagnoses),Santa Clara,2021,Total,131.0,1899154,6.897808181958914,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2023,False,413.0
+HIV (new diagnoses),Santa Clara,2022,Total,162.0,1882601,8.605116007056196,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2023,False,409.0
+HIV (new diagnoses),Santa Clara,2023,Total,166.0,1877528,8.841412751234602,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2023,False,459.0
+HIV (new diagnoses),Santa Cruz,2012,Total,21.0,268525,7.82050088446141,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2016,False,
+HIV (new diagnoses),Santa Cruz,2013,Total,13.0,271320,4.791390240306649,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2017,False,
+HIV (new diagnoses),Santa Cruz,2014,Total,22.0,272386,8.076773402450934,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2018,False,56.0
+HIV (new diagnoses),Santa Cruz,2015,Total,12.0,274762,4.367416163807222,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2019,False,47.0
+HIV (new diagnoses),Santa Cruz,2016,Total,21.0,275452,7.6238328274980764,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2019,False,55.0
+HIV (new diagnoses),Santa Cruz,2017,Total,7.0,274739,2.5478727082794945,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2021,False,40.0
+HIV (new diagnoses),Santa Cruz,2018,Total,13.0,273527,4.752730077835095,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2022,False,41.0
+HIV (new diagnoses),Santa Cruz,2019,Total,14.0,272182,5.1436171385323055,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2023,False,34.0
+HIV (new diagnoses),Santa Cruz,2020,Total,17.0,271326,6.2655256038861,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2023,False,44.0
+HIV (new diagnoses),Santa Cruz,2021,Total,19.0,263445,7.212131564463172,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2023,False,50.0
+HIV (new diagnoses),Santa Cruz,2022,Total,21.0,264883,7.928028601306992,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2023,False,57.0
+HIV (new diagnoses),Santa Cruz,2023,Total,15.0,266183,5.6352208818745,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2023,False,55.0
+HIV (new diagnoses),Shasta,2012,Total,3.0,179341,1.6727909401642682,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2016,False,
+HIV (new diagnoses),Shasta,2013,Total,9.0,180304,4.991569793238087,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2017,False,
+HIV (new diagnoses),Shasta,2014,Total,8.0,181054,4.418571254984701,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2018,False,20.0
+HIV (new diagnoses),Shasta,2015,Total,3.0,180812,1.6591819127049088,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2019,False,20.0
+HIV (new diagnoses),Shasta,2016,Total,7.0,180287,3.8826981424062743,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2019,False,18.0
+HIV (new diagnoses),Shasta,2017,Total,2.0,181095,1.1043927220519616,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2021,False,12.0
+HIV (new diagnoses),Shasta,2018,Total,7.0,181472,3.857344383706577,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2022,False,16.0
+HIV (new diagnoses),Shasta,2019,Total,7.0,181387,3.8591519789180038,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2023,False,16.0
+HIV (new diagnoses),Shasta,2020,Total,2.0,182537,1.095668275472918,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2023,False,16.0
+HIV (new diagnoses),Shasta,2021,Total,2.0,181871,1.099680542802316,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2023,False,11.0
+HIV (new diagnoses),Shasta,2022,Total,2.0,180225,1.1097239561659038,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2023,False,6.0
+HIV (new diagnoses),Shasta,2023,Total,10.0,179455,5.572427628096181,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2023,False,14.0
+HIV (new diagnoses),Sierra,2012,Total,0.0,3234,0.0,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2016,False,
+HIV (new diagnoses),Sierra,2013,Total,0.0,3230,0.0,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2017,False,
+HIV (new diagnoses),Sierra,2014,Total,0.0,3220,0.0,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2018,False,0.0
+HIV (new diagnoses),Sierra,2015,Total,0.0,3213,0.0,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2019,False,0.0
+HIV (new diagnoses),Sierra,2016,Total,0.0,3220,0.0,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2019,False,0.0
+HIV (new diagnoses),Sierra,2017,Total,0.0,3233,0.0,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2021,False,0.0
+HIV (new diagnoses),Sierra,2018,Total,0.0,3232,0.0,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2022,False,0.0
+HIV (new diagnoses),Sierra,2019,Total,0.0,3233,0.0,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2023,False,0.0
+HIV (new diagnoses),Sierra,2020,Total,0.0,3232,0.0,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2023,False,0.0
+HIV (new diagnoses),Sierra,2021,Total,1.0,3213,31.123560535325243,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2023,False,1.0
+HIV (new diagnoses),Sierra,2022,Total,0.0,3190,0.0,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2023,False,1.0
+HIV (new diagnoses),Sierra,2023,Total,0.0,3192,0.0,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2023,False,1.0
+HIV (new diagnoses),Siskiyou,2012,Total,3.0,44909,6.680175465942238,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2016,False,
+HIV (new diagnoses),Siskiyou,2013,Total,0.0,44820,0.0,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2017,False,
+HIV (new diagnoses),Siskiyou,2014,Total,2.0,44801,4.464186067275285,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2018,False,5.0
+HIV (new diagnoses),Siskiyou,2015,Total,2.0,44655,4.478781771358191,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2019,False,4.0
+HIV (new diagnoses),Siskiyou,2016,Total,3.0,44554,6.733402163666562,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2019,False,7.0
+HIV (new diagnoses),Siskiyou,2017,Total,0.0,44390,0.0,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2021,False,5.0
+HIV (new diagnoses),Siskiyou,2018,Total,3.0,44305,6.771244780498815,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2022,False,6.0
+HIV (new diagnoses),Siskiyou,2019,Total,0.0,44193,0.0,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2023,False,3.0
+HIV (new diagnoses),Siskiyou,2020,Total,4.0,44057,9.07914746805275,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2023,False,7.0
+HIV (new diagnoses),Siskiyou,2021,Total,0.0,43616,0.0,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2023,False,4.0
+HIV (new diagnoses),Siskiyou,2022,Total,2.0,43462,4.601721043670333,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2023,False,6.0
+HIV (new diagnoses),Siskiyou,2023,Total,2.0,43529,4.594638057387029,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2023,False,4.0
+HIV (new diagnoses),Solano,2012,Total,42.0,420979,9.976744683226478,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2016,False,
+HIV (new diagnoses),Solano,2013,Total,27.0,425587,6.344178746061322,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2017,False,
+HIV (new diagnoses),Solano,2014,Total,56.0,431153,12.988428701644194,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2018,False,125.0
+HIV (new diagnoses),Solano,2015,Total,35.0,435902,8.029327692921804,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2019,False,118.0
+HIV (new diagnoses),Solano,2016,Total,33.0,441224,7.479194241473719,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2019,False,124.0
+HIV (new diagnoses),Solano,2017,Total,36.0,445721,8.076801407158289,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2021,False,104.0
+HIV (new diagnoses),Solano,2018,Total,46.0,449091,10.242912906292933,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2022,False,115.0
+HIV (new diagnoses),Solano,2019,Total,41.0,451701,9.07680080407172,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2023,False,123.0
+HIV (new diagnoses),Solano,2020,Total,52.0,452095,11.502007321470044,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2023,False,139.0
+HIV (new diagnoses),Solano,2021,Total,43.0,448820,9.580678222895592,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2023,False,136.0
+HIV (new diagnoses),Solano,2022,Total,70.0,445060,15.728216420257942,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2023,False,165.0
+HIV (new diagnoses),Solano,2023,Total,57.0,443548,12.850920306257722,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2023,False,170.0
+HIV (new diagnoses),Sonoma,2012,Total,41.0,490398,8.360556119723164,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2016,False,
+HIV (new diagnoses),Sonoma,2013,Total,37.0,494852,7.476983017144519,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2017,False,
+HIV (new diagnoses),Sonoma,2014,Total,30.0,498151,6.0222703557756585,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2018,False,108.0
+HIV (new diagnoses),Sonoma,2015,Total,30.0,500553,5.993371331307574,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2019,False,97.0
+HIV (new diagnoses),Sonoma,2016,Total,40.0,501989,7.968302094268998,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2019,False,100.0
+HIV (new diagnoses),Sonoma,2017,Total,30.0,501111,5.986697558026066,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2021,False,100.0
+HIV (new diagnoses),Sonoma,2018,Total,33.0,496869,6.6415896342899226,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2022,False,103.0
+HIV (new diagnoses),Sonoma,2019,Total,23.0,492668,4.6684582721021055,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2023,False,86.0
+HIV (new diagnoses),Sonoma,2020,Total,37.0,488022,7.5816254185262135,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2023,False,93.0
+HIV (new diagnoses),Sonoma,2021,Total,29.0,483341,5.999904829095814,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2023,False,89.0
+HIV (new diagnoses),Sonoma,2022,Total,42.0,480261,8.745244773154598,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2023,False,108.0
+HIV (new diagnoses),Sonoma,2023,Total,38.0,479217,7.929601829651286,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2023,False,109.0
+HIV (new diagnoses),Stanislaus,2012,Total,33.0,523837,6.299669553697047,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2016,False,
+HIV (new diagnoses),Stanislaus,2013,Total,38.0,527012,7.210462000865256,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2017,False,
+HIV (new diagnoses),Stanislaus,2014,Total,40.0,530332,7.542445109855712,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2018,False,111.0
+HIV (new diagnoses),Stanislaus,2015,Total,32.0,535436,5.976437893604465,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2019,False,110.0
+HIV (new diagnoses),Stanislaus,2016,Total,32.0,540856,5.9165471031106245,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2019,False,104.0
+HIV (new diagnoses),Stanislaus,2017,Total,52.0,546499,9.51511347687736,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2021,False,116.0
+HIV (new diagnoses),Stanislaus,2018,Total,60.0,549544,10.918143042231376,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2022,False,144.0
+HIV (new diagnoses),Stanislaus,2019,Total,40.0,551566,7.252078627036473,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2023,False,152.0
+HIV (new diagnoses),Stanislaus,2020,Total,28.0,553706,5.056835215800443,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2023,False,128.0
+HIV (new diagnoses),Stanislaus,2021,Total,47.0,551845,8.516884270039595,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2023,False,115.0
+HIV (new diagnoses),Stanislaus,2022,Total,56.0,548449,10.210612107962636,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2023,False,131.0
+HIV (new diagnoses),Stanislaus,2023,Total,56.0,548701,10.205922715650235,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2023,False,159.0
+HIV (new diagnoses),Sutter,2012,Total,2.0,94816,2.1093486331420856,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2016,False,
+HIV (new diagnoses),Sutter,2013,Total,6.0,95909,6.255930100407677,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2017,False,
+HIV (new diagnoses),Sutter,2014,Total,1.0,95217,1.0502326265267756,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2018,False,9.0
+HIV (new diagnoses),Sutter,2015,Total,1.0,95844,1.0433621301281248,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2019,False,8.0
+HIV (new diagnoses),Sutter,2016,Total,10.0,96517,10.360869069697566,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2019,False,12.0
+HIV (new diagnoses),Sutter,2017,Total,6.0,97771,6.136789027421219,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2021,False,17.0
+HIV (new diagnoses),Sutter,2018,Total,9.0,99334,9.060341876900154,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2022,False,25.0
+HIV (new diagnoses),Sutter,2019,Total,9.0,101046,8.906834511014786,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2023,False,24.0
+HIV (new diagnoses),Sutter,2020,Total,8.0,99355,8.051934980625031,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2023,False,26.0
+HIV (new diagnoses),Sutter,2021,Total,4.0,98855,4.046330484042285,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2023,False,21.0
+HIV (new diagnoses),Sutter,2022,Total,3.0,99045,3.0289262456459185,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2023,False,15.0
+HIV (new diagnoses),Sutter,2023,Total,1.0,99514,1.0048837349518662,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2023,False,8.0
+HIV (new diagnoses),Tehama,2012,Total,2.0,63192,3.1649575895682998,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2016,False,
+HIV (new diagnoses),Tehama,2013,Total,1.0,63021,1.5867726630805603,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2017,False,
+HIV (new diagnoses),Tehama,2014,Total,0.0,63161,0.0,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2018,False,3.0
+HIV (new diagnoses),Tehama,2015,Total,1.0,63509,1.5745799807901244,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2019,False,2.0
+HIV (new diagnoses),Tehama,2016,Total,1.0,63999,1.5625244144439756,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2019,False,2.0
+HIV (new diagnoses),Tehama,2017,Total,3.0,64141,4.677195553546094,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2021,False,5.0
+HIV (new diagnoses),Tehama,2018,Total,4.0,64568,6.195019204559534,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2022,False,8.0
+HIV (new diagnoses),Tehama,2019,Total,0.0,65312,0.0,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2023,False,7.0
+HIV (new diagnoses),Tehama,2020,Total,2.0,65706,3.0438620521717956,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2023,False,6.0
+HIV (new diagnoses),Tehama,2021,Total,4.0,65204,6.134592969756457,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2023,False,6.0
+HIV (new diagnoses),Tehama,2022,Total,4.0,64756,6.177033788374823,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2023,False,10.0
+HIV (new diagnoses),Tehama,2023,Total,7.0,64671,10.824016947317963,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2023,False,15.0
+HIV (new diagnoses),Trinity,2012,Total,0.0,13987,0.0,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2016,False,
+HIV (new diagnoses),Trinity,2013,Total,0.0,14058,0.0,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2017,False,
+HIV (new diagnoses),Trinity,2014,Total,0.0,14151,0.0,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2018,False,0.0
+HIV (new diagnoses),Trinity,2015,Total,0.0,14228,0.0,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2019,False,0.0
+HIV (new diagnoses),Trinity,2016,Total,0.0,14840,0.0,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2019,False,0.0
+HIV (new diagnoses),Trinity,2017,Total,0.0,15498,0.0,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2021,False,0.0
+HIV (new diagnoses),Trinity,2018,Total,0.0,15754,0.0,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2022,False,0.0
+HIV (new diagnoses),Trinity,2019,Total,1.0,16054,6.228977201943441,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2023,False,1.0
+HIV (new diagnoses),Trinity,2020,Total,0.0,16136,0.0,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2023,False,1.0
+HIV (new diagnoses),Trinity,2021,Total,0.0,16011,0.0,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2023,False,1.0
+HIV (new diagnoses),Trinity,2022,Total,1.0,15976,6.259389083625438,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2023,False,1.0
+HIV (new diagnoses),Trinity,2023,Total,1.0,15965,6.263701847792045,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2023,False,2.0
+HIV (new diagnoses),Tulare,2012,Total,29.0,451114,6.428530260643652,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2016,False,
+HIV (new diagnoses),Tulare,2013,Total,30.0,453765,6.611351690853195,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2017,False,
+HIV (new diagnoses),Tulare,2014,Total,35.0,456558,7.66605776265009,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2018,False,94.0
+HIV (new diagnoses),Tulare,2015,Total,33.0,459935,7.1749268918434135,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2019,False,98.0
+HIV (new diagnoses),Tulare,2016,Total,33.0,462223,7.139411063490999,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2019,False,101.0
+HIV (new diagnoses),Tulare,2017,Total,17.0,465343,3.653219238282299,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2021,False,83.0
+HIV (new diagnoses),Tulare,2018,Total,50.0,467656,10.691619480986024,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2022,False,100.0
+HIV (new diagnoses),Tulare,2019,Total,33.0,470619,7.012041587781199,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2023,False,100.0
+HIV (new diagnoses),Tulare,2020,Total,33.0,472597,6.982693499958739,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2023,False,116.0
+HIV (new diagnoses),Tulare,2021,Total,40.0,474800,8.424599831508003,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2023,False,106.0
+HIV (new diagnoses),Tulare,2022,Total,45.0,474950,9.474681545425835,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2023,False,118.0
+HIV (new diagnoses),Tulare,2023,Total,49.0,476480,10.283747481531229,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2023,False,134.0
+HIV (new diagnoses),Tuolumne,2012,Total,2.0,54638,3.6604560928291665,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2016,False,
+HIV (new diagnoses),Tuolumne,2013,Total,1.0,55321,1.8076318215505867,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2017,False,
+HIV (new diagnoses),Tuolumne,2014,Total,0.0,55095,0.0,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2018,False,3.0
+HIV (new diagnoses),Tuolumne,2015,Total,2.0,55104,3.629500580720093,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2019,False,3.0
+HIV (new diagnoses),Tuolumne,2016,Total,1.0,55162,1.812842173960335,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2019,False,3.0
+HIV (new diagnoses),Tuolumne,2017,Total,0.0,55032,0.0,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2021,False,3.0
+HIV (new diagnoses),Tuolumne,2018,Total,1.0,55311,1.8079586339064562,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2022,False,2.0
+HIV (new diagnoses),Tuolumne,2019,Total,1.0,55316,1.807795212958276,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2023,False,2.0
+HIV (new diagnoses),Tuolumne,2020,Total,0.0,55438,0.0,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2023,False,2.0
+HIV (new diagnoses),Tuolumne,2021,Total,2.0,54705,3.655972945800201,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2023,False,3.0
+HIV (new diagnoses),Tuolumne,2022,Total,3.0,53642,5.592632638604079,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2023,False,5.0
+HIV (new diagnoses),Tuolumne,2023,Total,2.0,52932,3.778432706113504,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2023,False,7.0
+HIV (new diagnoses),Ventura,2012,Total,49.0,837333,5.851913157608742,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2016,False,
+HIV (new diagnoses),Ventura,2013,Total,46.0,842775,5.458159057874284,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2017,False,
+HIV (new diagnoses),Ventura,2014,Total,54.0,846966,6.375698670312622,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2018,False,149.0
+HIV (new diagnoses),Ventura,2015,Total,50.0,850038,5.882089977153963,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2019,False,150.0
+HIV (new diagnoses),Ventura,2016,Total,48.0,850227,5.645551129286649,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2019,False,152.0
+HIV (new diagnoses),Ventura,2017,Total,71.0,849979,8.353147548351195,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2021,False,169.0
+HIV (new diagnoses),Ventura,2018,Total,54.0,849523,6.35650829936329,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2022,False,173.0
+HIV (new diagnoses),Ventura,2019,Total,47.0,845474,5.5590118678989535,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2023,False,172.0
+HIV (new diagnoses),Ventura,2020,Total,59.0,844618,6.985406420417278,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2023,False,160.0
+HIV (new diagnoses),Ventura,2021,Total,51.0,838630,6.08134695873031,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2023,False,157.0
+HIV (new diagnoses),Ventura,2022,Total,58.0,829764,6.989939308044216,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2023,False,168.0
+HIV (new diagnoses),Ventura,2023,Total,65.0,824426,7.884273421750406,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2023,False,174.0
+HIV (new diagnoses),Yolo,2012,Total,13.0,205138,6.337197398824205,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2016,False,
+HIV (new diagnoses),Yolo,2013,Total,6.0,206723,2.9024346589397405,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2017,False,
+HIV (new diagnoses),Yolo,2014,Total,10.0,207708,4.814451056290562,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2018,False,29.0
+HIV (new diagnoses),Yolo,2015,Total,22.0,209893,10.48153106582878,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2019,False,38.0
+HIV (new diagnoses),Yolo,2016,Total,17.0,213224,7.972836078490226,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2019,False,49.0
+HIV (new diagnoses),Yolo,2017,Total,10.0,215072,4.6496057134355,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2021,False,49.0
+HIV (new diagnoses),Yolo,2018,Total,21.0,216474,9.700934061365338,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2022,False,48.0
+HIV (new diagnoses),Yolo,2019,Total,21.0,216073,9.7189375812804,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2023,False,52.0
+HIV (new diagnoses),Yolo,2020,Total,13.0,218184,5.958273750595827,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2023,False,55.0
+HIV (new diagnoses),Yolo,2021,Total,15.0,215580,6.957973838018369,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2023,False,49.0
+HIV (new diagnoses),Yolo,2022,Total,16.0,222430,7.193274288540215,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2023,False,44.0
+HIV (new diagnoses),Yolo,2023,Total,22.0,223467,9.844854050038709,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2023,False,53.0
+HIV (new diagnoses),Yuba,2012,Total,3.0,73721,4.069396779750682,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2016,False,
+HIV (new diagnoses),Yuba,2013,Total,3.0,74137,4.046562445202801,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2017,False,
+HIV (new diagnoses),Yuba,2014,Total,2.0,74877,2.6710471840485064,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2018,False,8.0
+HIV (new diagnoses),Yuba,2015,Total,4.0,75748,5.280667476369013,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2019,False,9.0
+HIV (new diagnoses),Yuba,2016,Total,3.0,76782,3.907165741970774,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2019,False,9.0
+HIV (new diagnoses),Yuba,2017,Total,3.0,78181,3.8372494595873676,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2021,False,10.0
+HIV (new diagnoses),Yuba,2018,Total,4.0,79043,5.060536669913844,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2022,False,10.0
+HIV (new diagnoses),Yuba,2019,Total,4.0,80250,4.984423676012462,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2023,False,11.0
+HIV (new diagnoses),Yuba,2020,Total,3.0,81706,3.67170097667246,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2023,False,11.0
+HIV (new diagnoses),Yuba,2021,Total,3.0,82211,3.6491467078614788,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2023,False,10.0
+HIV (new diagnoses),Yuba,2022,Total,2.0,82533,2.4232731149964257,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2023,False,8.0
+HIV (new diagnoses),Yuba,2023,Total,5.0,82973,6.026056669036916,OA surveillance reports (CDPH Office of AIDS),injection_linked,,2023,False,10.0
