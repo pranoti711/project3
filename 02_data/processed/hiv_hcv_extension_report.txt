@@ -1,0 +1,13 @@
+HIV/HCV extension report
+
+HIV (new diagnoses): 696 rows, years 2012-2023, 58 counties
+Hepatitis C, chronic (newly reported): 174 rows, years 2014-2016, 58 counties
+
+Small-count counties (median annual cases < 5): HIV:Alpine, HIV:Amador, HIV:Calaveras, HIV:Colusa, HIV:Del Norte, HIV:Glenn, HIV:Inyo, HIV:Lake, HIV:Lassen, HIV:Mariposa, HIV:Mendocino, HIV:Modoc, HIV:Mono, HIV:Nevada, HIV:Plumas, HIV:San Benito, HIV:Sierra, HIV:Siskiyou, HIV:Tehama, HIV:Trinity, HIV:Tuolumne, HIV:Yuba, Hepatitis:Alpine, Hepatitis:Sierra
+
+Copy into the deviations log:
+- HIV (new diagnoses) and chronic HCV county series were added after the null results (exploratory).
+- HIV from CDPH Office of AIDS reports; where reports overlap the newest report is used.
+- Berkeley, Long Beach and Pasadena excluded (subsets of Alameda and Los Angeles).
+- HCV covers 2014-2016 only; CSTE case definition changed in 2016; counts are newly reported cases.
+- County rates recomputed with the same population denominators as the CDPH file.

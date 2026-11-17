@@ -1,0 +1,2 @@
+disease,group,n_rows,n_missing_cases,waic,nb_size_mean,nsamp,minutes
+HIV diagnoses (Office of AIDS),injection_linked,696,0,3816.8517371974763,559.5486329647572,1000,2.7403926849365234
