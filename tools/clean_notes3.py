@@ -1,6 +1,7 @@
 import re, pathlib
-import re, pathlib
+
 files = [r"00_docs\10_results_writeup.md", r"00_docs\27_discussion_draft.md", r"00_docs\26_abstract_draft.md"]
+
 p = pathlib.Path(r"06_paper\manuscript_draft.md")
 t = p.read_text(encoding="utf-8")
 R = [
@@ -20,6 +21,14 @@ R = [
  (r"California.s steepest rise in drug-related mortality came after 2019, mostly after the scored test years\.",
   "California\u2019s drug-overdose mortality rose most steeply between 2019 and 2021 (in the 39 counties with complete data, from about 15.6 to 27.7 deaths per 100,000; CDC WONDER, own calculation), mostly after the scored test years."),
 ]
+for f in files:
+    p = pathlib.Path(f)
+    t = p.read_text(encoding="utf-8-sig")
+    print("==", f)
+    for pat, new in R:
+        t, n = re.subn(pat, lambda m: new, t, flags=re.S)
+        if n: print(n, "x", pat[:55])
+    p.write_text(t, encoding="utf-8")
 for pat, new in R:
     t, n = re.subn(pat, lambda m: new, t, flags=re.S)
     print(n, "x", pat[:55])
