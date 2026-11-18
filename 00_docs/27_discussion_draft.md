@@ -15,7 +15,7 @@ The group of sexually transmitted infections, the diseases most plausibly linked
 1. The baseline already carries the signal. Own disease history and population capture persistence and size; mortality deviations add little beyond them.
 2. Detectability. An up-transition needs the posterior probability of a rise to reach 0.80. Posterior-probability rules have low sensitivity for modest
    excess risk or small expected counts (Richardson et al., 2004), so small counties rarely register events, and small counties are where mortality is
-   most often suppressed (43% of drug-overdose and suicide rows and 66% of homicide rows missing). Bauer et al. (2023) likewise found larger forecast errors in rural ZIP codes and little gain from covariates once spatial dependence was modelled.
+   most often suppressed (missing in 42% of drug-overdose, 46% of suicide and 70% of homicide rows). Bauer et al. (2023) likewise found larger forecast errors in rural ZIP codes and little gain from covariates once spatial dependence was modelled.
 3. Exposure variation. The steepest rise in California drug-related mortality came after 2019, after fentanyl reached western markets late
    (Shover et al., 2020), mostly beyond the scored test years.
 4. Proxy mismatch. For syphilis, individual-level links are strongest for methamphetamine and injection drug use (Kidd et al., 2019), so an opioid-heavy
@@ -36,9 +36,8 @@ two years late). Small effects below the detection limit are not excluded.
 ## Limitations
 HIV was included only as an exploratory group (Office of AIDS county series, 2012-2023; 4 test events in the leave-future-out
 window, pooled B - A -0.007, 95% CI -0.039 to +0.023), and hepatitis C is absent because county data exist only for 2014-2016.
-County mortality deviations were missing in many county-years because of small-count suppression, from under 20% for all-cause
-mortality to about two-thirds or more for homicide. Missing values were set to the mean after z-scoring, with no missing
-indicator, so model B carries no mortality information for those rows. This probably biases B - A toward the null. The null
+County mortality deviations were missing in 2% (all-cause), 42% (drug overdose), 46% (suicide) and 70% (homicide) of scored county-disease-years because of small-count suppression. Missing values were set to the mean after z-scoring, with no missing
+indicator, so model B had the all-cause deviation for nearly all rows but no cause-specific mortality information for the 42-70% of rows with those values suppressed. This probably biases B - A toward the null. The null
 result therefore applies to publicly available, suppressed county-level data and does not show that mortality has no
 predictive value in principle.
 
