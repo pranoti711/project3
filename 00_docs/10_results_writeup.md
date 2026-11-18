@@ -132,6 +132,7 @@ earlier references are in 06_paper/references.bib.
   Tennessee (Rickles et al., 2018) and Utah versions followed, and Rickles et al. used opioid-related mortality as an indicator. The
   Marks et al. (2021a) review notes that the scores were computed on the same data used to fit the models and that no internal or external
   validation was applied. These assessments therefore assume that overdose mortality marks infection risk but did not test it out of sample. Cross-sectional machine-learning risk mapping continues (Gizamba et al., 2026: hepatitis C in 245 Los Angeles County ZIP codes with Elastic Net and random forest; its predictors included opioid-related hospitalisations and emergency visits and new HIV diagnoses but not overdose mortality, validation was random 5-fold cross-validation, and agreement between predicted and observed risk categories was modest). The California Department of Public Health assessment of all 58 counties (2017 data) used indicators such as heroin emergency visits, hepatitis C prevalence and drug arrests, did not include overdose mortality in its HIV or HCV model, and states that its results are not predictive.
+- **State vulnerability assessments.** The same county-regression approach has been applied in further states, including South Dakota (Wesner et al. (2020)), Illinois (Bergo et al. (2021)) and Oklahoma (Wendelboe et al. (2024)), reporting associations between overdose-related indicators and county infection rates.
 - **Association and lag studies.** Drewes et al. (2021) analysed 245 Northeast US counties in three two-year windows (2012-2017) with
   negative binomial mixed models. After adjustment, opioid death rates were not associated with gonorrhoea, chlamydia or HIV, except
   for gonorrhoea in urban counties (rate ratio 1.11, 95% CI 1.02 to 1.20; none in rural counties); the homicide rate was also associated
@@ -155,7 +156,7 @@ county size can create an apparent gain; whether size or detectability also part
 finding, because the exposures, outcomes and geographies differ. Our 16 diseases include three STIs (chlamydia, gonorrhoea, early
 syphilis) but not HCV, and HIV only as an exploratory group with 4 test events (see the HIV extension section), so the null result does not speak to bloodborne outbreaks.
 
-**Position, with the limits of the search stated.** To our knowledge, and after PubMed searches on 2026-11-12, reading of the Marks et al.
+**Position, with the limits of the search stated.** To our knowledge, and after PubMed searches on 2026-11-12 and targeted web searches on 2026-11-19 that returned medRxiv and arXiv records, reading of the Marks et al.
 review and web searches, we found no study that tests whether county mortality adds out-of-sample predictive value for infectious-disease
 up-transition events across multiple diseases, against a population-adjusted baseline, with placebo and held-out-disease controls. The
 closest work is Gezer et al. (2024). Limits: only PubMed was searched systematically; Embase, Web of Science and Scopus could not be accessed and medRxiv was reached only through web search; the Marks et al. review ends in January 2021; and the narrow search string missed relevant papers that web searches found.

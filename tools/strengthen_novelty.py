@@ -2,9 +2,18 @@ import json, re, urllib.parse, urllib.request
 from pathlib import Path
 
 UA = {"User-Agent": "project3-refs/1.0"}
+import time
 def get(url):
-    with urllib.request.urlopen(urllib.request.Request(url, headers=UA), timeout=30) as r:
-        return json.load(r)["message"]
+    last = None
+    for i in range(4):
+        try:
+            with urllib.request.urlopen(urllib.request.Request(url, headers=UA), timeout=60) as r:
+                return json.load(r)["message"]
+        except Exception as e:
+            last = e
+            print("  retry", i + 1, "after", type(e).__name__)
+            time.sleep(3 * (i + 1))
+    raise SystemExit("Crossref not reachable: " + str(last))
 def by_doi(d): return get("https://api.crossref.org/works/" + urllib.parse.quote(d))
 def search(q): return get("https://api.crossref.org/works?rows=3&query.bibliographic=" + urllib.parse.quote(q))["items"][0]
 def year(it): return (it.get("issued", {}).get("date-parts") or [[0]])[0][0]
