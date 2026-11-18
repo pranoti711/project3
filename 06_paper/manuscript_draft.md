@@ -299,7 +299,7 @@ The group of sexually transmitted infections, the diseases most plausibly linked
 
 ## Relation to earlier work
 Vulnerability assessments rely on overdose mortality as an indicator (Van Handel et al., 2016) but were fitted and scored on the same data without validation
-(Marks et al., 2021a), and the California assessment for the same 58 counties states that its results are not predictive. Area-level studies report
+(Marks et al., 2021a), and the California Department of Public Health (CDPH) assessment for the same 58 counties states that its results are not predictive (CDPH, n.d.). Area-level studies report
 positive associations (Sumetsky et al., 2019; Gezer et al., 2024, which also validated predictions on a later year) or mixed ones (Drewes et al., 2021,
 significant only for urban gonorrhoea; Gonsalves et al., 2021 and 2023, local but not statewide). Gezer et al. compared community-level covariates as a block with a history-only model and found only a mild accuracy gain, which is compatible with our result, but none isolated the added predictive value of mortality for infection events against a population-adjusted baseline. Our result is compatible with earlier associations: an association can exist without adding predictive value.
 Whether county size or detectability partly explains earlier associations is a hypothesis. Gonsalves et al. (2023) also used shuffled predictors and fatal automobile accidents as negative controls, the same logic as our placebo tests, and concluded that their lagged associations were not predictive of outbreaks.
