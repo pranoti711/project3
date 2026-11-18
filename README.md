@@ -173,14 +173,6 @@ writes the California hepatitis A and acute hepatitis B/C series separately
 to `02_data/processed/hepatitis_ca_state_annual.csv`; they are not merged into
 the county panel. These data support statewide descriptive trends only, not
 county-level analysis or estimates of chronic hepatitis B/C burden. The scope
-change is recorded in `00_docs/07_deviations_log.md`. The current suicide and
-homicide WONDER exports select the correct Injury Intent but also select
-**Injury Mechanism & All Other Leading Causes**. In the export, clear that
-entire second cause selection and keep only Suicide or Homicide under Injury
-Intent. Do this for both databases. Renaming an existing export does not change
-its saved query. The current drug-overdose exports pass the cause-selection
-check.
-
-The data audit rejects exports with incorrect or extra query filters even when
+change is recorded in `00_docs/07_deviations_log.md`. The data audit rejects exports with incorrect or extra query filters even when
 all eight interactive export files are present. It does not attempt to infer or
 fill suppressed values.
