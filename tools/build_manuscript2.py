@@ -60,7 +60,7 @@ dis = dis.replace("## Limitations", "## Limitations specific to the HIV extensio
 
 md = (
 '---\n'
-'title: "County mortality adds no out-of-sample predictive value for infectious-disease up-transitions in California: a pre-registered leave-future-out analysis"\n'
+'title: "County mortality adds no out-of-sample predictive value for infectious-disease up-transitions in California: a pre-specified leave-future-out analysis"\n'
 'author: "Pranoti Munjankar (IIT Tirupati)"\n'
 'bibliography: 06_paper/references.bib\n'
 'nocite: |\n  @*\n'
@@ -82,6 +82,7 @@ pypandoc.convert_text(md, "docx", format="markdown", outputfile=str(out),
                       extra_args=["--citeproc", "--standalone"])
 Path("06_paper/manuscript_draft.md").write_text(md, encoding="utf-8")
 print("wrote", out, "-", len(md.split()), "words")
+
 
 
 
