@@ -16,7 +16,7 @@ The group of sexually transmitted infections, the diseases most plausibly linked
 2. Detectability. An up-transition needs the posterior probability of a rise to reach 0.80. Posterior-probability rules have low sensitivity for modest
    excess risk or small expected counts (Richardson et al., 2004), so small counties rarely register events, and small counties are where mortality is
    most often suppressed (missing in 42% of drug-overdose, 46% of suicide and 70% of homicide rows). Bauer et al. (2023) likewise found larger forecast errors in rural ZIP codes and little gain from covariates once spatial dependence was modelled.
-3. Exposure variation. The steepest rise in California drug-related mortality came after 2019, after fentanyl reached western markets late
+3. Exposure variation. California’s drug-overdose mortality rose most steeply between 2019 and 2021 (in the 39 counties with complete data, from about 15.6 to 27.7 deaths per 100,000; CDC WONDER, own calculation), after fentanyl reached western markets late
    (Shover et al., 2020), mostly beyond the scored test years.
 4. Proxy mismatch. For syphilis, individual-level links are strongest for methamphetamine and injection drug use (Kidd et al., 2019), so an opioid-heavy
    county mortality series may be a weak proxy.

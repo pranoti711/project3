@@ -2,7 +2,7 @@ import re
 from pathlib import Path
 import pypandoc
 
-TAG = "final-draft-v24"   # set to the tag you push after this commit
+TAG = "final-draft-v25"   # set to the tag you push after this commit
 D = Path("00_docs")
 rd = lambda n: (D / n).read_text(encoding="utf-8-sig")
 
@@ -82,6 +82,7 @@ pypandoc.convert_text(md, "docx", format="markdown", outputfile=str(out),
                       extra_args=["--citeproc", "--standalone"])
 Path("06_paper/manuscript_draft.md").write_text(md, encoding="utf-8")
 print("wrote", out, "-", len(md.split()), "words")
+
 
 
 
