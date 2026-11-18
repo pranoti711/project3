@@ -360,7 +360,7 @@ lead-time tests were null. An earlier apparent gain was explained by county size
 
 # Code and data availability
 
-Code, processed data, logs and the pre-registration are at https://github.com/pranoti711/project3 (tag final-draft-v17). File names mentioned in the text (for example 13_stage2_plan.md) refer to documents in this repository.
+Code, processed data, logs and the pre-registration are at https://github.com/pranoti711/project3 (tag final-draft-v19). File names mentioned in the text (for example 13_stage2_plan.md) refer to documents in this repository.
 
 # References
 
