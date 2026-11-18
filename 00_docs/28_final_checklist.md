@@ -29,5 +29,5 @@
 - [x] Manifest refreshed after the HIV additions
 - [x] HIV sentence and missingness limitation merged into abstract and discussion
 - [ ] Missingness percentages in discussion section "Why mortality may add so little" match the n=3712 table
-- [ ] Drewes et al. wording (urban gonorrhoea vs rural 2016-2017) checked against the full paper
+- [x] Drewes et al. wording (urban gonorrhoea vs rural 2016-2017) checked against the full paper
 - [ ] Push to GitHub
