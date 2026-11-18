@@ -30,23 +30,22 @@ significant only for urban gonorrhoea; Gonsalves et al., 2021 and 2023, local bu
 Whether county size or detectability partly explains earlier associations is a hypothesis. Gonsalves et al. (2023) also used shuffled predictors and fatal automobile accidents as negative controls, the same logic as our placebo tests, and concluded that their lagged associations were not predictive of outbreaks.
 
 ## What the result does and does not cover
-It covers next-year county up-transitions in 16 notifiable diseases, including chlamydia, gonorrhoea and early syphilis, in California. It does not
-cover hepatitis C or HIV outbreaks, other states, shorter lags, finer geography, or operational early warning (the mortality series is published one to
+It covers next-year county up-transitions in 16 notifiable diseases, including chlamydia, gonorrhoea and early syphilis, in California. It does not cover hepatitis C or confirmatory HIV analysis (HIV was added only as an exploratory group with 4 test events), other states, shorter lags, finer geography, or operational early warning (the mortality series is published one to
 two years late). Small effects below the detection limit are not excluded.
+
+## Limitations
+HIV was included only as an exploratory group (Office of AIDS county series, 2012-2023; 4 test events in the leave-future-out
+window, pooled B - A -0.007, 95% CI -0.039 to +0.023), and hepatitis C is absent because county data exist only for 2014-2016.
+County mortality deviations were missing in many county-years because of small-count suppression, from under 20% for all-cause
+mortality to about two-thirds or more for homicide. Missing values were set to the mean after z-scoring, with no missing
+indicator, so model B carries no mortality information for those rows. This probably biases B - A toward the null. The null
+result therefore applies to publicly available, suppressed county-level data and does not show that mortality has no
+predictive value in principle.
 
 ## Implications
 Overdose mortality should not be assumed to improve prediction of county infection transitions without out-of-sample testing. Baselines should include
 population, and placebo tests should be able to separate the hypothesis from county size.
 
 ## Future work
-Add hepatitis C and HIV series; test finer geography; extend the window beyond 2020 when events can be scored; use stimulant-specific and opioid-specific
+Add hepatitis C and a fuller HIV series; test finer geography; extend the window beyond 2020 when events can be scored; use stimulant-specific and opioid-specific
 mortality; pre-specify an urban-county stratum (Drewes et al.) with enough events; repeat with a decision-analytic endpoint.
-
-<!-- hiv-final-patch -->
-
-**Limitations paragraph - add:** HIV was included only as an exploratory group (4 test events in the
-leave-future-out window) and HCV is absent (county data for 2014-2016 only). County mortality deviations
-were missing in 19% (all-cause), 57% (drug overdose), 57% (suicide) and 74% (homicide) of county-years
-because of small-count suppression; missing values were mean-imputed with no missing indicator, which
-probably biases model B toward the null. The null result therefore applies to publicly available,
-suppressed county-level data and does not show that mortality has no predictive value in principle.

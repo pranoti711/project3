@@ -23,10 +23,11 @@
 8. Before any submission, repeat the novelty search and update the dates.
 9. Do not move the `advanced-freeze` tag; add new tags for later versions.
 
-<!-- hiv-final-patch -->
-
 - [x] HIV exploratory extension run, committed (a1b6688, tag hiv-ext) and written up
 - [x] Missingness handling in p3_common.R checked and reported as a limitation
 - [x] Old HCV/HIV limitation reworded (3ce98e2, tag writeup-v5)
-- [ ] Manifest refreshed after the HIV additions
-- [ ] Abstract and discussion: HIV sentence and missingness limitation moved into the text
+- [x] Manifest refreshed after the HIV additions
+- [x] HIV sentence and missingness limitation merged into abstract and discussion
+- [ ] Missingness percentages in discussion section "Why mortality may add so little" match the n=3712 table
+- [ ] Drewes et al. wording (urban gonorrhoea vs rural 2016-2017) checked against the full paper
+- [ ] Push to GitHub
