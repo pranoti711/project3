@@ -118,7 +118,7 @@ pipeline (about +/-0.03) and is not treated as a finding. An earlier run of the 
 very few events looks like. The 0.70 and 0.90 outcomes were checked with this stand-in only; the full INLA pipeline
 was run on the 0.80 outcome.
 
-## Methods finding: why a first pass looked positive
+## Methods finding: why an initial analysis appeared positive
 
 A first run used the original outcome (statewide trend dominated; 480 of 745 test events in 2020), mortality
 levels, no population in model A and mortality missing-value flags. It gave B - A = +0.025 (CI -0.015 to
@@ -192,9 +192,7 @@ between diseases.
 
 ## Advanced evaluation layer
 
-Choices fixed in 19_advanced_evaluation_plan.md before running. Scripts 19-26 (the second layer, script 27, is the second advanced layer); numbers in 20_advanced_results.md and
-21_supplementary_results.md; figures in 05_results/figures_report/. All use the stage 1 out-of-fold predictions and the
-same 81 test events, so they describe how informative the null is; they are not new tests. The equivalence margins and the
+The choices for these additional analyses were fixed in a written evaluation plan before they were run; the code, results and figures are in the repository. All use the stage 1 out-of-fold predictions and the same 81 test events, so they describe how informative the null is rather than adding new tests. The equivalence margins and the
 supplementary diagnostics were chosen or added after seeing stage 1 results, so they are post-hoc.
 
 - **How small an effect is ruled out.** The 90% interval for the gain of mortality (B) over A is [-0.026, +0.026] AUC: inside
@@ -208,21 +206,18 @@ supplementary diagnostics were chosen or added after seeing stage 1 results, so 
   using a feature is not the same as improving out-of-sample prediction.
 - **Practical value.** Net-benefit differences against model A are indistinguishable from zero at alarm thresholds of 2-10%.
   Model A is well calibrated (slope 1.03, intercept 0.01) but barely beats predicting the average rate (Brier skill 0.005). Because a small change in AUC can hide decision value (Pencina et al., 2008; Baker et al., 2014), net benefit was assessed directly.
-- **Specification curve.** Every estimate of the headline mortality gain lies around zero; only the confounded first pass (original outcome, no population baseline; +0.025 to +0.036) and the 0.70 stand-in cut-off (-0.025) sit outside +/-0.02, the first in the positive and the second in the negative direction.
+- **Specification curve.** Every estimate of the headline mortality gain lies around zero; only the confounded initial specification (original outcome, no population baseline; +0.025 to +0.036) and the 0.70 stand-in cut-off (-0.025) sit outside +/-0.02, the first in the positive and the second in the negative direction.
 - **County size.** Events per quartile of county size rise from 6 (smallest) to 19, 27 and 29 (largest), and discrimination of
   model A is 0.71, 0.61, 0.54 and 0.59. Posterior uncertainty of the trend falls with county size (Spearman -0.46), but event
   rates still differ by county size inside each uncertainty band, so detectability may explain only part of the population effect (the cells hold between 1 and 17 events, so this is descriptive).
 - **Spatial and cross-disease detail.** County maps of events, predicted risk and observed-minus-predicted risk are in
   figures_report/map_*.png. The average correlation between diseases' county-year trend slopes is only 0.05 (range -0.07 to
   0.31), which fits the null cross-disease result of stage 3.
-- **Reporting.** 20_tripod_probast.md maps the project to reporting-guideline topics and gives a risk-of-bias self-assessment
-  (outcome and analysis domains rated high concern); 04_scripts/test_leakage.py checks the leakage rules in code.
+- **Reporting.** We mapped the study to reporting-guideline topics and completed a risk-of-bias self-assessment, rating the outcome and analysis domains as high concern. An automated test in the code checks the leakage rules.
 
 ## Second advanced layer
 
-Script 27 (27_proper_scoring_and_influence.py, numbers in 23_proper_scoring_results.md, tables adv2_*.csv). Same
-stage 1 out-of-fold predictions and 81 events; 1,000 county-cluster bootstrap draws. Added after the first advanced layer
-and not part of 19_advanced_evaluation_plan.md, so it is post-hoc. AUC only looks at ranking; proper scoring rules also
+Proper scoring rules and influence analysis. These used the same stage 1 out-of-fold predictions and 81 events, with 1,000 county-cluster bootstrap draws. They were added after the first set of advanced analyses and were not part of the evaluation plan, so they are post-hoc. AUC only looks at ranking; proper scoring rules also
 see calibration and are a stricter test of whether mortality adds information.
 
 | Contrast with A | Log-loss difference (95% CI) | Brier difference (95% CI) |
@@ -236,8 +231,7 @@ in 81% and 76% of bootstrap draws for log-loss.
 
 - **Calibration.** Calibration slope: A 1.030 (95% CI 0.783 to 1.299), B 0.881 (0.637 to 1.144). Intercept in the large
   with the slope fixed at 1: A -0.098 (-0.33 to +0.095), B -0.108 (-0.35 to +0.087). B's slope is lower than A's, but its
-  interval includes 1, so over-confidence of B is not demonstrated. The B intercept of -0.524 in
-  21_supplementary_results.md comes from a fit with a free slope and is not comparable to the fixed-slope intercept here.
+  interval includes 1, so over-confidence of B is not demonstrated. The B intercept of -0.524 in the supplementary results comes from a fit with a free slope and is not comparable to the fixed-slope intercept here.
 - **Bootstrap probability statements** (shares of draws, not posterior probabilities). B - A lies inside +/-0.02 AUC in 81% of
   draws, inside +/-0.03 in 94% and inside +/-0.05 in 99%; the share of draws with a gain above 0.05 is 0.5%. For D - A the
   shares are 79%, 93% and 99%. C - A lies inside +/-0.02 in all draws.
@@ -271,8 +265,7 @@ All intervals include 0. Brier score and log-loss are essentially identical acro
 A-D (Brier about 0.0210, log-loss about 0.099). Adding HIV therefore does not change the
 conclusion: mortality deviations give no out-of-sample gain. The more negative point estimate
 for B in the ambiguous scope (-0.065, 12 events) is within sampling noise. No positive result
-arose, so the placebo/surrogate step was not required for this run. Outputs: 05_results/tables/*__hiv17*
-(repository tag hiv-ext).
+arose, so the placebo/surrogate step was not required for this run. Outputs are in the repository (tag hiv-ext).
 
 <!-- hiv-ext-patch -->
 
@@ -332,7 +325,7 @@ mortality; pre-specify an urban-county stratum (Drewes et al.) with enough event
 - Transition labels use hindsight (smoother fitted through 2023).
 - Mortality is the final CDC series, published one to two years late: this is an association study, not an
   operational early-warning system.
-- Changes after seeing results are all logged in 07_deviations_log.md and 04_prereg.md (retrospective record).
+- All changes made after the results were seen are documented in a deviations log and a retrospective pre-registration record in the repository.
 - The confound check uses a stand-in logistic model, not the INLA models; use it for direction only.
 - The outcome depends on estimate precision. An "up-transition" needs the posterior probability of a rise to
   reach 0.80, so counties with noisy estimates rarely cross it: median slope uncertainty is 0.134 in the smallest
@@ -348,7 +341,7 @@ mortality; pre-specify an urban-county stratum (Drewes et al.) with enough event
 - The equivalence margins (+/-0.02, 0.03, 0.05), the supplementary diagnostics and the second advanced layer (script 27) were chosen after seeing stage 1 results, so they are post-hoc. Equivalence within +/-0.02 holds only for the context contrast (C - A); for mortality (B - A) and the combined model (D - A) it holds within +/-0.03.
 - Bootstrap shares reported in the second advanced layer are frequentist approximations to a region-of-practical-equivalence statement, not posterior probabilities.
 - The 16 diseases include three STIs (chlamydia, gonorrhoea, early syphilis) but not hepatitis C or HIV, the infections most often linked to opioid-related outbreaks, so the result does not address bloodborne outbreaks.
-- County mortality counts are suppressed by CDC WONDER when fewer than 10 deaths occur (rates from fewer than 20 deaths are flagged unreliable), and suppression falls mostly on small, rural counties. Missing mortality therefore tracks county size (see the section on why a first pass looked positive) and weakens the exposure where events are hardest to detect. Whether limited year-to-year variation in California mortality during 2017-2020 also reduced the signal is a hypothesis, not a finding: fentanyl reached western illicit drug markets late (Shover et al., 2020) and California's steepest rise in drug-related mortality came after 2019, mostly after the scored test years.
+- County mortality counts are suppressed by CDC WONDER when fewer than 10 deaths occur (rates from fewer than 20 deaths are flagged unreliable), and suppression falls mostly on small, rural counties. Missing mortality therefore tracks county size (see the section on why an initial analysis appeared positive) and weakens the exposure where events are hardest to detect. Whether limited year-to-year variation in California mortality during 2017-2020 also reduced the signal is a hypothesis, not a finding: fentanyl reached western illicit drug markets late (Shover et al., 2020) and California’s drug-overdose mortality rose most steeply between 2019 and 2021 (in the 39 counties with complete data, from about 15.6 to 27.7 deaths per 100,000; CDC WONDER, own calculation), mostly after the scored test years.
 
 # Conclusion
 
@@ -360,7 +353,7 @@ lead-time tests were null. An earlier apparent gain was explained by county size
 
 # Code and data availability
 
-Code, processed data, logs and the pre-registration are at https://github.com/pranoti711/project3 (tag final-draft-v22). File names mentioned in the text (for example 13_stage2_plan.md) refer to documents in this repository.
+Code, processed data, logs and the pre-registration are at https://github.com/pranoti711/project3 (tag final-draft-v23).
 
 # References
 

@@ -2,7 +2,7 @@ import re
 from pathlib import Path
 import pypandoc
 
-TAG = "final-draft-v22"   # set to the tag you push after this commit
+TAG = "final-draft-v23"   # set to the tag you push after this commit
 D = Path("00_docs")
 rd = lambda n: (D / n).read_text(encoding="utf-8-sig")
 
@@ -73,7 +73,7 @@ md = (
 "# Limitations\n\n" + lim + "\n\n"
 "# Conclusion\n\n" + concl + "\n\n"
 "# Code and data availability\n\n"
-"Code, processed data, logs and the pre-registration are at https://github.com/pranoti711/project3 (tag " + TAG + "). File names mentioned in the text (for example 13_stage2_plan.md) refer to documents in this repository.\n\n"
+"Code, processed data, logs and the pre-registration are at https://github.com/pranoti711/project3 (tag " + TAG + ").\n\n"
 "# References\n\n::: {#refs}\n:::\n"
 )
 
@@ -82,6 +82,8 @@ pypandoc.convert_text(md, "docx", format="markdown", outputfile=str(out),
                       extra_args=["--citeproc", "--standalone"])
 Path("06_paper/manuscript_draft.md").write_text(md, encoding="utf-8")
 print("wrote", out, "-", len(md.split()), "words")
+
+
 
 
 
