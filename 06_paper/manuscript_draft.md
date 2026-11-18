@@ -10,7 +10,7 @@ nocite: |
 
 **Background.** Overdose, suicide and homicide mortality are often assumed to signal rising infectious disease in the same communities, but it is unknown whether county mortality improves out-of-sample forecasts of infectious disease increases.
 
-**Methods.** We used 2001–2023 data for 16 notifiable diseases in California’s 58 counties. The outcome was an up-transition: the posterior probability of a rising local trend crossing 0.80, after removing the statewide yearly change. A baseline (own history plus county population) was compared with models adding lagged within-county mortality deviations, air quality and drought, or both. Validation was leave-future-out over 2017–2020 (81 events in 3,712 county-disease-year rows), using within-year-and-disease AUC with county-cluster bootstrap intervals. Stage 1 was pre-specified; all other analyses, including placebo, equivalence and decision-curve checks, were exploratory or post hoc.
+**Methods.** We used 2001–2023 data for 16 notifiable diseases in California’s 58 counties. The outcome was an up-transition: the posterior probability of a rising local trend crossing 0.80, after removing the statewide yearly change. A baseline (own history plus county population) was compared with models adding lagged within-county mortality deviations, air quality and drought, or both. Validation was leave-future-out over 2017–2020 (81 events in 3,712 county-disease-year rows), using within-year-and-disease AUC with county-cluster bootstrap intervals. Stage 1 was pre-specified (protocol frozen at git tag stage1-freeze); all other analyses, including placebo, equivalence and decision-curve checks, were exploratory or post hoc.
 
 **Results.** Mortality did not improve discrimination (ΔAUC +0.001, 95% CI −0.028 to +0.034); context features gave +0.003 (−0.005 to +0.013) and the combined model +0.003 (−0.028 to +0.037). No disease group survived placebo testing with Holm correction, and results did not transfer to held-out diseases. The 90% interval for mortality lay within ±0.03 AUC, and the minimum detectable gain was 0.045. Log-loss and Brier differences were indistinguishable from zero. An exploratory HIV extension (4 test events) was also null (pooled ΔAUC −0.007, 95% CI −0.039 to +0.023). An initial apparent gain (ΔAUC +0.025) was explained by county population, which marks detectability in small counties.
 
@@ -59,7 +59,7 @@ Does adding county mortality (drug overdose, suicide, homicide, all-cause) impro
 next-year up-transitions in 16 notifiable infectious diseases in California counties (2001-2023)?
 Models: A = own history plus county population; B = A plus mortality; C = A plus air quality and drought;
 D = all. Outcome: up-crossing of Pr(rising) at 0.80 after removing the statewide yearly change
-(`upcross_local_0.80`). Evaluation: leave-future-out over 2017-2020 (81 events in 3,712 county-disease-year
+(local up-crossing definition, threshold 0.80). Evaluation: leave-future-out over 2017-2020 (81 events in 3,712 county-disease-year
 rows), AUC computed within each year x disease cell and averaged with pair-count weights. Mortality enters
 as the lagged within-county deviation: the county's rate in year t-1 minus its own mean over t-6 to t-2.
 
@@ -83,7 +83,7 @@ Four groups were tested (comparison, review_sti, environment, ambiguous). The en
 group with a positive point estimate (+0.017 within year x disease), did not beat either null: N1 (within-county
 year shuffle) p = 0.20, N2 (outcome shuffle) p = 0.43; after Holm correction 0.81 and 1.00. No group was
 supported. Among surrogate diseases the largest gain was Legionellosis (+0.043, rank p = 0.17). The
-`review_travel` group (Malaria) had 4 scored events and was left out of the placebo tests.
+travel-associated group (Malaria) had 4 scored events and was left out of the placebo tests.
 
 ## Transfer, spatial validation, early warning and lead time
 
@@ -139,7 +139,7 @@ interpreting any gain, and check that any placebo can actually separate the hypo
 
 ## Stage 2 (exploratory): neighbour counties, context and static county traits
 
-Pre-specified in `13_stage2_plan.md` (stage 1 frozen at commit bbc9ebe). Same test years and events as stage 1, so
+Pre-specified in a written plan committed before the run (repository tag stage2-plan-frozen; stage 1 frozen at tag stage1-freeze). Same test years and events as stage 1, so
 this is exploratory. Model A is unchanged; B adds own plus neighbour-county mortality deviations; C adds
 neighbour-county disease history, air quality, drought and static county traits (urban share, median age, log
 density, rural-urban code); D adds all. Poverty and unemployment were not available (not in the AHRF extract before 2022).
@@ -163,7 +163,7 @@ hypothesis for new data, not a finding.
 
 ## Stage 3 (exploratory): cross-disease transition signatures
 
-Pre-specified in `17_stage3_plan.md` (committed as ee54e5f before the run). Same test years and 81 events, so
+Pre-specified in a written plan committed before the run (repository tag stage3-plan-frozen). Same test years and 81 events, so
 exploratory. Model A is unchanged. B adds the same county's cross-disease signature (number of other diseases
 with an up-transition, and the share of other diseases, same-group diseases and other-group diseases with a rising
 trend). C adds the same signature for adjacent counties. D adds both. The mortality block is not used in stage 3.
@@ -192,8 +192,8 @@ between diseases.
 
 ## Advanced evaluation layer
 
-Choices fixed in `19_advanced_evaluation_plan.md` before running. Scripts 19-26 (the second layer, script 27, is section 12); numbers in `20_advanced_results.md` and
-`21_supplementary_results.md`; figures in `05_results/figures_report/`. All use the stage 1 out-of-fold predictions and the
+Choices fixed in 19_advanced_evaluation_plan.md before running. Scripts 19-26 (the second layer, script 27, is the second advanced layer); numbers in 20_advanced_results.md and
+21_supplementary_results.md; figures in 05_results/figures_report/. All use the stage 1 out-of-fold predictions and the
 same 81 test events, so they describe how informative the null is; they are not new tests. The equivalence margins and the
 supplementary diagnostics were chosen or added after seeing stage 1 results, so they are post-hoc.
 
@@ -213,16 +213,16 @@ supplementary diagnostics were chosen or added after seeing stage 1 results, so 
   model A is 0.71, 0.61, 0.54 and 0.59. Posterior uncertainty of the trend falls with county size (Spearman -0.46), but event
   rates still differ by county size inside each uncertainty band, so detectability may explain only part of the population effect (the cells hold between 1 and 17 events, so this is descriptive).
 - **Spatial and cross-disease detail.** County maps of events, predicted risk and observed-minus-predicted risk are in
-  `figures_report/map_*.png`. The average correlation between diseases' county-year trend slopes is only 0.05 (range -0.07 to
+  figures_report/map_*.png. The average correlation between diseases' county-year trend slopes is only 0.05 (range -0.07 to
   0.31), which fits the null cross-disease result of stage 3.
-- **Reporting.** `20_tripod_probast.md` maps the project to reporting-guideline topics and gives a risk-of-bias self-assessment
-  (outcome and analysis domains rated high concern); `04_scripts/test_leakage.py` checks the leakage rules in code.
+- **Reporting.** 20_tripod_probast.md maps the project to reporting-guideline topics and gives a risk-of-bias self-assessment
+  (outcome and analysis domains rated high concern); 04_scripts/test_leakage.py checks the leakage rules in code.
 
 ## Second advanced layer
 
-Script 27 (`27_proper_scoring_and_influence.py`, numbers in `23_proper_scoring_results.md`, tables `adv2_*.csv`). Same
+Script 27 (27_proper_scoring_and_influence.py, numbers in 23_proper_scoring_results.md, tables adv2_*.csv). Same
 stage 1 out-of-fold predictions and 81 events; 1,000 county-cluster bootstrap draws. Added after the first advanced layer
-and not part of `19_advanced_evaluation_plan.md`, so it is post-hoc. AUC only looks at ranking; proper scoring rules also
+and not part of 19_advanced_evaluation_plan.md, so it is post-hoc. AUC only looks at ranking; proper scoring rules also
 see calibration and are a stricter test of whether mortality adds information.
 
 | Contrast with A | Log-loss difference (95% CI) | Brier difference (95% CI) |
@@ -237,7 +237,7 @@ in 81% and 76% of bootstrap draws for log-loss.
 - **Calibration.** Calibration slope: A 1.030 (95% CI 0.783 to 1.299), B 0.881 (0.637 to 1.144). Intercept in the large
   with the slope fixed at 1: A -0.098 (-0.33 to +0.095), B -0.108 (-0.35 to +0.087). B's slope is lower than A's, but its
   interval includes 1, so over-confidence of B is not demonstrated. The B intercept of -0.524 in
-  `21_supplementary_results.md` comes from a fit with a free slope and is not comparable to the fixed-slope intercept here.
+  21_supplementary_results.md comes from a fit with a free slope and is not comparable to the fixed-slope intercept here.
 - **Bootstrap probability statements** (shares of draws, not posterior probabilities). B - A lies inside +/-0.02 AUC in 81% of
   draws, inside +/-0.03 in 94% and inside +/-0.05 in 99%; the share of draws with a gain above 0.05 is 0.5%. For D - A the
   shares are 79%, 93% and 99%. C - A lies inside +/-0.02 in all draws.
@@ -245,7 +245,7 @@ in 81% and 76% of bootstrap draws for log-loss.
   excludes zero, so no single disease drives or hides an effect. Four diseases (Listeriosis, Lyme Disease, Salmonellosis,
   Vibrio Infection) leave the estimate unchanged, consistent with having no scored events.
 
-Taken together with section 11, the proper-scoring and calibration checks agree with the AUC result: no evidence that
+Taken together with the advanced evaluation layer, the proper-scoring and calibration checks agree with the AUC result: no evidence that
 mortality improves out-of-sample prediction, within the limits of 81 events.
 
 <!-- hiv-ext-patch -->
@@ -272,7 +272,7 @@ A-D (Brier about 0.0210, log-loss about 0.099). Adding HIV therefore does not ch
 conclusion: mortality deviations give no out-of-sample gain. The more negative point estimate
 for B in the ambiguous scope (-0.065, 12 events) is within sampling noise. No positive result
 arose, so the placebo/surrogate step was not required for this run. Outputs: 05_results/tables/*__hiv17*
-(git commit a1b6688, tag hiv-ext).
+(repository tag hiv-ext).
 
 <!-- hiv-ext-patch -->
 
@@ -332,7 +332,7 @@ mortality; pre-specify an urban-county stratum (Drewes et al.) with enough event
 - Transition labels use hindsight (smoother fitted through 2023).
 - Mortality is the final CDC series, published one to two years late: this is an association study, not an
   operational early-warning system.
-- Changes after seeing results are all logged in `07_deviations_log.md` and `04_prereg.md` (retrospective record).
+- Changes after seeing results are all logged in 07_deviations_log.md and 04_prereg.md (retrospective record).
 - The confound check uses a stand-in logistic model, not the INLA models; use it for direction only.
 - The outcome depends on estimate precision. An "up-transition" needs the posterior probability of a rise to
   reach 0.80, so counties with noisy estimates rarely cross it: median slope uncertainty is 0.134 in the smallest
@@ -346,7 +346,7 @@ mortality; pre-specify an urban-county stratum (Drewes et al.) with enough event
 - The drug-linked hypothesis (H2) could not be tested because no county-level drug-linked series is available
   (Part B of the prereg is the plan for that).
 - The equivalence margins (+/-0.02, 0.03, 0.05), the supplementary diagnostics and the second advanced layer (script 27) were chosen after seeing stage 1 results, so they are post-hoc. Equivalence within +/-0.02 holds only for the context contrast (C - A); for mortality (B - A) and the combined model (D - A) it holds within +/-0.03.
-- Bootstrap shares reported in section 12 are frequentist approximations to a region-of-practical-equivalence statement, not posterior probabilities.
+- Bootstrap shares reported in the second advanced layer are frequentist approximations to a region-of-practical-equivalence statement, not posterior probabilities.
 - The 16 diseases include three STIs (chlamydia, gonorrhoea, early syphilis) but not hepatitis C or HIV, the infections most often linked to opioid-related outbreaks, so the result does not address bloodborne outbreaks.
 - County mortality counts are suppressed by CDC WONDER when fewer than 10 deaths occur (rates from fewer than 20 deaths are flagged unreliable), and suppression falls mostly on small, rural counties. Missing mortality therefore tracks county size (section 5) and weakens the exposure where events are hardest to detect. Whether limited year-to-year variation in California mortality during 2017-2020 also reduced the signal is a hypothesis, not a finding: fentanyl reached western illicit drug markets late (Shover et al., 2020) and California's steepest rise in drug-related mortality came after 2019 (an abstract-level report), mostly after the scored test years.
 
@@ -360,7 +360,7 @@ lead-time tests were null. An earlier apparent gain was explained by county size
 
 # Code and data availability
 
-Code, processed data, logs and the pre-registration are at https://github.com/pranoti711/project3 (tag final-draft-v12).
+Code, processed data, logs and the pre-registration are at https://github.com/pranoti711/project3 (tag final-draft-v16). File names mentioned in the text (for example 13_stage2_plan.md) refer to documents in this repository.
 
 # References
 
