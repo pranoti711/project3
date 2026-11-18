@@ -1,4 +1,6 @@
 import re, pathlib
+import re, pathlib
+files = [r"00_docs\10_results_writeup.md", r"00_docs\27_discussion_draft.md", r"00_docs\26_abstract_draft.md"]
 p = pathlib.Path(r"06_paper\manuscript_draft.md")
 t = p.read_text(encoding="utf-8")
 R = [
