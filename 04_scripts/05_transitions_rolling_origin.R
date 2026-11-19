@@ -160,7 +160,7 @@ fit_one_disease_origin <- function(dis, origin) {
     selection = list(Predictor = seq_len(n_obs)),
     num.threads = THREADS
   )
-  eta <- vapply(samp, function(s) s$latent[seq_len(n_obs)], numeric(n_obs))
+  eta <- vapply(samp, function(s) s$latent[, 1], numeric(n_obs))
 
   # The grid is ordered by county, then year. Extract the same annual contrast
   # for every county so statewide centring is performed draw-by-draw.
