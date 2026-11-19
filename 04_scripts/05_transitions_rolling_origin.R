@@ -71,7 +71,7 @@ dat_all <- read_csv(
   show_col_types = FALSE
 ) %>%
   transmute(
-    fips = sprintf("%05s", fips),
+    fips = ifelse(nchar(fips) < 5, paste0(strrep("0", 5 - nchar(fips)), fips), fips),
     year = as.integer(year),
     disease, group,
     cases = as.numeric(cases),
